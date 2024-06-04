@@ -2970,60 +2970,30 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@firecms/core@^3.0.0-canary.53, @firecms/core@workspace:packages/firecms_core":
-  version: 0.0.0-use.local
-  resolution: "@firecms/core@workspace:packages/firecms_core"
+"@firecms/core@npm:^3.0.0-canary.53":
+  version: 3.0.0-canary.54
+  resolution: "@firecms/core@npm:3.0.0-canary.54"
   dependencies:
-    "@firecms/formex": ^3.0.0-canary.53
-    "@firecms/ui": ^3.0.0-canary.53
+    "@firecms/formex": ^3.0.0-canary.54
+    "@firecms/ui": ^3.0.0-canary.54
     "@fontsource/jetbrains-mono": ^5.0.20
     "@hello-pangea/dnd": ^16.6.0
-    "@jest/globals": ^29.7.0
     "@radix-ui/react-portal": ^1.0.4
-    "@testing-library/react": ^15.0.7
-    "@testing-library/user-event": ^14.5.2
-    "@types/jest": ^29.5.12
-    "@types/node": ^20.12.13
-    "@types/object-hash": ^3.0.6
-    "@types/react": ^18.3.3
-    "@types/react-dom": ^18.3.0
-    "@types/react-measure": ^2.0.12
-    "@typescript-eslint/eslint-plugin": ^7.11.0
-    "@typescript-eslint/parser": ^7.11.0
-    "@vitejs/plugin-react": ^4.3.0
     clsx: ^2.1.1
-    cross-env: ^7.0.3
     date-fns: ^3.6.0
-    eslint: ^8.57.0
-    eslint-config-standard: ^17.1.0
-    eslint-plugin-import: ^2.29.1
-    eslint-plugin-n: ^16.6.2
-    eslint-plugin-promise: ^6.2.0
-    eslint-plugin-react: ^7.34.2
-    eslint-plugin-react-hooks: ^4.6.2
-    firebase: ^10.12.2
     history: ^5.3.0
-    jest: ^29.7.0
     js-search: ^2.0.1
     markdown-it: ^14.1.0
     notistack: ^3.0.1
-    npm-run-all: ^4.1.5
     object-hash: ^3.0.0
     react-dropzone: ^14.2.3
     react-fast-compare: ^3.2.2
     react-image-file-resizer: ^0.4.8
     react-markdown-editor-lite: ^1.3.4
-    react-router: ^6.23.1
-    react-router-dom: ^6.23.1
     react-transition-group: ^4.4.5
     react-use-measure: ^2.1.1
     react-window: ^1.8.10
-    ts-jest: ^29.1.4
-    ts-node: ^10.9.2
-    tsd: ^0.31.0
     typeface-rubik: ^1.1.13
-    typescript: ^5.4.5
-    vite: ^5.2.12
     yup: ^0.32.11
   peerDependencies:
     firebase: ^10.5.2
@@ -3031,8 +3001,9 @@ __metadata:
     react-dom: ^18.3.1
     react-router: ^6.22.0
     react-router-dom: ^6.22.0
-  languageName: unknown
-  linkType: soft
+  checksum: ff18f2175a3804d0468374c9e1d05772ec64188fcc85ffbd8184423c5c54c93375be4b53542ffdd9d487c86810a0b8ee66aceeb44b0be0f00fd9ec7f9b54988a
+  languageName: node
+  linkType: hard
 
 "@firecms/data_enhancement@^3.0.0-canary.53, @firecms/data_enhancement@workspace:packages/data_enhancement":
   version: 0.0.0-use.local
@@ -3232,6 +3203,19 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@firecms/formex@npm:^3.0.0-canary.54":
+  version: 3.0.0-canary.54
+  resolution: "@firecms/formex@npm:3.0.0-canary.54"
+  dependencies:
+    react-fast-compare: ^3.2.2
+  peerDependencies:
+    firebase: ^10.7.1
+    react: ^18.3.1
+    react-dom: ^18.3.1
+  checksum: 271b6fdaee58af9614fdde3f169cc35873d4f38cc04a30d567e166708e676b204527e5718f560fc3dcf22366339f7258653b56256fd6d8ffa5809d0c75938fd1
+  languageName: node
+  linkType: hard
+
 "@firecms/mongodb@workspace:packages/mongodb":
   version: 0.0.0-use.local
   resolution: "@firecms/mongodb@workspace:packages/mongodb"
@@ -3321,6 +3305,39 @@ __metadata:
     react-dom: ^18.3.1
   languageName: unknown
   linkType: soft
+
+"@firecms/ui@npm:^3.0.0-canary.54":
+  version: 3.0.0-canary.54
+  resolution: "@firecms/ui@npm:3.0.0-canary.54"
+  dependencies:
+    "@material-design-icons/font": ^0.14.13
+    "@radix-ui/react-checkbox": ^1.0.4
+    "@radix-ui/react-collapsible": ^1.0.3
+    "@radix-ui/react-dialog": ^1.0.5
+    "@radix-ui/react-dropdown-menu": ^2.0.6
+    "@radix-ui/react-label": ^2.0.2
+    "@radix-ui/react-popover": ^1.0.7
+    "@radix-ui/react-portal": ^1.0.4
+    "@radix-ui/react-radio-group": ^1.1.3
+    "@radix-ui/react-scroll-area": ^1.0.5
+    "@radix-ui/react-select": ^2.0.0
+    "@radix-ui/react-separator": ^1.0.3
+    "@radix-ui/react-switch": ^1.0.3
+    "@radix-ui/react-tabs": ^1.0.4
+    "@radix-ui/react-tooltip": ^1.0.7
+    clsx: ^2.1.1
+    cmdk: ^0.2.1
+    date-fns: ^3.6.0
+    react-datepicker: ^6.9.0
+    react-dropzone: ^14.2.3
+    react-fast-compare: ^3.2.2
+    tailwind-merge: ^2.3.0
+  peerDependencies:
+    react: ^18.3.1
+    react-dom: ^18.3.1
+  checksum: e3f8b7feb2f78f663bfa740858749395dd190670965b27af9c1d03d40e944c7fd5d1b78f6cbdf579d6a6b57302edbf1d1129c445f8509a3b074928dc6bc315c5
+  languageName: node
+  linkType: hard
 
 "@firecms/user_management@^3.0.0-canary.53, @firecms/user_management@workspace:packages/user_management":
   version: 0.0.0-use.local
@@ -10644,6 +10661,70 @@ __metadata:
     typescript: ^5.4.5
   bin:
     firecms: bin/firecms.js
+  languageName: unknown
+  linkType: soft
+
+"firecms_core-646254@workspace:packages/firecms_core":
+  version: 0.0.0-use.local
+  resolution: "firecms_core-646254@workspace:packages/firecms_core"
+  dependencies:
+    "@firecms/formex": ^3.0.0-canary.53
+    "@firecms/ui": ^3.0.0-canary.53
+    "@fontsource/jetbrains-mono": ^5.0.20
+    "@hello-pangea/dnd": ^16.6.0
+    "@jest/globals": ^29.7.0
+    "@radix-ui/react-portal": ^1.0.4
+    "@testing-library/react": ^15.0.7
+    "@testing-library/user-event": ^14.5.2
+    "@types/jest": ^29.5.12
+    "@types/node": ^20.12.13
+    "@types/object-hash": ^3.0.6
+    "@types/react": ^18.3.3
+    "@types/react-dom": ^18.3.0
+    "@types/react-measure": ^2.0.12
+    "@typescript-eslint/eslint-plugin": ^7.11.0
+    "@typescript-eslint/parser": ^7.11.0
+    "@vitejs/plugin-react": ^4.3.0
+    clsx: ^2.1.1
+    cross-env: ^7.0.3
+    date-fns: ^3.6.0
+    eslint: ^8.57.0
+    eslint-config-standard: ^17.1.0
+    eslint-plugin-import: ^2.29.1
+    eslint-plugin-n: ^16.6.2
+    eslint-plugin-promise: ^6.2.0
+    eslint-plugin-react: ^7.34.2
+    eslint-plugin-react-hooks: ^4.6.2
+    firebase: ^10.12.2
+    history: ^5.3.0
+    jest: ^29.7.0
+    js-search: ^2.0.1
+    markdown-it: ^14.1.0
+    notistack: ^3.0.1
+    npm-run-all: ^4.1.5
+    object-hash: ^3.0.0
+    react-dropzone: ^14.2.3
+    react-fast-compare: ^3.2.2
+    react-image-file-resizer: ^0.4.8
+    react-markdown-editor-lite: ^1.3.4
+    react-router: ^6.23.1
+    react-router-dom: ^6.23.1
+    react-transition-group: ^4.4.5
+    react-use-measure: ^2.1.1
+    react-window: ^1.8.10
+    ts-jest: ^29.1.4
+    ts-node: ^10.9.2
+    tsd: ^0.31.0
+    typeface-rubik: ^1.1.13
+    typescript: ^5.4.5
+    vite: ^5.2.12
+    yup: ^0.32.11
+  peerDependencies:
+    firebase: ^10.5.2
+    react: ^18.3.1
+    react-dom: ^18.3.1
+    react-router: ^6.22.0
+    react-router-dom: ^6.22.0
   languageName: unknown
   linkType: soft
 
@@ -18434,11 +18515,11 @@ __metadata:
 
 "typescript@patch:typescript@>=3 < 6#~builtin<compat/typescript>, typescript@patch:typescript@^5.4.5#~builtin<compat/typescript>":
   version: 5.4.5
-  resolution: "typescript@patch:typescript@npm%3A5.4.5#~builtin<compat/typescript>::version=5.4.5&hash=d69c25"
+  resolution: "typescript@patch:typescript@npm%3A5.4.5#~builtin<compat/typescript>::version=5.4.5&hash=5adc0c"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 2373c693f3b328f3b2387c3efafe6d257b057a142f9a79291854b14ff4d5367d3d730810aee981726b677ae0fd8329b23309da3b6aaab8263dbdccf1da07a3ba
+  checksum: d59e26e74f6b444517d0ba16e0ee16e75c652c2b49a59f2ebdbeb16647a855fd50c7fc786a58987e45f03bce0677092e2dd3333649fd53b11d0b0d271455837c
   languageName: node
   linkType: hard
 
