@@ -636,7 +636,7 @@ export const EntityCollectionView = React.memo(
                     />}
                     emptyComponent={canCreateEntities && tableController.filterValues === undefined && tableController.sortBy === undefined
                         ? <div className="flex flex-col items-center justify-center">
-                            <Typography variant={"subtitle2"}>No hay items...</Typography>
+                            <Typography variant={"subtitle2"}>No hay items ...</Typography>
                             <Button
                                 color={"primary"}
                                 variant={"outlined"}
