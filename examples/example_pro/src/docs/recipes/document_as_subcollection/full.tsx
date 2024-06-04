@@ -1,9 +1,9 @@
 import React from "react";
-import { buildCollection, EntityCollectionsBuilder, } from "@firecms/core";
+import { buildCollection, EntityCollectionsBuilder, } from "@edumetz16/firecms_core";
 
 import "typeface-rubik";
 import "@fontsource/jetbrains-mono";
-import { FireCMSFirebaseApp } from "@firecms/firebase";
+import { FireCMSFirebaseApp } from "@edumetz16/firecms_firebase";
 
 // TODO: Replace with your config
 const firebaseConfig = {

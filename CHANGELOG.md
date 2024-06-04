@@ -20,15 +20,15 @@
 
 - [BREAKING] The main component for FireCMS Cloud has been renamed from `FireCMSApp` to `FireCMSCloudApp`. Please update
   your imports accordingly.
-- Fixes related to the CLI. You can now install the CLI globally with `npm install -g @firecms/cli`.
+- Fixes related to the CLI. You can now install the CLI globally with `npm install -g @edumetz16/firecms_cli`.
 
 ## [3.0.0-beta.4] - 2024-03-27
 
-- [BREAKING] The package name for FireCMS Cloud has changed from `firecms` to `@firecms/cloud`. This is done
+- [BREAKING] The package name for FireCMS Cloud has changed from `firecms` to `@edumetz16/firecms_cloud`. This is done
   to avoid conflicts with the main FireCMS package. If you are using FireCMS Cloud, you will need to update your
   imports.
 - [BREAKING] If you are importing the tailwind configuration, you can now find the import at:
-  `import fireCMSConfig from "@firecms/ui/tailwind.config.js";`
+  `import fireCMSConfig from "@edumetz16/firecms_ui/tailwind.config.js";`
 - [BREAKING] In that case, you also need to add `@tailwindcss/typography` to your dev dependencies.
 - [BREAKING] You need to update your `vite.config.js` and replace the package name in the federated configuration:
     ```javascript
@@ -49,7 +49,7 @@
                 exposes: {
                     "./config": "./src/index"
                 },
-                shared: ["react", "react-dom", "@firecms/cloud", "@firecms/core", "@firecms/firebase", "@firecms/ui"]
+                shared: ["react", "react-dom", "@edumetz16/firecms_cloud", "@edumetz16/firecms_core", "@edumetz16/firecms_firebase", "@edumetz16/firecms_ui"]
             })
         ],
         build: {

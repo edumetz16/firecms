@@ -5,7 +5,7 @@ import "@fontsource/jetbrains-mono";
 
 import { getAnalytics, logEvent } from "@firebase/analytics";
 
-import { CenteredView, } from "@firecms/ui";
+import { CenteredView, } from "@edumetz16/firecms_ui";
 import {
     CircularProgressCenter,
     FireCMS,
@@ -17,7 +17,7 @@ import {
     useBuildLocalConfigurationPersistence,
     useBuildModeController,
     useBuildNavigationController,
-} from "@firecms/core";
+} from "@edumetz16/firecms_core";
 import {
     FirebaseAuthController,
     FirebaseSignInProvider,
@@ -26,8 +26,8 @@ import {
     useFirestoreDelegate,
     useInitialiseFirebase,
     useAppCheck
-} from "@firecms/firebase";
-import { useDataEnhancementPlugin } from "@firecms/data_enhancement";
+} from "@edumetz16/firecms_firebase";
+import { useDataEnhancementPlugin } from "@edumetz16/firecms_data_enhancement";
 import { booksCollection } from "./books_collection";
 import { BrowserRouter } from "react-router-dom";
 

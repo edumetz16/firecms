@@ -1,7 +1,7 @@
 import equal from "react-fast-compare"
 
-import { CollectionActionsProps, mergeDeep, useAuthController, useSnackbarController } from "@firecms/core";
-import { Button, SaveIcon, Tooltip, UndoIcon, } from "@firecms/ui";
+import { CollectionActionsProps, mergeDeep, useAuthController, useSnackbarController } from "@edumetz16/firecms_core";
+import { Button, SaveIcon, Tooltip, UndoIcon, } from "@edumetz16/firecms_ui";
 
 import { useCollectionEditorController } from "../useCollectionEditorController";
 import { useCollectionsConfigController } from "../useCollectionsConfigController";

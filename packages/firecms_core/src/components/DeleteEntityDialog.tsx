@@ -1,6 +1,6 @@
 import { Entity, EntityCallbacks, EntityCollection } from "../types";
 import React, { useCallback, useMemo, useState } from "react";
-import { Button, CircularProgress, Dialog, DialogActions, DialogContent, Typography } from "@firecms/ui";
+import { Button, CircularProgress, Dialog, DialogActions, DialogContent, Typography } from "@edumetz16/firecms_ui";
 import {
     deleteEntityWithCallbacks,
     useCustomizationController,

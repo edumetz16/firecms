@@ -1,7 +1,7 @@
 import React from "react";
 
-import { EntityCollection, PluginHomePageActionsProps } from "@firecms/core";
-import { AutoFixHighIcon, Tooltip } from "@firecms/ui";
+import { EntityCollection, PluginHomePageActionsProps } from "@edumetz16/firecms_core";
+import { AutoFixHighIcon, Tooltip } from "@edumetz16/firecms_ui";
 
 export function EnhanceCollectionIcon({
                                           extraProps,

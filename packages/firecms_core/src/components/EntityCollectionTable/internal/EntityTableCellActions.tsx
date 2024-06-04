@@ -1,4 +1,4 @@
-import { ErrorOutlineIcon, IconButton } from "@firecms/ui";
+import { ErrorOutlineIcon, IconButton } from "@edumetz16/firecms_ui";
 import { ErrorTooltip } from "../../ErrorTooltip";
 import { useCallback, useEffect, useRef } from "react";
 

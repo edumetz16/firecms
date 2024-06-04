@@ -4,7 +4,7 @@ import { EnumType, FieldProps } from "../../types";
 import { FieldHelperText, LabelWithIcon } from "../components";
 import { EnumValuesChip } from "../../preview";
 import { getIconForProperty } from "../../util";
-import { ClearIcon, cn, IconButton, Select, SelectItem } from "@firecms/ui";
+import { ClearIcon, cn, IconButton, Select, SelectItem } from "@edumetz16/firecms_ui";
 import { useClearRestoreValue } from "../useClearRestoreValue";
 
 type SelectProps<T extends EnumType> = FieldProps<T>;

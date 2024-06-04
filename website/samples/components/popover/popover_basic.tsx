@@ -1,5 +1,5 @@
 import React from "react";
-import { Popover } from "@firecms/ui";
+import { Popover } from "@edumetz16/firecms_ui";
 
 export default function PopoverBasicDemo() {
     return (

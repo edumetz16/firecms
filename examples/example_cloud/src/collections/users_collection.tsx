@@ -1,4 +1,4 @@
-import { buildCollection } from "@firecms/cloud";
+import { buildCollection } from "@edumetz16/firecms_cloud";
 
 export const usersCollection = buildCollection({
     id: "users",

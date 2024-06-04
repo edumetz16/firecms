@@ -3,8 +3,8 @@ import {
     PluginHomePageActionsProps,
     useAuthController,
     useSnackbarController
-} from "@firecms/core";
-import { DeleteIcon, IconButton, Menu, MenuItem, MoreVertIcon, SettingsIcon, } from "@firecms/ui";
+} from "@edumetz16/firecms_core";
+import { DeleteIcon, IconButton, Menu, MenuItem, MoreVertIcon, SettingsIcon, } from "@edumetz16/firecms_ui";
 import { useCollectionEditorController } from "../useCollectionEditorController";
 import { useState } from "react";
 import { useCollectionsConfigController } from "../useCollectionsConfigController";

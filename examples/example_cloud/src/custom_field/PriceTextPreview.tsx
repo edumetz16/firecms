@@ -1,4 +1,4 @@
-import { PropertyPreviewProps } from "@firecms/cloud";
+import { PropertyPreviewProps } from "@edumetz16/firecms_cloud";
 
 export function PriceTextPreview({
                                      value,

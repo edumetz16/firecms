@@ -25,7 +25,7 @@
   "author": "firecms.co",
   "license": "MIT",
   "dependencies": {
-    "@firecms/cli": "^3.0.0-canary.53"
+    "@edumetz16/firecms_cli": "^3.0.0-canary.53"
   },
   "devDependencies": {
     "@types/node": "^20.12.13",

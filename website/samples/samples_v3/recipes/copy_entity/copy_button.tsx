@@ -1,6 +1,6 @@
 import { useCallback } from "react";
-import { Entity, EntityCollection, useDataSource, useReferenceDialog, useSnackbarController } from "@firecms/core";
-import { Button } from "@firecms/ui";
+import { Entity, EntityCollection, useDataSource, useReferenceDialog, useSnackbarController } from "@edumetz16/firecms_core";
+import { Button } from "@edumetz16/firecms_ui";
 
 export type CopyEntityButtonProps = {
     pathFrom: string;

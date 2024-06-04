@@ -1,4 +1,4 @@
-import { ArrowForwardIcon, Card, cn, Markdown, Typography, } from "@firecms/ui";
+import { ArrowForwardIcon, Card, cn, Markdown, Typography, } from "@edumetz16/firecms_ui";
 
 export type NavigationCardProps = {
     name: string,

@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 (async () => {
-    const fireCMS = await import("@firecms/cli");
+    const fireCMS = await import("@edumetz16/firecms_cli");
     fireCMS.entry(process.argv);
 })();

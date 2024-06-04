@@ -1,4 +1,4 @@
-import { buildCollection } from "@firecms/core";
+import { buildCollection } from "@edumetz16/firecms_core";
 import { Product } from "./types";
 
 export const productsCollection = buildCollection<Product>({

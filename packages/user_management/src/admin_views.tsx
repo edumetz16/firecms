@@ -1,4 +1,4 @@
-import { CMSView } from "@firecms/core";
+import { CMSView } from "@edumetz16/firecms_core";
 import { RolesView, UsersView } from "./components";
 
 export const userManagementAdminViews: CMSView[] = [

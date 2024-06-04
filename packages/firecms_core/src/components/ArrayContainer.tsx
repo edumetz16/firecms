@@ -14,7 +14,7 @@ import {
     RemoveIcon,
     Tooltip,
     useOutsideAlerter
-} from "@firecms/ui";
+} from "@edumetz16/firecms_ui";
 
 interface ArrayContainerProps<T> {
     droppableId: string;

@@ -1,7 +1,7 @@
 import React from "react";
 import equal from "react-fast-compare"
 
-import { FieldHelperText, FieldProps, getIconForProperty, LabelWithIcon, useClearRestoreValue } from "@firecms/core";
+import { FieldHelperText, FieldProps, getIconForProperty, LabelWithIcon, useClearRestoreValue } from "@edumetz16/firecms_core";
 import { AdvancedTextField, InputType } from "./AdvancedTextField";
 
 /**

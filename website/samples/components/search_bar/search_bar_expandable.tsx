@@ -1,5 +1,5 @@
 import React from "react";
-import { SearchBar } from "@firecms/ui";
+import { SearchBar } from "@edumetz16/firecms_ui";
 
 export default function SearchBarExpandableDemo() {
     return (

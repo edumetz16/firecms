@@ -1,5 +1,5 @@
 import React from 'react';
-import { RadioGroup, RadioGroupItem } from "@firecms/ui";
+import { RadioGroup, RadioGroupItem } from "@edumetz16/firecms_ui";
 
 export default function RadioGroupDisabledDemo() {
     return (

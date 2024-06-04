@@ -46,8 +46,8 @@
         "./package.json": "./package.json"
     },
     "dependencies": {
-        "@firecms/formex": "^3.0.0-canary.53",
-        "@firecms/ui": "^3.0.0-canary.53",
+        "@edumetz16/firecms_formex": "^3.0.0-canary.53",
+        "@edumetz16/firecms_ui": "^3.0.0-canary.53",
         "@fontsource/jetbrains-mono": "^5.0.20",
         "@hello-pangea/dnd": "^16.6.0",
         "@radix-ui/react-portal": "^1.0.4",

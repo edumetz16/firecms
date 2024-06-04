@@ -30,7 +30,7 @@ This is an example of how you can define a `FirestoreIndexesBuilder`.
 You can then return an array of indexes that will be used to filter the collection.
 
 ```tsx
-import { FireCMSCloudApp, FirestoreIndexesBuilder } from "@firecms/cloud";
+import { FireCMSCloudApp, FirestoreIndexesBuilder } from "@edumetz16/firecms_cloud";
 
 // Sample index builder that allows filtering by `category` and `available` for the `products` collection
 const firestoreIndexesBuilder: FirestoreIndexesBuilder = ({ path }) => {

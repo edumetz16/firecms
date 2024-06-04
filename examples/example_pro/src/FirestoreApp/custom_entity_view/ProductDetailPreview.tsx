@@ -9,9 +9,9 @@ import {
     RadioGroupItem,
     Select,
     SelectItem
-} from "@firecms/ui";
+} from "@edumetz16/firecms_ui";
 import { Product } from "../types";
-import { Entity, EntityValues, useSnackbarController } from "@firecms/core";
+import { Entity, EntityValues, useSnackbarController } from "@edumetz16/firecms_core";
 import { StorageImage } from "./components/StorageImage";
 import React from "react";
 

@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Button, Dialog, DialogActions, DialogContent, LoadingButton, Typography } from "@firecms/ui";
+import { Button, Dialog, DialogActions, DialogContent, LoadingButton, Typography } from "@edumetz16/firecms_ui";
 
 export function DeleteConfirmationDialog({
                                              open,

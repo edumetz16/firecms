@@ -1,6 +1,6 @@
 import React from "react";
-import { IconForView, useDrawer } from "@firecms/core";
-import { cn, IconButton, Menu, MenuItem, MoreVertIcon, Tooltip, } from "@firecms/ui";
+import { IconForView, useDrawer } from "@edumetz16/firecms_core";
+import { cn, IconButton, Menu, MenuItem, MoreVertIcon, Tooltip, } from "@edumetz16/firecms_ui";
 import { useNavigate } from "react-router-dom";
 import { ADMIN_VIEWS_CONFIG } from "../utils";
 

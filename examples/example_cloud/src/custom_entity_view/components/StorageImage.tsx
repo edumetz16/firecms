@@ -1,5 +1,5 @@
-import { useStorageSource } from "@firecms/core";
-import { cn } from "@firecms/cloud";
+import { useStorageSource } from "@edumetz16/firecms_core";
+import { cn } from "@edumetz16/firecms_cloud";
 import { useEffect, useState } from "react";
 
 export function StorageImage({ storagePath, style, className, alt }: {

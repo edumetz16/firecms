@@ -1,5 +1,5 @@
 import React from "react";
-import { Field, FormexFieldProps, getIn, useFormex } from "@firecms/formex";
+import { Field, FormexFieldProps, getIn, useFormex } from "@edumetz16/firecms_formex";
 
 import { GeneralPropertyValidation } from "./validation/GeneralPropertyValidation";
 import { ValidationPanel } from "./validation/ValidationPanel";

@@ -4,7 +4,7 @@ import equal from "react-fast-compare"
 
 import { getRowHeight } from "./common";
 import { VirtualTableRowProps } from "./types";
-import { cn } from "@firecms/ui";
+import { cn } from "@edumetz16/firecms_ui";
 
 export const VirtualTableRow = React.memo<VirtualTableRowProps<any>>(
     function VirtualTableRow<T>({

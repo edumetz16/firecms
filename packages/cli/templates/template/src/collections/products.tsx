@@ -1,4 +1,4 @@
-import { buildCollection, buildProperty, EntityReference } from "@firecms/core";
+import { buildCollection, buildProperty, EntityReference } from "@edumetz16/firecms_core";
 
 export type Product = {
     name: string;

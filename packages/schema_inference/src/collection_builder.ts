@@ -6,7 +6,7 @@ import {
     Property,
     resolveEnumValues,
     StringProperty
-} from "@firecms/core";
+} from "@edumetz16/firecms_core";
 import {
     InferencePropertyBuilderProps,
     TypesCount,

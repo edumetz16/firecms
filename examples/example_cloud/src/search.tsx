@@ -1,4 +1,4 @@
-import { buildPineconeSearchController, performPineconeTextSearch } from "@firecms/firebase";
+import { buildPineconeSearchController, performPineconeTextSearch } from "@edumetz16/firecms_firebase";
 
 export const pineconeSearchControllerBuilder = buildPineconeSearchController({
     isPathSupported: (path) => {

@@ -1,7 +1,7 @@
 import React from "react";
 
 import { NavLink } from "react-router-dom";
-import { cn, Tooltip } from "@firecms/ui";
+import { cn, Tooltip } from "@edumetz16/firecms_ui";
 
 export function DrawerNavigationItem({
                                          name,

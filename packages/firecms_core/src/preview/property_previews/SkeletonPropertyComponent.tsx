@@ -8,7 +8,7 @@ import {
 import React from "react";
 import { getThumbnailMeasure } from "../util";
 import { PreviewSize } from "../PropertyPreviewProps";
-import { Skeleton } from "@firecms/ui";
+import { Skeleton } from "@edumetz16/firecms_ui";
 
 export interface SkeletonPropertyComponentProps {
     property: ResolvedProperty,

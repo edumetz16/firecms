@@ -1,7 +1,7 @@
-import { FireCMSPlugin, useAuthController, useSnackbarController } from "@firecms/core";
+import { FireCMSPlugin, useAuthController, useSnackbarController } from "@edumetz16/firecms_core";
 import { UserManagementProvider } from "./UserManagementProvider";
 import { PersistedUser, UserManagement } from "./types";
-import { AddIcon, Button, Paper, Typography } from "@firecms/ui";
+import { AddIcon, Button, Paper, Typography } from "@edumetz16/firecms_ui";
 import { DEFAULT_ROLES } from "./components/roles/default_roles";
 
 export function useUserManagementPlugin({ userManagement }: {

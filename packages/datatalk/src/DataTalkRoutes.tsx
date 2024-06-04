@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Route, Routes, useLocation, useNavigate, useParams } from "react-router-dom";
-import { CircularProgressCenter, EntityCollection } from "@firecms/core";
+import { CircularProgressCenter, EntityCollection } from "@edumetz16/firecms_core";
 import { DataTalkConfig, useDataTalk } from "./DataTalkProvider";
 import { DataTalkSession } from "./DataTalkSession";
 import { Session } from "./types";

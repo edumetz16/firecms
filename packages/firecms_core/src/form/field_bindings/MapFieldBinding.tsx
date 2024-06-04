@@ -5,7 +5,7 @@ import { ErrorBoundary } from "../../components";
 import { getIconForProperty, isHidden, pick } from "../../util";
 import { FieldHelperText, LabelWithIcon } from "../components";
 import { PropertyFieldBinding } from "../PropertyFieldBinding";
-import { ExpandablePanel, InputLabel, Select, SelectItem } from "@firecms/ui";
+import { ExpandablePanel, InputLabel, Select, SelectItem } from "@edumetz16/firecms_ui";
 
 /**
  * Field that renders the children property fields

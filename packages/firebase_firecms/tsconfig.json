@@ -32,19 +32,19 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "@firecms/core": [
+      "@edumetz16/firecms_core": [
         "../firecms_core/src"
       ],
-      "@firecms/collection_editor": [
+      "@edumetz16/firecms_collection_editor": [
         "../collection_editor/src"
       ],
-      "@firecms/data_enhancement": [
+      "@edumetz16/firecms_data_enhancement": [
         "../data_enhancement/src"
       ],
-      "@firecms/schema_inference": [
+      "@edumetz16/firecms_schema_inference": [
         "../schema_inference/src"
       ],
-      "@firecms/data_import_export": [
+      "@edumetz16/firecms_data_import_export": [
         "../data_import_export/src"
       ]
     }

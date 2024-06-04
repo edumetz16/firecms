@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import * as firestoreLibrary from "@firebase/firestore";
-import { CircularProgressCenter, EntityCollection } from "@firecms/core";
-import { Button, cn, Paper, useDebounceValue } from "@firecms/ui";
+import { CircularProgressCenter, EntityCollection } from "@edumetz16/firecms_core";
+import { Button, cn, Paper, useDebounceValue } from "@edumetz16/firecms_ui";
 import { AutoHeightEditor } from "./AutoHeightEditor";
 import { extractStringLiterals } from "../utils/extract_literals";
 import { TableResults } from "./TableResults";

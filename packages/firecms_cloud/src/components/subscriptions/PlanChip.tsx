@@ -1,4 +1,4 @@
-import { Chip } from "@firecms/ui";
+import { Chip } from "@edumetz16/firecms_ui";
 import { ProjectSubscriptionPlan } from "../../types";
 import { getSubscriptionPlanName } from "../settings/common";
 

@@ -1,5 +1,5 @@
 import React from "react";
-import { AddIcon, LoadingButton } from "@firecms/ui";
+import { AddIcon, LoadingButton } from "@edumetz16/firecms_ui";
 
 export default function LoadingButtonWithIconDemo() {
     const [loading, setLoading] = React.useState(false);

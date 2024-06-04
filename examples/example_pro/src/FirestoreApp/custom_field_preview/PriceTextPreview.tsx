@@ -1,5 +1,5 @@
 import React from "react";
-import { PropertyPreviewProps } from "@firecms/core";
+import { PropertyPreviewProps } from "@edumetz16/firecms_core";
 
 export default function PriceTextPreview({
                                              value,

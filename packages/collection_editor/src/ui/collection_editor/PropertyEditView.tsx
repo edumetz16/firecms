@@ -1,7 +1,7 @@
 import React, { useDeferredValue, useEffect, useRef, useState } from "react";
 import equal from "react-fast-compare"
 
-import { Formex, FormexController, getIn, useCreateFormex } from "@firecms/formex";
+import { Formex, FormexController, getIn, useCreateFormex } from "@edumetz16/firecms_formex";
 import {
     DEFAULT_FIELD_CONFIGS,
     DeleteConfirmationDialog,
@@ -14,7 +14,7 @@ import {
     Property,
     PropertyConfig,
     PropertyConfigBadge,
-} from "@firecms/core";
+} from "@edumetz16/firecms_core";
 import {
     Button,
     cn,
@@ -26,7 +26,7 @@ import {
     InfoLabel,
     Select,
     Typography
-} from "@firecms/ui";
+} from "@edumetz16/firecms_ui";
 import { EnumPropertyField } from "./properties/EnumPropertyField";
 import { StoragePropertyField } from "./properties/StoragePropertyField";
 import { MapPropertyField } from "./properties/MapPropertyField";

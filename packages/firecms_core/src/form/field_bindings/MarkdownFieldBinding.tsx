@@ -14,7 +14,7 @@ import {
     fieldBackgroundMixin,
     Typography,
     useInjectStyles
-} from "@firecms/ui";
+} from "@edumetz16/firecms_ui";
 
 const mdParser = new MarkdownIt();
 try {

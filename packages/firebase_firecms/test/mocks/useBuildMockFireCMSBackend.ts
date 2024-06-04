@@ -4,7 +4,7 @@
 // import { FirebaseApp } from "@firebase/app";
 // import { MOCK_PROJECT_ID } from "./constants";
 // import { createMockUser } from "./mock_user";
-// import { FireCMSBackend, FireCMSProject, ProjectsApi } from "@firecms/cloud";
+// import { FireCMSBackend, FireCMSProject, ProjectsApi } from "@edumetz16/firecms_cloud";
 //
 // export function useBuildMockFireCMSBackend(): FireCMSBackend {
 //

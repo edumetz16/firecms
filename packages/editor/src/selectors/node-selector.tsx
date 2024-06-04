@@ -15,7 +15,7 @@ import {
     LooksTwoIcon,
     Popover,
     TextFieldsIcon
-} from "@firecms/ui";
+} from "@edumetz16/firecms_ui";
 
 export type SelectorItem = {
     name: string;

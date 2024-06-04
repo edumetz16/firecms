@@ -15,7 +15,7 @@ import {
     useSideEntityController
 } from "../../hooks";
 import { ErrorView } from "../ErrorView";
-import { AddIcon, Button, DialogActions, Typography } from "@firecms/ui";
+import { AddIcon, Button, DialogActions, Typography } from "@edumetz16/firecms_ui";
 import { canCreateEntity, fullPathToCollectionSegments, resolveCollection } from "../../util";
 import { useSelectionController } from "../EntityCollectionView/useSelectionController";
 import { useColumnIds, useTableSearchHelper } from "../common";

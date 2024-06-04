@@ -5,7 +5,7 @@ import { useLargeLayout, useNavigationController } from "../hooks";
 import { useNavigate } from "react-router-dom";
 import { CMSAnalyticsEvent, TopNavigationEntry, TopNavigationResult } from "../types";
 import { IconForView } from "../util";
-import { cn, IconButton, Menu, MenuItem, MoreVertIcon, Tooltip, Typography } from "@firecms/ui";
+import { cn, IconButton, Menu, MenuItem, MoreVertIcon, Tooltip, Typography } from "@edumetz16/firecms_ui";
 import { useAnalyticsController } from "../hooks/useAnalyticsController";
 import { useDrawer } from "./Scaffold";
 import { DrawerNavigationItem } from "./DrawerNavigationItem";

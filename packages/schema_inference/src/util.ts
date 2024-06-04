@@ -1,4 +1,4 @@
-import { unslugify } from "@firecms/core";
+import { unslugify } from "@edumetz16/firecms_core";
 
 export function extractEnumFromValues(values: unknown[]) {
     if (!Array.isArray(values)) {

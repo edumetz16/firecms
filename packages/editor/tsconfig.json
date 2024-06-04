@@ -30,7 +30,7 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "@firecms/ui": [
+      "@edumetz16/firecms_ui": [
         "../ui/src"
       ]
     }

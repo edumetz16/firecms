@@ -1,4 +1,4 @@
-import { EntityCollection } from "@firecms/core";
+import { EntityCollection } from "@edumetz16/firecms_core";
 
 export const pagesCollection: EntityCollection = {
     id: "pages",

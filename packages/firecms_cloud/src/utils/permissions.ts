@@ -1,6 +1,6 @@
-import { Role, User } from "@firecms/core";
-import { CollectionEditorPermissions, PersistedCollection } from "@firecms/collection_editor";
-import { getUserRoles, UserManagement } from "@firecms/user_management";
+import { Role, User } from "@edumetz16/firecms_core";
+import { CollectionEditorPermissions, PersistedCollection } from "@edumetz16/firecms_collection_editor";
+import { getUserRoles, UserManagement } from "@edumetz16/firecms_user_management";
 
 export const RESERVED_GROUPS = ["Admin"];
 

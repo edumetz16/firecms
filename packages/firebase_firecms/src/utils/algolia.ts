@@ -1,6 +1,6 @@
 import { SearchIndex } from "algoliasearch";
 import { FirestoreTextSearchController, FirestoreTextSearchControllerBuilder } from "../types";
-import { EntityCollection, ResolvedEntityCollection } from "@firecms/core";
+import { EntityCollection, ResolvedEntityCollection } from "@edumetz16/firecms_core";
 
 /**
  * Utility function to perform a text search in an algolia index,

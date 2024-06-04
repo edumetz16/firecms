@@ -1,6 +1,6 @@
 import React from "react";
 import { hashString } from "./hash";
-import { coolIconKeys, Icon, iconKeys } from "@firecms/ui";
+import { coolIconKeys, Icon, iconKeys } from "@edumetz16/firecms_ui";
 import { slugify } from "./strings";
 import equal from "react-fast-compare"
 

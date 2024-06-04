@@ -32,37 +32,37 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "@firecms/core": [
+      "@edumetz16/firecms_core": [
         "../firecms_core/src"
       ],
-      "@firecms/firebase": [
+      "@edumetz16/firecms_firebase": [
         "../firebase_firecms/src"
       ],
-      "@firecms/ui": [
+      "@edumetz16/firecms_ui": [
         "../ui/src"
       ],
-      "@firecms/collection_editor": [
+      "@edumetz16/firecms_collection_editor": [
         "../collection_editor/src"
       ],
-      "@firecms/collection_editor_firebase": [
+      "@edumetz16/firecms_collection_editor_firebase": [
         "../collection_editor_firebase/src"
       ],
-      "@firecms/user_management": [
+      "@edumetz16/firecms_user_management": [
         "../user_management/src"
       ],
-      "@firecms/data_enhancement": [
+      "@edumetz16/firecms_data_enhancement": [
         "../data_enhancement/src"
       ],
-      "@firecms/datatalk": [
+      "@edumetz16/firecms_datatalk": [
         "../datatalk/src"
       ],
-      "@firecms/schema_inference": [
+      "@edumetz16/firecms_schema_inference": [
         "../schema_inference/src"
       ],
-      "@firecms/data_import_export": [
+      "@edumetz16/firecms_data_import_export": [
         "../data_import_export/src"
       ],
-      "@firecms/formex": [
+      "@edumetz16/firecms_formex": [
         "../formex/src"
       ]
     }

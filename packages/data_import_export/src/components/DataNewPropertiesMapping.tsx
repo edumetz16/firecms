@@ -1,4 +1,4 @@
-import { getPropertyInPath, PropertiesOrBuilders, Property } from "@firecms/core";
+import { getPropertyInPath, PropertiesOrBuilders, Property } from "@edumetz16/firecms_core";
 import {
     BooleanSwitchWithLabel,
     ChevronRightIcon,
@@ -13,9 +13,9 @@ import {
     TableRow,
     TextField,
     Typography
-} from "@firecms/ui";
+} from "@edumetz16/firecms_ui";
 import { ImportConfig } from "../types";
-import { getIn, setIn } from "@firecms/formex";
+import { getIn, setIn } from "@edumetz16/firecms_formex";
 
 export interface DataPropertyMappingProps {
     importConfig: ImportConfig;

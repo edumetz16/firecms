@@ -10,7 +10,7 @@ import {
     Select,
     SelectItem,
     Tooltip
-} from "@firecms/ui";
+} from "@edumetz16/firecms_ui";
 import { CollectionSize } from "../../../types";
 import { useLargeLayout } from "../../../hooks";
 

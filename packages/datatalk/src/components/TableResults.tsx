@@ -16,13 +16,13 @@ import {
     useCustomizationController,
     useNavigationController,
     useSelectionController
-} from "@firecms/core";
-import { setIn } from "@firecms/formex";
-import { cmsToFirestoreModel, firestoreToCMSModel } from "@firecms/firebase";
-import { Typography } from "@firecms/ui";
-import { BasicExportAction } from "@firecms/data_import_export";
-import { getPropertiesFromData } from "@firecms/collection_editor_firebase";
-import { buildPropertiesOrder } from "@firecms/schema_inference";
+} from "@edumetz16/firecms_core";
+import { setIn } from "@edumetz16/firecms_formex";
+import { cmsToFirestoreModel, firestoreToCMSModel } from "@edumetz16/firecms_firebase";
+import { Typography } from "@edumetz16/firecms_ui";
+import { BasicExportAction } from "@edumetz16/firecms_data_import_export";
+import { getPropertiesFromData } from "@edumetz16/firecms_collection_editor_firebase";
+import { buildPropertiesOrder } from "@edumetz16/firecms_schema_inference";
 
 export function TableResults({
                                  querySnapshot,

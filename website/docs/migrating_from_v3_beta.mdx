@@ -8,8 +8,8 @@ If you are migrating from previous beta versions of FireCMS Cloud, you will need
 
 ### Dependencies
 
-The main package has been renamed from `firecms` to `@firecms/cloud` since version `3.0.0-beta.4`.
-You can also remove the `@firecms/cli` package, as it is implicitly installed by `@firecms/cloud`.
+The main package has been renamed from `firecms` to `@edumetz16/firecms_cloud` since version `3.0.0-beta.4`.
+You can also remove the `@edumetz16/firecms_cli` package, as it is implicitly installed by `@edumetz16/firecms_cloud`.
 
 This is a sample `package.json` with the new config:
 ```
@@ -25,7 +25,7 @@ This is a sample `package.json` with the new config:
     "deploy": "run-s build && firecms deploy --project=firecms-demo-27150"
   },
   "dependencies": {
-    "@firecms/cloud": "^3.0.0-beta",
+    "@edumetz16/firecms_cloud": "^3.0.0-beta",
     "firebase": "^10.9.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
@@ -57,7 +57,7 @@ import { FireCMS } from "firecms";
 You need to update it to use the new package name:
 
 ```javascript
-import { FireCMS } from "@firecms/cloud";
+import { FireCMS } from "@edumetz16/firecms_cloud";
 ```
 
 ### Vite configuration
@@ -83,7 +83,7 @@ export default defineConfig({
                 "./config": "./src/index"
             },
             shared: [
-                "react", "react-dom", "@firecms/cloud", "@firecms/core", "@firecms/firebase", "@firecms/ui",
+                "react", "react-dom", "@edumetz16/firecms_cloud", "@edumetz16/firecms_core", "@edumetz16/firecms_firebase", "@edumetz16/firecms_ui",
             ]
         })
     ],
@@ -105,10 +105,10 @@ export default defineConfig({
 
 - You should also make sure you are using at least version `3.4.3` of the `tailwindcss` package, and `postcss` version `8.4.38`.
 
-- The preset now comes from the `@firecms/ui` package. You can update your `tailwind.config.cjs` file to include the new preset:
+- The preset now comes from the `@edumetz16/firecms_ui` package. You can update your `tailwind.config.cjs` file to include the new preset:
 
   ```javascript
-  import fireCMSConfig from "@firecms/ui/tailwind.config.js";
+  import fireCMSConfig from "@edumetz16/firecms_ui/tailwind.config.js";
 
   export default {
       presets: [fireCMSConfig],
@@ -116,7 +116,7 @@ export default defineConfig({
           "./index.html",
           "./src/**/*.{js,ts,jsx,tsx}",
           "./node_modules/firecms/src/**/*.{js,ts,jsx,tsx}",
-          "./node_modules/@firecms/**/src/**/*.{js,ts,jsx,tsx}",
+          "./node_modules/@edumetz16/firecms_**/src/**/*.{js,ts,jsx,tsx}",
       ],
   };
   ```

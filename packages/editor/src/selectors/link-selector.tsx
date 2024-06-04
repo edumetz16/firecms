@@ -1,6 +1,6 @@
 import { useEditor } from "../components";
 import { useEffect, useRef, } from "react";
-import { Button, CheckIcon, cn, DeleteIcon, Popover } from "@firecms/ui";
+import { Button, CheckIcon, cn, DeleteIcon, Popover } from "@edumetz16/firecms_ui";
 
 export function isValidUrl(url: string) {
     try {

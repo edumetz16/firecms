@@ -1,4 +1,4 @@
-import { EntityCollection, makePropertiesEditable } from "@firecms/core";
+import { EntityCollection, makePropertiesEditable } from "@edumetz16/firecms_core";
 
 export const blogCollectionTemplate:EntityCollection = {
     id: "blog",

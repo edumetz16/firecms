@@ -1,7 +1,7 @@
-import { Container } from "@firecms/ui";
-import { FireCMSEditor, type JSONContent } from "@firecms/editor";
+import { Container } from "@edumetz16/firecms_ui";
+import { FireCMSEditor, type JSONContent } from "@edumetz16/firecms_editor";
 import { useEffect, useState } from "react";
-import { CircularProgressCenter, useStorageSource } from "@firecms/core";
+import { CircularProgressCenter, useStorageSource } from "@edumetz16/firecms_core";
 
 export function TestEditorView() {
 

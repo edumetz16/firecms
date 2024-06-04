@@ -1,5 +1,5 @@
 import React from "react";
-import { Card } from "@firecms/ui";
+import { Card } from "@edumetz16/firecms_ui";
 
 export default function CardClickableDemo() {
     const handleClick = () => {

@@ -15,7 +15,7 @@ import {
     User,
     useSelectionController,
     useSnackbarController
-} from "@firecms/core";
+} from "@edumetz16/firecms_core";
 import {
     Button,
     cn,
@@ -29,8 +29,8 @@ import {
     SelectItem,
     Tooltip,
     Typography,
-} from "@firecms/ui";
-import { buildEntityPropertiesFromData } from "@firecms/schema_inference";
+} from "@edumetz16/firecms_ui";
+import { buildEntityPropertiesFromData } from "@edumetz16/firecms_schema_inference";
 import { useImportConfig } from "../hooks";
 import { convertDataToEntity, getInferenceType } from "../utils";
 import { DataNewPropertiesMapping, ImportFileUpload, ImportSaveInProgress } from "../components";

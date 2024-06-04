@@ -5,7 +5,7 @@ import {
     buildPineconeSearchController,
     performAlgoliaTextSearch,
     performPineconeTextSearch
-} from "@firecms/firebase";
+} from "@edumetz16/firecms_firebase";
 
 let client: SearchClient | undefined;
 // process is defined for react-scripts builds

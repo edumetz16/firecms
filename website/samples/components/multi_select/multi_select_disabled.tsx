@@ -1,5 +1,5 @@
 import * as React from "react";
-import { MultiSelect, MultiSelectItem } from "@firecms/ui";
+import { MultiSelect, MultiSelectItem } from "@edumetz16/firecms_ui";
 
 export default function MultiSelectDisabledDemo() {
     return (

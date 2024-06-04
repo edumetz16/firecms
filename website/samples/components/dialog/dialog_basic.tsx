@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Button, Dialog, DialogActions, DialogContent, Typography } from "@firecms/ui";
+import { Button, Dialog, DialogActions, DialogContent, Typography } from "@edumetz16/firecms_ui";
 
 export default function DialogBasicDemo() {
     const [open, setOpen] = useState(false);

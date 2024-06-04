@@ -1,5 +1,5 @@
 import React from "react";
-import { FireCMSPlugin, useAuthController, useNavigationController, User } from "@firecms/core";
+import { FireCMSPlugin, useAuthController, useNavigationController, User } from "@edumetz16/firecms_core";
 import { ConfigControllerProvider } from "./ConfigControllerProvider";
 import { CollectionEditorPermissionsBuilder } from "./types/config_permissions";
 import { EditorCollectionAction } from "./ui/EditorCollectionAction";
@@ -10,7 +10,7 @@ import { CollectionsConfigController } from "./types/config_controller";
 import { CollectionViewHeaderAction } from "./ui/CollectionViewHeaderAction";
 import { PropertyAddColumnComponent } from "./ui/PropertyAddColumnComponent";
 import { NewCollectionButton } from "./ui/NewCollectionButton";
-import { AddIcon, Button, Paper, Typography } from "@firecms/ui";
+import { AddIcon, Button, Paper, Typography } from "@edumetz16/firecms_ui";
 import { useCollectionEditorController } from "./useCollectionEditorController";
 import { EditorCollectionActionStart } from "./ui/EditorCollectionActionStart";
 import { NewCollectionCard } from "./ui/NewCollectionCard";

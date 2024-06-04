@@ -1,7 +1,7 @@
 import React, { useMemo } from "react";
-import { getIn, useFormex } from "@firecms/formex";
-import { EnumValueConfig, resolveEnumValues, useSnackbarController } from "@firecms/core";
-import { Select, SelectItem } from "@firecms/ui";
+import { getIn, useFormex } from "@edumetz16/firecms_formex";
+import { EnumValueConfig, resolveEnumValues, useSnackbarController } from "@edumetz16/firecms_core";
+import { Select, SelectItem } from "@edumetz16/firecms_ui";
 import { EnumForm } from "../EnumForm";
 import { StringPropertyValidation } from "./validation/StringPropertyValidation";
 import { ArrayPropertyValidation } from "./validation/ArrayPropertyValidation";

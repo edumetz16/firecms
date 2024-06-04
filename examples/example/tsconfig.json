@@ -18,13 +18,13 @@
     "jsx": "react-jsx",
     "baseUrl": ".",
     "paths": {
-      "@firecms/core": ["../../packages/firecms_core/src"],
-      "@firecms/firebase": ["../../packages/firebase_firecms/src"],
-      "@firecms/ui": ["../../packages/ui/src"],
-      "@firecms/editor": ["../../packages/editor/src"],
-      "@firecms/data_enhancement": ["../../packages/data_enhancement/src"],
-      "@firecms/data_import_export": ["../../packages/data_import_export/src"],
-      "@firecms/user_management": ["../../packages/user_management/src"]
+      "@edumetz16/firecms_core": ["../../packages/firecms_core/src"],
+      "@edumetz16/firecms_firebase": ["../../packages/firebase_firecms/src"],
+      "@edumetz16/firecms_ui": ["../../packages/ui/src"],
+      "@edumetz16/firecms_editor": ["../../packages/editor/src"],
+      "@edumetz16/firecms_data_enhancement": ["../../packages/data_enhancement/src"],
+      "@edumetz16/firecms_data_import_export": ["../../packages/data_import_export/src"],
+      "@edumetz16/firecms_user_management": ["../../packages/user_management/src"]
     }
   },
   "include": ["./src"]

@@ -1,4 +1,4 @@
-import { buildCollection } from "@firecms/core";
+import { buildCollection } from "@edumetz16/firecms_core";
 import {
     OpenAIInstructionsActions
 } from "../collection_actions/OpenAIInstructionsActions";

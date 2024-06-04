@@ -1,5 +1,5 @@
 import React from "react";
-import { Menu, MenuItem } from "@firecms/ui";
+import { Menu, MenuItem } from "@edumetz16/firecms_ui";
 
 export default function MenuCustomTriggerDemo() {
     return (

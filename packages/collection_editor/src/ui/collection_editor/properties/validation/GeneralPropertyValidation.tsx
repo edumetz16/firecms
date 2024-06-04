@@ -1,7 +1,7 @@
 import React from "react";
 
-import { Field, FormexFieldProps, getIn, useFormex } from "@firecms/formex";
-import { DebouncedTextField } from "@firecms/ui";
+import { Field, FormexFieldProps, getIn, useFormex } from "@edumetz16/firecms_formex";
+import { DebouncedTextField } from "@edumetz16/firecms_ui";
 import { SwitchControl } from "../../SwitchControl";
 
 export function GeneralPropertyValidation({ disabled }: {

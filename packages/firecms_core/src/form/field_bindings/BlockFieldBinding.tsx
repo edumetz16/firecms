@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useState } from "react";
 
-import { Field, useFormex } from "@firecms/formex";
+import { Field, useFormex } from "@edumetz16/firecms_formex";
 
 import { FieldHelperText, FormikArrayContainer, LabelWithIcon } from "../components";
 import { PropertyFieldBinding } from "../PropertyFieldBinding";
@@ -8,7 +8,7 @@ import { EnumValuesChip } from "../../preview";
 import { FieldProps, FormContext, PropertyFieldBindingProps, PropertyOrBuilder } from "../../types";
 import { getDefaultValueFor, getIconForProperty, } from "../../util";
 import { DEFAULT_ONE_OF_TYPE, DEFAULT_ONE_OF_VALUE } from "../../util/common";
-import { cn, ExpandablePanel, paperMixin, Select, SelectItem, Typography } from "@firecms/ui";
+import { cn, ExpandablePanel, paperMixin, Select, SelectItem, Typography } from "@edumetz16/firecms_ui";
 import { useClearRestoreValue } from "../useClearRestoreValue";
 
 /**

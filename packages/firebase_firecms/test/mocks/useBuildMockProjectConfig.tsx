@@ -1,5 +1,5 @@
 // import { MOCK_PROJECT_ID } from "./constants";
-// import { ProjectConfig } from "@firecms/cloud";
+// import { ProjectConfig } from "@edumetz16/firecms_cloud";
 //
 // export function useBuildMockProjectConfig(): ProjectConfig {
 //

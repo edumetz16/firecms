@@ -1,9 +1,9 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-import { useDrawer, useNavigationController } from "@firecms/core";
+import { useDrawer, useNavigationController } from "@edumetz16/firecms_core";
 import { useDataTalk } from "../DataTalkProvider";
-import { cn, ManageSearchIcon, Typography } from "@firecms/ui";
+import { cn, ManageSearchIcon, Typography } from "@edumetz16/firecms_ui";
 
 export function DataTalkDrawer() {
 

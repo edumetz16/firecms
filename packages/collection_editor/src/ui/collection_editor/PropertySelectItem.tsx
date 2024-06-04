@@ -1,5 +1,5 @@
-import { PropertyConfigBadge, PropertyConfig } from "@firecms/core";
-import { cn, SelectItem, Typography } from "@firecms/ui";
+import { PropertyConfigBadge, PropertyConfig } from "@edumetz16/firecms_core";
+import { cn, SelectItem, Typography } from "@edumetz16/firecms_ui";
 
 export interface PropertySelectItemProps {
     value: string;

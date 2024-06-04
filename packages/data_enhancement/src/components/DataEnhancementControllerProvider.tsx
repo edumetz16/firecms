@@ -19,7 +19,7 @@ import {
     useFireCMSContext,
     useNavigationController,
     useSnackbarController
-} from "@firecms/core";
+} from "@edumetz16/firecms_core";
 
 import { enhanceDataAPIStream, fetchEntityPromptSuggestion } from "../api";
 import { getAppendableSuggestion } from "../utils/suggestions";

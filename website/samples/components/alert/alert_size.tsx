@@ -1,5 +1,5 @@
 import React from "react";
-import { Alert } from "@firecms/ui";
+import { Alert } from "@edumetz16/firecms_ui";
 
 export default function AlertSieDemo() {
     return (

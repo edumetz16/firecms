@@ -1,5 +1,5 @@
 import { EnumValueConfig, EnumValues } from "../types";
-import { CHIP_COLORS, ChipColorScheme, getColorSchemeForSeed } from "@firecms/ui";
+import { CHIP_COLORS, ChipColorScheme, getColorSchemeForSeed } from "@edumetz16/firecms_ui";
 
 export function enumToObjectEntries(enumValues: EnumValues): EnumValueConfig[] {
     if (Array.isArray(enumValues)) {

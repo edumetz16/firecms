@@ -4,7 +4,7 @@ import { ResolvedProperty } from "../../types";
 import { useCustomizationController } from "../../hooks";
 import { PreviewSize, PropertyPreviewProps } from "../PropertyPreviewProps";
 import { PropertyPreview } from "../PropertyPreview";
-import { cn, defaultBorderMixin } from "@firecms/ui";
+import { cn, defaultBorderMixin } from "@edumetz16/firecms_ui";
 import { DEFAULT_ONE_OF_TYPE, DEFAULT_ONE_OF_VALUE } from "../../util/common";
 import { ErrorBoundary } from "../../components";
 

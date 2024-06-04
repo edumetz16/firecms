@@ -54,8 +54,8 @@ import {
     Skeleton,
     Tooltip,
     Typography
-} from "@firecms/ui";
-import { setIn } from "@firecms/formex";
+} from "@edumetz16/firecms_ui";
+import { setIn } from "@edumetz16/firecms_formex";
 import { getSubcollectionColumnId } from "../EntityCollectionTable/internal/common";
 import {
     OnCellValueChange,

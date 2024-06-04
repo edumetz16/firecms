@@ -1,4 +1,4 @@
-import { cn } from "@firecms/ui";
+import { cn } from "@edumetz16/firecms_ui";
 import React from "react";
 
 export const ColumnTitle = ({

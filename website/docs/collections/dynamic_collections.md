@@ -14,7 +14,7 @@ Instead of defining your collections as an array, use a `EntityCollectionsBuilde
 a function that returns a promise of an object containing the collections.
 
 ```tsx
-import { EntityCollectionsBuilder, } from "@firecms/cloud";
+import { EntityCollectionsBuilder, } from "@edumetz16/firecms_cloud";
 
 // ...
 
@@ -52,7 +52,7 @@ collection.
 
 ```tsx
 import { useCallback } from "react";
-import { buildCollection, EntityCollectionsBuilder } from "@firecms/cloud";
+import { buildCollection, EntityCollectionsBuilder } from "@edumetz16/firecms_cloud";
 
 const collectionsBuilder: EntityCollectionsBuilder = async ({
                                                                 user,

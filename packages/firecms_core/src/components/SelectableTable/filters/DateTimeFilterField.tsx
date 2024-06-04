@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { VirtualTableWhereFilterOp } from "../../VirtualTable";
-import { Checkbox, DateTimeField, Label, Select, SelectItem } from "@firecms/ui";
+import { Checkbox, DateTimeField, Label, Select, SelectItem } from "@edumetz16/firecms_ui";
 import { useCustomizationController } from "../../../hooks";
 
 interface DateTimeFilterFieldProps {

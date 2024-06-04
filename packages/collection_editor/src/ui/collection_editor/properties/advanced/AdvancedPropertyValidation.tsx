@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Field, FormexFieldProps } from "@firecms/formex";
+import { Field, FormexFieldProps } from "@edumetz16/firecms_formex";
 import { SwitchControl } from "../../SwitchControl";
 
 export function AdvancedPropertyValidation({ disabled }: {

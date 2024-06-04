@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useState } from "react";
 
-import { Field, getIn, useFormex } from "@firecms/formex";
+import { Field, getIn, useFormex } from "@edumetz16/firecms_formex";
 import {
     EntityCollection,
     ErrorBoundary,
@@ -13,7 +13,7 @@ import {
     useLargeLayout,
     User,
     useSnackbarController
-} from "@firecms/core";
+} from "@edumetz16/firecms_core";
 import {
     AddIcon,
     AutoAwesomeIcon,
@@ -27,7 +27,7 @@ import {
     Paper,
     Tooltip,
     Typography,
-} from "@firecms/ui";
+} from "@edumetz16/firecms_ui";
 
 import { getFullId, idToPropertiesPath, namespaceToPropertiesOrderPath } from "./util";
 import { OnPropertyChangedParams, PropertyForm, PropertyFormDialog } from "./PropertyEditView";

@@ -11,9 +11,9 @@ import {
     MultiSelectItem,
     TextField,
     Typography,
-} from "@firecms/ui";
-import { FieldCaption, Role, useAuthController, User, useSnackbarController } from "@firecms/core";
-import { Formex, useCreateFormex } from "@firecms/formex";
+} from "@edumetz16/firecms_ui";
+import { FieldCaption, Role, useAuthController, User, useSnackbarController } from "@edumetz16/firecms_core";
+import { Formex, useCreateFormex } from "@edumetz16/firecms_formex";
 
 import { areRolesEqual } from "../../utils";
 import { useUserManagement } from "../../hooks";

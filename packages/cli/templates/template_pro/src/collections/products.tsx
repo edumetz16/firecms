@@ -1,4 +1,4 @@
-import { buildCollection } from "@firecms/core";
+import { buildCollection } from "@edumetz16/firecms_core";
 import { localeCollection } from "./locales";
 import { Product } from "../types";
 import { ProductDetailPreview } from "./entity_views/ProductDetailPreview";

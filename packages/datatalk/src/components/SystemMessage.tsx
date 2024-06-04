@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { EntityCollection } from "@firecms/core";
+import { EntityCollection } from "@edumetz16/firecms_core";
 import { MarkdownElement, parseMarkdown } from "../utils/parser";
 import { CodeBlock } from "./CodeBlock";
 import {
@@ -17,7 +17,7 @@ import {
     TextField,
     ThumbDownOffAltIcon,
     Tooltip
-} from "@firecms/ui";
+} from "@edumetz16/firecms_ui";
 import { FeedbackSlug } from "../types";
 
 export function SystemMessage({

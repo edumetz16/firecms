@@ -1,6 +1,6 @@
 import React from "react";
-import { useNavigationController } from "@firecms/core";
-import { Button, Chip, CloseIcon, Container, Dialog, DialogContent, IconButton, } from "@firecms/ui";
+import { useNavigationController } from "@edumetz16/firecms_core";
+import { Button, Chip, CloseIcon, Container, Dialog, DialogContent, IconButton, } from "@edumetz16/firecms_ui";
 import { useNavigate } from "react-router-dom";
 import { UpgradeToPlusButton } from "./UpgradeToPlusButton";
 

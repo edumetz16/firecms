@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Popover } from "@firecms/ui";
+import { Popover } from "@edumetz16/firecms_ui";
 
 export default function PopoverControlledDemo() {
     const [open, setOpen] = useState(false);

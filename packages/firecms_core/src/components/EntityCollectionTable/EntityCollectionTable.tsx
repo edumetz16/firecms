@@ -15,7 +15,7 @@ import { renderSkeletonText } from "../../preview";
 import { propertiesToColumns } from "./column_utils";
 import { ErrorView } from "../ErrorView";
 import { SelectableTable } from "../SelectableTable/SelectableTable";
-import { cn } from "@firecms/ui";
+import { cn } from "@edumetz16/firecms_ui";
 
 /**
  * This component is in charge of rendering a collection table with a high

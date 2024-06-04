@@ -1,5 +1,5 @@
-import { Chip, getColorSchemeForSeed } from "@firecms/ui";
-import { Role } from "@firecms/core";
+import { Chip, getColorSchemeForSeed } from "@edumetz16/firecms_ui";
+import { Role } from "@edumetz16/firecms_core";
 
 export type RoleChipProps = {
     role: Role;

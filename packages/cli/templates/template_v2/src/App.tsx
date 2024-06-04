@@ -1,6 +1,6 @@
 import { useCallback } from "react";
 
-import { useDataEnhancementPlugin } from "@firecms/data_enhancement";
+import { useDataEnhancementPlugin } from "@edumetz16/firecms_data_enhancement";
 
 import { User as FirebaseUser } from "firebase/auth";
 import { Authenticator, FirebaseCMSApp } from "firecms";

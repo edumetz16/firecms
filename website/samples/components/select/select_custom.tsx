@@ -1,5 +1,5 @@
 import React from "react";
-import { Chip, Select, SelectItem } from "@firecms/ui";
+import { Chip, Select, SelectItem } from "@edumetz16/firecms_ui";
 
 const beverages = {
     coffee: "Coffee",

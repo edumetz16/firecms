@@ -5,15 +5,15 @@ import {
     EmailIcon,
     IconButton,
     TextField,
-} from "@firecms/ui";
+} from "@edumetz16/firecms_ui";
 import {
     ErrorView,
     FireCMSLogo,
     useModeController
-} from "@firecms/core";
+} from "@edumetz16/firecms_core";
 
 import { MongoAuthController } from "../useMongoAuthController";
-import { Button, CircularProgress, Typography } from "@firecms/ui";
+import { Button, CircularProgress, Typography } from "@edumetz16/firecms_ui";
 
 /**
  *

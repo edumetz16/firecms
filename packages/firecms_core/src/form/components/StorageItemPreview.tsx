@@ -3,7 +3,7 @@ import React from "react";
 import { Entity, EntityCollection, ResolvedStringProperty } from "../../types";
 import { PreviewSize, PropertyPreview } from "../../preview";
 
-import { cn, IconButton, paperMixin, RemoveIcon, Tooltip } from "@firecms/ui";
+import { cn, IconButton, paperMixin, RemoveIcon, Tooltip } from "@edumetz16/firecms_ui";
 import { ErrorBoundary } from "../../components";
 
 interface StorageItemPreviewProps {

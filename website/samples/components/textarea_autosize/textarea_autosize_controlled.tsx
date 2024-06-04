@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { TextareaAutosize } from "@firecms/ui";
+import { TextareaAutosize } from "@edumetz16/firecms_ui";
 
 export default function TextareaAutosizeControlledDemo() {
     const [value, setValue] = useState("Controlled textarea");

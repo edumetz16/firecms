@@ -1,6 +1,6 @@
 import { ProductView } from "./ProductView";
 import { useFireCMSBackend, useProjectConfig, useSubscriptionsForUserController } from "../../hooks";
-import { LoadingButton, RocketLaunchIcon } from "@firecms/ui";
+import { LoadingButton, RocketLaunchIcon } from "@edumetz16/firecms_ui";
 import { ProductPrice } from "../../types";
 
 export function UpgradeToPlusButton({

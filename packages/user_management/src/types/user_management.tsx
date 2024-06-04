@@ -1,4 +1,4 @@
-import { Authenticator, PermissionsBuilder, Role, User } from "@firecms/core";
+import { Authenticator, PermissionsBuilder, Role, User } from "@edumetz16/firecms_core";
 
 export type UserManagement<USER extends User = User> = {
 

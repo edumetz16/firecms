@@ -1,6 +1,6 @@
 import { HorizontalRule, Placeholder, StarterKit, TaskItem, TaskList, TiptapImage, TiptapLink, } from "./extensions";
 
-import { cn, defaultBorderMixin } from "@firecms/ui";
+import { cn, defaultBorderMixin } from "@edumetz16/firecms_ui";
 
 //You can overwrite the placeholder with your own configuration
 export const placeholder = Placeholder;

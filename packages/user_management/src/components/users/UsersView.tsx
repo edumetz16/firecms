@@ -1,10 +1,10 @@
-import { AddIcon, Button, Container, Typography } from "@firecms/ui";
+import { AddIcon, Button, Container, Typography } from "@edumetz16/firecms_ui";
 
 import { UsersTable } from "./UsersTable";
 import { UserDetailsForm } from "./UserDetailsForm";
 import React, { useCallback, useState } from "react";
 import { useUserManagement } from "../../hooks/useUserManagement";
-import { User } from "@firecms/core";
+import { User } from "@edumetz16/firecms_core";
 
 export const UsersView = function UsersView({ children }: { children?: React.ReactNode }) {
 

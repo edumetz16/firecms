@@ -1,4 +1,4 @@
-import { Typography } from "@firecms/ui";
+import { Typography } from "@edumetz16/firecms_ui";
 
 export function StripeDisclaimer() {
     return <Typography variant={"caption"} className={"mt-4"}>

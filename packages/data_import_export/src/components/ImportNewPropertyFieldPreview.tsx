@@ -5,8 +5,8 @@ import {
     Property,
     PropertyConfigBadge,
     useCustomizationController
-} from "@firecms/core";
-import { EditIcon, IconButton, TextField, } from "@firecms/ui";
+} from "@edumetz16/firecms_core";
+import { EditIcon, IconButton, TextField, } from "@edumetz16/firecms_ui";
 
 export function ImportNewPropertyFieldPreview({
                                                   propertyKey,

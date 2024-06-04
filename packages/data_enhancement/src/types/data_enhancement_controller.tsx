@@ -1,4 +1,4 @@
-import { EntityValues } from "@firecms/core";
+import { EntityValues } from "@edumetz16/firecms_core";
 
 export type EnhanceParams<M extends object> = {
     entityId: string;

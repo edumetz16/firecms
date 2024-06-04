@@ -1,4 +1,4 @@
-import { buildCollection, buildProperty } from "@firecms/cloud";
+import { buildCollection, buildProperty } from "@edumetz16/firecms_cloud";
 
 // This is a demo collection with many of the available properties
 export const demoCollection = buildCollection({

@@ -1,7 +1,7 @@
-import { convertDataToEntity, ImportConfig } from "@firecms/data_import_export";
-import { CircularProgressCenter, EntityCollectionTable, Properties, useSelectionController } from "@firecms/core";
+import { convertDataToEntity, ImportConfig } from "@edumetz16/firecms_data_import_export";
+import { CircularProgressCenter, EntityCollectionTable, Properties, useSelectionController } from "@edumetz16/firecms_core";
 import { useEffect, useState } from "react";
-import { Typography } from "@firecms/ui";
+import { Typography } from "@edumetz16/firecms_ui";
 
 export function CollectionEditorImportDataPreview({
                                                       importConfig,

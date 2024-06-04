@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import equal from "react-fast-compare"
 
-import { CMSType, FieldProps, PluginFieldBuilderParams, } from "@firecms/core";
+import { CMSType, FieldProps, PluginFieldBuilderParams, } from "@edumetz16/firecms_core";
 import {
     AutoAwesomeIcon,
     CircularProgress,
@@ -12,7 +12,7 @@ import {
     TextField,
     Tooltip,
     Typography
-} from "@firecms/ui";
+} from "@edumetz16/firecms_ui";
 import { useDataEnhancementController } from "./DataEnhancementControllerProvider";
 import { SUPPORTED_FIELDS_ENHANCEMENT } from "../utils/fields";
 import { EnhanceTextFieldBinding } from "./fields/EnhanceTextField";

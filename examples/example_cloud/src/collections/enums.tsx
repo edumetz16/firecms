@@ -1,4 +1,4 @@
-import { EnumValues } from "@firecms/cloud";
+import { EnumValues } from "@edumetz16/firecms_cloud";
 
 export const locales: EnumValues = {
     es: "Spanish",

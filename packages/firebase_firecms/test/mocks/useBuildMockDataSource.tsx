@@ -5,7 +5,7 @@ import {
     FetchCollectionProps,
     FetchEntityProps,
     SaveEntityProps
-} from "@firecms/core";
+} from "@edumetz16/firecms_core";
 
 export function useBuildMockDataSource(): DataSource {
     return {

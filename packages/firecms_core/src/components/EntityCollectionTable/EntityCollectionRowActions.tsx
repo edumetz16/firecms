@@ -1,7 +1,7 @@
 import React, { MouseEvent, useCallback } from "react";
 
 import { CollectionSize, Entity, EntityAction, EntityCollection, SelectionController } from "../../types";
-import { Checkbox, cn, IconButton, Menu, MenuItem, MoreVertIcon, Skeleton, Tooltip, Typography } from "@firecms/ui";
+import { Checkbox, cn, IconButton, Menu, MenuItem, MoreVertIcon, Skeleton, Tooltip, Typography } from "@edumetz16/firecms_ui";
 import { useFireCMSContext, useLargeLayout } from "../../hooks";
 
 /**

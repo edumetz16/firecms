@@ -13,7 +13,7 @@ import {
     MenuItem,
     Skeleton,
     Typography
-} from "@firecms/ui";
+} from "@edumetz16/firecms_ui";
 import { useAuthController, useLargeLayout, useModeController, useNavigationController } from "../hooks";
 import { User } from "../types";
 

@@ -16,7 +16,7 @@ import {
     useBuildModeController,
     useBuildNavigationController,
     useValidateAuthenticator
-} from "@firecms/core";
+} from "@edumetz16/firecms_core";
 import {
     FirebaseAuthController,
     FirebaseLoginView,
@@ -26,8 +26,8 @@ import {
     useFirebaseStorageSource,
     useFirestoreDelegate,
     useInitialiseFirebase,
-} from "@firecms/firebase";
-import { CenteredView } from "@firecms/ui";
+} from "@edumetz16/firecms_firebase";
+import { CenteredView } from "@edumetz16/firecms_ui";
 import { demoCollection } from "./collections/demo";
 
 export const firebaseConfig = {

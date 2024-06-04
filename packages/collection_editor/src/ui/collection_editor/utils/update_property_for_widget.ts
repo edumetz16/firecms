@@ -8,7 +8,7 @@ import {
     Property,
     PropertyConfig,
     StringProperty
-} from "@firecms/core";
+} from "@edumetz16/firecms_core";
 
 export function updatePropertyFromWidget(propertyData: any,
                                          selectedWidgetId: string | undefined,

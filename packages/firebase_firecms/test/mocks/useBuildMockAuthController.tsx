@@ -3,7 +3,7 @@
 // import { User as FirebaseUser } from "@firebase/auth";
 // import { createMockUser } from "./mock_user";
 // import { FirebaseAuthController } from "../../src/types";
-// import { Role } from "@firecms/user_management";
+// import { Role } from "@edumetz16/firecms_user_management";
 //
 // export function useBuildMockAuthController(): FirebaseAuthController {
 //

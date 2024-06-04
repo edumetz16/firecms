@@ -15,7 +15,7 @@ import {
     useBuildModeController,
     useBuildNavigationController,
     useValidateAuthenticator
-} from "@firecms/core";
+} from "@edumetz16/firecms_core";
 
 import { FireCMSFirebaseAppProps } from "./FireCMSFirebaseAppProps";
 import { FirebaseLoginView } from "./FirebaseLoginView";
@@ -26,7 +26,7 @@ import {
     useFirestoreDelegate,
     useInitialiseFirebase,
 } from "../hooks";
-import { CenteredView } from "@firecms/ui";
+import { CenteredView } from "@edumetz16/firecms_ui";
 import { FirebaseAuthController } from "../types";
 
 const DEFAULT_SIGN_IN_OPTIONS = [

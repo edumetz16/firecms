@@ -1,4 +1,4 @@
-import { Alert, Card, Typography } from "@firecms/ui";
+import { Alert, Card, Typography } from "@edumetz16/firecms_ui";
 import { useDataTalk } from "../DataTalkProvider";
 
 export function IntroComponent({ onPromptSuggestionClick }: { onPromptSuggestionClick: (prompt: string) => void }) {

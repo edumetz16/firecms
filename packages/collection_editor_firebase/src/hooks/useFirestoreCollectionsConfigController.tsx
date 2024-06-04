@@ -8,7 +8,7 @@ import {
     PersistedCollection,
     SaveCollectionParams,
     UpdateCollectionParams
-} from "@firecms/collection_editor";
+} from "@edumetz16/firecms_collection_editor";
 import {
     applyPermissionsFunctionIfEmpty,
     PermissionsBuilder,
@@ -17,13 +17,13 @@ import {
     removeFunctions,
     removeUndefined,
     User
-} from "@firecms/core";
+} from "@edumetz16/firecms_core";
 import {
     buildCollectionId,
     docsToCollectionTree,
     prepareCollectionForPersistence,
     setUndefinedToDelete
-} from "@firecms/firebase";
+} from "@edumetz16/firecms_firebase";
 
 /**
  * @group Firebase

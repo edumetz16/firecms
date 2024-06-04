@@ -10,8 +10,8 @@ import {
     RadioGroupItem,
     Select,
     SelectItem
-} from "@firecms/ui";
-import { Entity, EntityValues, useSnackbarController } from "@firecms/core";
+} from "@edumetz16/firecms_ui";
+import { Entity, EntityValues, useSnackbarController } from "@edumetz16/firecms_core";
 import { Product } from "../../types";
 import { StorageImage } from "../../components/StorageImage";
 

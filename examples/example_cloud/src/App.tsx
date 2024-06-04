@@ -1,5 +1,5 @@
 import React from "react"
-import { FireCMSCloudApp } from "@firecms/cloud";
+import { FireCMSCloudApp } from "@edumetz16/firecms_cloud";
 import appConfig from "./index";
 
 function App(): React.ReactElement {

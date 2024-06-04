@@ -1,6 +1,6 @@
 import type { Dispatch, SetStateAction } from "react";
 import { EditorBubbleItem, useEditor } from "../components";
-import { Button, CheckIcon, ExpandMoreIcon, Popover } from "@firecms/ui";
+import { Button, CheckIcon, ExpandMoreIcon, Popover } from "@edumetz16/firecms_ui";
 
 export interface BubbleColorMenuItem {
     name: string;

@@ -4,7 +4,7 @@ import { VirtualTableColumn, VirtualTableWhereFilterOp } from "./VirtualTablePro
 import { ErrorBoundary } from "../ErrorBoundary";
 import { VirtualTableHeader } from "./VirtualTableHeader";
 import { VirtualTableContextProps } from "./types";
-import { cn, defaultBorderMixin } from "@firecms/ui";
+import { cn, defaultBorderMixin } from "@edumetz16/firecms_ui";
 
 export const VirtualTableHeaderRow = ({
                                           columns,

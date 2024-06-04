@@ -41,7 +41,7 @@ If you just need to add some code to a collection defined in the UI, you can use
 your `FireCMSAppConfig` object.
 
 ```tsx
-import { FireCMSAppConfig } from "@firecms/cloud";
+import { FireCMSAppConfig } from "@edumetz16/firecms_cloud";
 
 const appConfig: FireCMSAppConfig = {
     version: "1",
@@ -92,7 +92,7 @@ import {
     buildCollection,
     buildProperty,
     EntityReference
-} from "@firecms/cloud";
+} from "@edumetz16/firecms_cloud";
 
 type Product = {
     name: string;
@@ -222,7 +222,7 @@ If you need to enable filtering/sorting by more than one property at a time, you
 enabled in your Firestore configuration. In order to do so, just pass the indexes configuration to your collection:
 
 ```tsx
-import { buildCollection } from "@firecms/cloud";
+import { buildCollection } from "@edumetz16/firecms_cloud";
 
 const productsCollection = buildCollection<Product>({
     id: "products",

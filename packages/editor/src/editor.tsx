@@ -37,7 +37,7 @@ import {
     Separator,
     TextFieldsIcon,
     useInjectStyles
-} from "@firecms/ui";
+} from "@edumetz16/firecms_ui";
 // import { startImageUpload } from "./plugins";
 import { Editor, EditorProvider, EditorProviderProps } from "@tiptap/react";
 import { useDebouncedCallback } from "./utils/useDebouncedCallback";

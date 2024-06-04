@@ -26,10 +26,10 @@ export default defineConfig(() => ({
     },
     resolve: {
         alias: {
-            "@firecms/firebase": path.resolve(__dirname, "../firebase_firecms/src"),
-            "@firecms/ui": path.resolve(__dirname, "../ui/src"),
-            "@firecms/core": path.resolve(__dirname, "../firecms_core/src"),
-            "@firecms/data_import_export": path.resolve(__dirname, "../data_import_export/src"),
+            "@edumetz16/firecms_firebase": path.resolve(__dirname, "../firebase_firecms/src"),
+            "@edumetz16/firecms_ui": path.resolve(__dirname, "../ui/src"),
+            "@edumetz16/firecms_core": path.resolve(__dirname, "../firecms_core/src"),
+            "@edumetz16/firecms_data_import_export": path.resolve(__dirname, "../data_import_export/src"),
         }
     },
     plugins: [react({})]

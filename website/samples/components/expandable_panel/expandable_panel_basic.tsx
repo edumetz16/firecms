@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { ExpandablePanel } from "@firecms/ui";
+import { ExpandablePanel } from "@edumetz16/firecms_ui";
 
 export default function ExpandablePanelBasicDemo() {
     const [expanded, setExpanded] = useState(false);

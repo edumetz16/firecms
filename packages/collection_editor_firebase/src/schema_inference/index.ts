@@ -1,6 +1,6 @@
-import { buildEntityPropertiesFromData, buildPropertiesOrder } from "@firecms/schema_inference";
+import { buildEntityPropertiesFromData, buildPropertiesOrder } from "@edumetz16/firecms_schema_inference";
 import { DocumentReference, Firestore, Timestamp } from "@firebase/firestore";
-import { DataType, EntityCollection, GeoPoint, removeInitialAndTrailingSlashes, unslugify } from "@firecms/core";
+import { DataType, EntityCollection, GeoPoint, removeInitialAndTrailingSlashes, unslugify } from "@edumetz16/firecms_core";
 import { getDocuments } from "./firestore";
 
 /**

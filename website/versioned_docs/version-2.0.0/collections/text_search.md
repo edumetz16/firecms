@@ -43,7 +43,7 @@ import {
     buildCollection,
     FirebaseCMSApp,
     EntityCollectionsBuilder
-} from "@firecms/core";
+} from "@edumetz16/firecms_core";
 
 const client: SearchClient | undefined = algoliasearch("YOUR_ALGOLIA_APP_ID", "YOUR_ALGOLIA_SEARCH_KEY");
 

@@ -1,6 +1,6 @@
 import React, { Suspense } from "react";
 import CodeBlock from "@theme/CodeBlock";
-import { keyToIconComponent } from "@firecms/ui";
+import { keyToIconComponent } from "@edumetz16/firecms_ui";
 import BrowserOnly from "@docusaurus/BrowserOnly";
 
 const LazySearchIconsView = React.lazy(() => import("./DefaultSearchIconsView"));
@@ -24,7 +24,7 @@ export function DocsIconsView() {
                         </div>
                         <b><code>{selectedIcon ?? "None"}</code></b>
                         {componentName && <CodeBlock language={"tsx"}>
-                            {`import { ${componentName} } from "@firecms/ui";\n<${componentName}/>`}
+                            {`import { ${componentName} } from "@edumetz16/firecms_ui";\n<${componentName}/>`}
                         </CodeBlock>}
                     </div>}
                 </Suspense>

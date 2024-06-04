@@ -1,5 +1,5 @@
-import { Properties, slugify } from "@firecms/core";
-import { ImportConfig } from "@firecms/data_import_export";
+import { Properties, slugify } from "@edumetz16/firecms_core";
+import { ImportConfig } from "@edumetz16/firecms_data_import_export";
 
 export function cleanPropertiesFromImport(properties: Properties, parentSlug = ""): {
     headersMapping: ImportConfig["headersMapping"],

@@ -6,7 +6,7 @@ import type {
     DroppableStateSnapshot
 } from "@hello-pangea/dnd";
 import { Draggable, Droppable } from "@hello-pangea/dnd";
-import { cn } from "@firecms/ui";
+import { cn } from "@edumetz16/firecms_ui";
 import { ColumnTitle } from "./ColumnTitle";
 import type { Item, ItemViewProps } from "./types";
 

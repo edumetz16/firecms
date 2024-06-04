@@ -8,7 +8,7 @@ import {
     useSideEntityController
 } from "../../hooks";
 import { PreviewSize } from "../PropertyPreviewProps";
-import { IconButton, KeyboardTabIcon, Skeleton, Tooltip } from "@firecms/ui";
+import { IconButton, KeyboardTabIcon, Skeleton, Tooltip } from "@edumetz16/firecms_ui";
 import { ErrorView } from "../../components";
 import { useAnalyticsController } from "../../hooks/useAnalyticsController";
 import { EntityPreview, EntityPreviewContainer } from "../../components/EntityPreview";

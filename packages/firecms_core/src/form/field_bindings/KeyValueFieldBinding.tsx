@@ -18,7 +18,7 @@ import {
     RemoveIcon,
     TextField,
     Typography
-} from "@firecms/ui";
+} from "@edumetz16/firecms_ui";
 import { getDefaultValueForDataType, getIconForProperty } from "../../util";
 import { useCustomizationController } from "../../hooks";
 

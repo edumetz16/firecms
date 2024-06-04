@@ -40,15 +40,15 @@ module.exports = {
                     return {
                         resolve: {
                             alias: {
-                                "@firecms/cloud": path.resolve(__dirname, "../packages/firecms_cloud/src"),
-                                "@firecms/core": path.resolve(__dirname, "../packages/firecms_core/src"),
-                                "@firecms/ui": path.resolve(__dirname, "../packages/ui/src"),
-                                "@firecms/collection_editor": path.resolve(__dirname, "../packages/collection_editor/src"),
-                                "@firecms/firebase": path.resolve(__dirname, "../packages/firebase_firecms/src"),
-                                "@firecms/data_import_export": path.resolve(__dirname, "../packages/data_import_export/src"),
-                                "@firecms/schema_inference": path.resolve(__dirname, "../packages/schema_inference/src"),
-                                "@firecms/data_enhancement": path.resolve(__dirname, "../packages/data_enhancement/src"),
-                                "@firecms/formex": path.resolve(__dirname, "../packages/formex/src"),
+                                "@edumetz16/firecms_cloud": path.resolve(__dirname, "../packages/firecms_cloud/src"),
+                                "@edumetz16/firecms_core": path.resolve(__dirname, "../packages/firecms_core/src"),
+                                "@edumetz16/firecms_ui": path.resolve(__dirname, "../packages/ui/src"),
+                                "@edumetz16/firecms_collection_editor": path.resolve(__dirname, "../packages/collection_editor/src"),
+                                "@edumetz16/firecms_firebase": path.resolve(__dirname, "../packages/firebase_firecms/src"),
+                                "@edumetz16/firecms_data_import_export": path.resolve(__dirname, "../packages/data_import_export/src"),
+                                "@edumetz16/firecms_schema_inference": path.resolve(__dirname, "../packages/schema_inference/src"),
+                                "@edumetz16/firecms_data_enhancement": path.resolve(__dirname, "../packages/data_enhancement/src"),
+                                "@edumetz16/firecms_formex": path.resolve(__dirname, "../packages/formex/src"),
                             },
                         },
                         optimization: {

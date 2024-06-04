@@ -4,10 +4,10 @@ import {
     useDataSource,
     useReferenceDialog,
     useSnackbarController
-} from "@firecms/core";
+} from "@edumetz16/firecms_core";
 import {
     Button
-} from "@firecms/ui";
+} from "@edumetz16/firecms_ui";
 import { useCallback } from "react";
 
 export type CopyEntityButtonProps = {

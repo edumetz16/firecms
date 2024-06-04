@@ -23,10 +23,10 @@ export default defineConfig(({ command }) => {
                 shared: ["react", "react-dom",
                     ...(build
                         ? [
-                            "@firecms/cloud",
-                            "@firecms/core",
-                            "@firecms/firebase",
-                            "@firecms/ui",
+                            "@edumetz16/firecms_cloud",
+                            "@edumetz16/firecms_core",
+                            "@edumetz16/firecms_firebase",
+                            "@edumetz16/firecms_ui",
                             "@firebase/firestore",
                             "@firebase/app",
                             "@firebase/functions",
@@ -48,16 +48,16 @@ export default defineConfig(({ command }) => {
         },
         resolve: {
             alias: {
-                "@firecms/cloud": path.resolve(__dirname, "../../packages/firecms_cloud/src"),
-                "@firecms/formex": path.resolve(__dirname, "../../packages/formex/src"),
-                "@firecms/core": path.resolve(__dirname, "../../packages/firecms_core/src"),
-                "@firecms/ui": path.resolve(__dirname, "../../packages/ui/src"),
-                "@firecms/firebase": path.resolve(__dirname, "../../packages/firebase_firecms/src"),
-                "@firecms/data_enhancement": path.resolve(__dirname, "../../packages/data_enhancement/src"),
-                "@firecms/data_import_export": path.resolve(__dirname, "../../packages/data_import_export/src"),
-                "@firecms/schema_inference": path.resolve(__dirname, "../../packages/schema_inference/src"),
-                "@firecms/collection_editor": path.resolve(__dirname, "../../packages/collection_editor/src"),
-                "@firecms/user_management": path.resolve(__dirname, "../../packages/user_management/src")
+                "@edumetz16/firecms_cloud": path.resolve(__dirname, "../../packages/firecms_cloud/src"),
+                "@edumetz16/firecms_formex": path.resolve(__dirname, "../../packages/formex/src"),
+                "@edumetz16/firecms_core": path.resolve(__dirname, "../../packages/firecms_core/src"),
+                "@edumetz16/firecms_ui": path.resolve(__dirname, "../../packages/ui/src"),
+                "@edumetz16/firecms_firebase": path.resolve(__dirname, "../../packages/firebase_firecms/src"),
+                "@edumetz16/firecms_data_enhancement": path.resolve(__dirname, "../../packages/data_enhancement/src"),
+                "@edumetz16/firecms_data_import_export": path.resolve(__dirname, "../../packages/data_import_export/src"),
+                "@edumetz16/firecms_schema_inference": path.resolve(__dirname, "../../packages/schema_inference/src"),
+                "@edumetz16/firecms_collection_editor": path.resolve(__dirname, "../../packages/collection_editor/src"),
+                "@edumetz16/firecms_user_management": path.resolve(__dirname, "../../packages/user_management/src")
             }
         }
     });

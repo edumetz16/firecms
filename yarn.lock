@@ -452,8 +452,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@edumetz16/firecms_core@workspace:packages/firecms_core"
   dependencies:
-    "@firecms/formex": ^3.0.0-canary.53
-    "@firecms/ui": ^3.0.0-canary.53
+    "@edumetz16/firecms_formex": ^3.0.0-canary.53
+    "@edumetz16/firecms_ui": ^3.0.0-canary.53
     "@fontsource/jetbrains-mono": ^5.0.20
     "@hello-pangea/dnd": ^16.6.0
     "@jest/globals": ^29.7.0
@@ -1250,9 +1250,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@firecms/formex@npm:^3.0.0-canary.53":
+"@edumetz16/firecms_formex@npm:^3.0.0-canary.53":
   version: 3.0.0-canary.54
-  resolution: "@firecms/formex@npm:3.0.0-canary.54"
+  resolution: "@edumetz16/firecms_formex@npm:3.0.0-canary.54"
   dependencies:
     react-fast-compare: ^3.2.2
   peerDependencies:
@@ -1263,9 +1263,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@firecms/ui@npm:^3.0.0-canary.53":
+"@edumetz16/firecms_ui@npm:^3.0.0-canary.53":
   version: 3.0.0-canary.54
-  resolution: "@firecms/ui@npm:3.0.0-canary.54"
+  resolution: "@edumetz16/firecms_ui@npm:3.0.0-canary.54"
   dependencies:
     "@material-design-icons/font": ^0.14.13
     "@radix-ui/react-checkbox": ^1.0.4

@@ -9,9 +9,9 @@ import {
     Locale,
     ModifyCollectionProps,
     PropertyConfig
-} from "@firecms/core";
+} from "@edumetz16/firecms_core";
 import { FirebaseApp } from "@firebase/app";
-import { AppCheckOptions, FirestoreIndexesBuilder, FirestoreTextSearchControllerBuilder } from "@firecms/firebase";
+import { AppCheckOptions, FirestoreIndexesBuilder, FirestoreTextSearchControllerBuilder } from "@edumetz16/firecms_firebase";
 
 export type FireCMSAppConfig = {
 

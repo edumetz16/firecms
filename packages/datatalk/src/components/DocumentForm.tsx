@@ -12,7 +12,7 @@
 //     PropertyFieldBindingProps,
 //     ResolvedEntityCollection
 // } from "../types";
-// import { Formex, FormexController, getIn, setIn, useCreateFormex } from "@firecms/formex";
+// import { Formex, FormexController, getIn, setIn, useCreateFormex } from "@edumetz16/firecms_formex";
 // import { PropertyFieldBinding } from "./PropertyFieldBinding";
 // import { CustomFieldValidator, getYupEntitySchema } from "./validation";
 // import equal from "react-fast-compare"
@@ -35,7 +35,7 @@
 // } from "../hooks";
 // import { ErrorFocus } from "./components/ErrorFocus";
 // import { CustomIdField } from "./components/CustomIdField";
-// import { Alert, Button, cn, DialogActions, IconButton, Tooltip, Typography } from "@firecms/ui";
+// import { Alert, Button, cn, DialogActions, IconButton, Tooltip, Typography } from "@edumetz16/firecms_ui";
 // import { ErrorBoundary } from "../components";
 // import { useAnalyticsController } from "../hooks/useAnalyticsController";
 // import { ValidationError } from "yup";

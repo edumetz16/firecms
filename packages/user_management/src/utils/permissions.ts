@@ -1,4 +1,4 @@
-import { EntityCollection, Permissions, Role, User } from "@firecms/core";
+import { EntityCollection, Permissions, Role, User } from "@edumetz16/firecms_core";
 
 export const RESERVED_GROUPS = ["Admin"];
 

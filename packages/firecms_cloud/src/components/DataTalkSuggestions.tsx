@@ -1,6 +1,6 @@
-import { Collapse, Label } from "@firecms/ui";
+import { Collapse, Label } from "@edumetz16/firecms_ui";
 import { useNavigate } from "react-router";
-import { useNavigationController } from "@firecms/core";
+import { useNavigationController } from "@edumetz16/firecms_core";
 
 export function DataTalkSuggestions({ suggestions }: {
     suggestions?: string[]

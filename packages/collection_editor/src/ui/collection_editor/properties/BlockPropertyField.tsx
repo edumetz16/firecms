@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import { AddIcon, Button, Paper, Typography } from "@firecms/ui";
-import { getIn, useFormex } from "@firecms/formex";
+import { AddIcon, Button, Paper, Typography } from "@edumetz16/firecms_ui";
+import { getIn, useFormex } from "@edumetz16/firecms_formex";
 import { PropertyFormDialog } from "../PropertyEditView";
 import { getFullId, idToPropertiesPath, namespaceToPropertiesOrderPath, namespaceToPropertiesPath } from "../util";
 import { PropertyTree } from "../PropertyTree";
-import { ArrayProperty, Property, PropertyConfig } from "@firecms/core";
+import { ArrayProperty, Property, PropertyConfig } from "@edumetz16/firecms_core";
 
 export function BlockPropertyField({
                                        disabled,

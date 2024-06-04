@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { BooleanSwitch } from "@firecms/ui";
+import { BooleanSwitch } from "@edumetz16/firecms_ui";
 
 export function VirtualTableSwitch(props: {
     error: Error | undefined;

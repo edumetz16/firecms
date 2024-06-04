@@ -1,4 +1,4 @@
-import { AddIcon, Button } from "@firecms/ui";
+import { AddIcon, Button } from "@edumetz16/firecms_ui";
 import { useCollectionEditorController } from "../useCollectionEditorController";
 
 export function NewCollectionButton() {

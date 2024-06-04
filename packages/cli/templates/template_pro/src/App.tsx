@@ -15,7 +15,7 @@ import {
     useBuildModeController,
     useBuildNavigationController,
     useValidateAuthenticator
-} from "@firecms/core";
+} from "@edumetz16/firecms_core";
 import {
     FirebaseAuthController,
     FirebaseLoginView,
@@ -24,20 +24,20 @@ import {
     useFirebaseStorageSource,
     useFirestoreDelegate,
     useInitialiseFirebase
-} from "@firecms/firebase";
+} from "@edumetz16/firecms_firebase";
 
 import { firebaseConfig } from "./firebase_config";
 import { productsCollection } from "./collections/products";
-import { useDataEnhancementPlugin } from "@firecms/data_enhancement";
+import { useDataEnhancementPlugin } from "@edumetz16/firecms_data_enhancement";
 import {
     useFirestoreUserManagement,
     userManagementAdminViews,
     useUserManagementPlugin
-} from "@firecms/user_management";
-import { useImportExportPlugin } from "@firecms/data_import_export";
+} from "@edumetz16/firecms_user_management";
+import { useImportExportPlugin } from "@edumetz16/firecms_data_import_export";
 import { ExampleCMSView } from "./views/ExampleCMSView";
-import { useFirestoreCollectionsConfigController } from "@firecms/collection_editor_firebase";
-import { mergeCollections, useCollectionEditorPlugin } from "@firecms/collection_editor";
+import { useFirestoreCollectionsConfigController } from "@edumetz16/firecms_collection_editor_firebase";
+import { mergeCollections, useCollectionEditorPlugin } from "@edumetz16/firecms_collection_editor";
 
 export function App() {
 

@@ -4,7 +4,7 @@ import { PropertyPreviewProps } from "../preview";
 import { EntityReference, EntityValues, GeoPoint, Vector } from "./entities";
 import { ResolvedArrayProperty, ResolvedStringProperty } from "./resolved_entities";
 import { FilterValues } from "./collections";
-import { ChipColorKey, ChipColorScheme } from "@firecms/ui";
+import { ChipColorKey, ChipColorScheme } from "@edumetz16/firecms_ui";
 
 /**
  * @group Entity properties

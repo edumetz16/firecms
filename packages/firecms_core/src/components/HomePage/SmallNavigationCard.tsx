@@ -1,4 +1,4 @@
-import { ArrowForwardIcon, cardClickableMixin, cardMixin, cn, focusedMixin, Typography, } from "@firecms/ui";
+import { ArrowForwardIcon, cardClickableMixin, cardMixin, cn, focusedMixin, Typography, } from "@edumetz16/firecms_ui";
 
 import { Link } from "react-router-dom";
 

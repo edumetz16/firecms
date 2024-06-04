@@ -12,8 +12,8 @@ import {
     TableRow,
     Tooltip,
     Typography
-} from "@firecms/ui";
-import { DeleteConfirmationDialog, Role } from "@firecms/core";
+} from "@edumetz16/firecms_ui";
+import { DeleteConfirmationDialog, Role } from "@edumetz16/firecms_core";
 import { useUserManagement } from "../../hooks";
 import { RoleChip } from "./RoleChip";
 import { DEFAULT_ROLES } from "./default_roles";

@@ -1,7 +1,7 @@
 import React, { ComponentType, ReactElement, useCallback, useRef } from "react";
 import equal from "react-fast-compare"
 
-import { Field, FieldProps as FormexFieldProps, getIn } from "@firecms/formex";
+import { Field, FieldProps as FormexFieldProps, getIn } from "@edumetz16/firecms_formex";
 
 import {
     CMSType,
@@ -18,7 +18,7 @@ import { ReadOnlyFieldBinding } from "./field_bindings/ReadOnlyFieldBinding";
 
 import { isHidden, isPropertyBuilder, isReadOnly, resolveProperty } from "../util";
 import { useCustomizationController } from "../hooks";
-import { Typography } from "@firecms/ui";
+import { Typography } from "@edumetz16/firecms_ui";
 import { getFieldConfig, getFieldId } from "../core";
 import { ErrorBoundary } from "../components";
 

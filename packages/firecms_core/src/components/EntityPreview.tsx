@@ -10,7 +10,7 @@ import {
     getValueInPath,
     resolveCollection
 } from "../util";
-import { cn, defaultBorderMixin, IconButton, KeyboardTabIcon, Skeleton, Tooltip, Typography } from "@firecms/ui";
+import { cn, defaultBorderMixin, IconButton, KeyboardTabIcon, Skeleton, Tooltip, Typography } from "@edumetz16/firecms_ui";
 import { PreviewSize, PropertyPreview, SkeletonPropertyComponent } from "../preview";
 import { useCustomizationController, useNavigationController, useSideEntityController } from "../hooks";
 import { useAnalyticsController } from "../hooks/useAnalyticsController";

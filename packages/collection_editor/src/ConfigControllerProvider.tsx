@@ -8,7 +8,7 @@ import {
     useNavigationController,
     User,
     useSnackbarController
-} from "@firecms/core";
+} from "@edumetz16/firecms_core";
 import { CollectionEditorDialog } from "./ui/collection_editor/CollectionEditorDialog";
 import { useNavigate } from "react-router";
 import { CollectionEditorController } from "./types/collection_editor_controller";

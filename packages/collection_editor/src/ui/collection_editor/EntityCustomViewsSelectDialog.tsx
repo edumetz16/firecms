@@ -1,5 +1,5 @@
-import { useCustomizationController } from "@firecms/core";
-import { Button, Dialog, DialogActions, DialogContent, Typography } from "@firecms/ui";
+import { useCustomizationController } from "@edumetz16/firecms_core";
+import { Button, Dialog, DialogActions, DialogContent, Typography } from "@edumetz16/firecms_ui";
 import React from "react";
 
 export function EntityCustomViewsSelectDialog({ open, onClose }: { open: boolean, onClose: (selectedViewKey?: string) => void }) {

@@ -43,13 +43,13 @@ export default defineConfig(() => ({
     },
     resolve: {
         alias: {
-            "@firecms/ui": path.resolve(__dirname, "../ui/src"),
-            "@firecms/core": path.resolve(__dirname, "../core/src"),
-            "@firecms/firebase": path.resolve(__dirname, "../firebase_firecms/src"),
-            "@firecms/formex": path.resolve(__dirname, "../formex/src"),
-            "@firecms/schema_inference": path.resolve(__dirname, "../schema_inference/src"),
-            "@firecms/collection_editor_firebase": path.resolve(__dirname, "../collection_editor_firebase/src"),
-            "@firecms/data_import_export": path.resolve(__dirname, "../data_import_export/src"),
+            "@edumetz16/firecms_ui": path.resolve(__dirname, "../ui/src"),
+            "@edumetz16/firecms_core": path.resolve(__dirname, "../core/src"),
+            "@edumetz16/firecms_firebase": path.resolve(__dirname, "../firebase_firecms/src"),
+            "@edumetz16/firecms_formex": path.resolve(__dirname, "../formex/src"),
+            "@edumetz16/firecms_schema_inference": path.resolve(__dirname, "../schema_inference/src"),
+            "@edumetz16/firecms_collection_editor_firebase": path.resolve(__dirname, "../collection_editor_firebase/src"),
+            "@edumetz16/firecms_data_import_export": path.resolve(__dirname, "../data_import_export/src"),
         }
     },
     plugins: [

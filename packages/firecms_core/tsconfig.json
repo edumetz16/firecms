@@ -32,10 +32,10 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "@firecms/ui": [
+      "@edumetz16/firecms_ui": [
         "../ui/src"
       ],
-      "@firecms/formex": [
+      "@edumetz16/firecms_formex": [
         "../formex/src"
       ]
     }

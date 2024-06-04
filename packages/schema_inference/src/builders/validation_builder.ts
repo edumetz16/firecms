@@ -1,4 +1,4 @@
-import { PropertyValidationSchema } from "@firecms/core";
+import { PropertyValidationSchema } from "@edumetz16/firecms_core";
 import { InferencePropertyBuilderProps } from "../types";
 
 export function buildValidation({

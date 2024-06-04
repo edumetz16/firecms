@@ -1,5 +1,5 @@
-import { getIconForProperty, LabelWithIcon } from "@firecms/cloud";
-import { FieldProps, PropertyConfig, PropertyPreviewProps, Typography } from "@firecms/cloud";
+import { getIconForProperty, LabelWithIcon } from "@edumetz16/firecms_cloud";
+import { FieldProps, PropertyConfig, PropertyPreviewProps, Typography } from "@edumetz16/firecms_cloud";
 
 export const colorPropertyConfig: PropertyConfig = {
     name: "Color picker",

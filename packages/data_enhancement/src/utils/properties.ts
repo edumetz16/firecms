@@ -6,7 +6,7 @@ import {
     PropertiesOrBuilders,
     Property,
     PropertyOrBuilder
-} from "@firecms/core";
+} from "@edumetz16/firecms_core";
 import { InputProperty } from "../types/data_enhancement_controller";
 
 export function getSimplifiedProperties<M extends Record<string, any>>(properties: PropertiesOrBuilders<M>, values: M, path = ""): Record<string, InputProperty> {

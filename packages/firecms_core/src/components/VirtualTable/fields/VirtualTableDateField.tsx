@@ -1,5 +1,5 @@
 import React from "react";
-import { DateTimeField } from "@firecms/ui";
+import { DateTimeField } from "@edumetz16/firecms_ui";
 import { useCustomizationController } from "../../../hooks";
 
 export function VirtualTableDateField(props: {

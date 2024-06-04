@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "@firecms/ui";
+import { Button } from "@edumetz16/firecms_ui";
 
 export default function CustomClassNameButtonDemo() {
     return (

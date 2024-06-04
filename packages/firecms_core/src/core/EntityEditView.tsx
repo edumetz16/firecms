@@ -29,7 +29,7 @@ import {
     useSnackbarController
 } from "../hooks";
 import { EntityForm } from "../form";
-import { CircularProgress, CloseIcon, cn, defaultBorderMixin, IconButton, Tab, Tabs, Typography } from "@firecms/ui";
+import { CircularProgress, CloseIcon, cn, defaultBorderMixin, IconButton, Tab, Tabs, Typography } from "@edumetz16/firecms_ui";
 import { EntityFormSaveParams } from "../form/EntityForm";
 import { useSideDialogContext } from "./index";
 

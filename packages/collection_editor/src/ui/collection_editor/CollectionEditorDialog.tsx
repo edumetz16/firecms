@@ -21,7 +21,7 @@ import {
     useNavigationController,
     User,
     useSnackbarController
-} from "@firecms/core";
+} from "@edumetz16/firecms_core";
 import {
     ArrowBackIcon,
     Button,
@@ -36,7 +36,7 @@ import {
     LoadingButton,
     Tab,
     Tabs
-} from "@firecms/ui";
+} from "@edumetz16/firecms_ui";
 import { YupSchema } from "./CollectionYupValidation";
 import { CollectionDetailsForm } from "./CollectionDetailsForm";
 import { CollectionPropertiesEditorForm } from "./CollectionPropertiesEditorForm";
@@ -45,13 +45,13 @@ import { SubcollectionsEditTab } from "./SubcollectionsEditTab";
 import { CollectionsConfigController } from "../../types/config_controller";
 import { CollectionEditorWelcomeView } from "./CollectionEditorWelcomeView";
 import { CollectionInference } from "../../types/collection_inference";
-import { getInferenceType, ImportSaveInProgress, useImportConfig } from "@firecms/data_import_export";
-import { buildEntityPropertiesFromData } from "@firecms/schema_inference";
+import { getInferenceType, ImportSaveInProgress, useImportConfig } from "@edumetz16/firecms_data_import_export";
+import { buildEntityPropertiesFromData } from "@edumetz16/firecms_schema_inference";
 import { CollectionEditorImportMapping } from "./import/CollectionEditorImportMapping";
 import { CollectionEditorImportDataPreview } from "./import/CollectionEditorImportDataPreview";
 import { cleanPropertiesFromImport } from "./import/clean_import_data";
 import { PersistedCollection } from "../../types/persisted_collection";
-import { Formex, FormexController, useCreateFormex } from "@firecms/formex";
+import { Formex, FormexController, useCreateFormex } from "@edumetz16/firecms_formex";
 import { getFullIdPath } from "./util";
 
 export interface CollectionEditorDialogProps {

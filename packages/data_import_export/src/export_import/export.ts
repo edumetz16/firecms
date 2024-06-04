@@ -6,7 +6,7 @@ import {
     getValueInPath,
     ResolvedProperties,
     ResolvedProperty
-} from "@firecms/core";
+} from "@edumetz16/firecms_core";
 
 interface Header {
     key: string;

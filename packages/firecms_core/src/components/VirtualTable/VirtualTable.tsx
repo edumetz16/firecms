@@ -20,7 +20,7 @@ import { VirtualTableContextProps } from "./types";
 import { VirtualTableHeaderRow } from "./VirtualTableHeaderRow";
 import { VirtualTableRow } from "./VirtualTableRow";
 import { VirtualTableCell } from "./VirtualTableCell";
-import { AssignmentIcon, CenteredView, cn, Typography } from "@firecms/ui";
+import { AssignmentIcon, CenteredView, cn, Typography } from "@edumetz16/firecms_ui";
 
 const VirtualListContext = createContext<VirtualTableContextProps<any>>({} as any);
 VirtualListContext.displayName = "VirtualListContext";

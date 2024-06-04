@@ -12,7 +12,7 @@ import {
     FilterListIcon,
     IconButton,
     Popover
-} from "@firecms/ui";
+} from "@edumetz16/firecms_ui";
 
 interface FilterFormProps<T> {
     column: VirtualTableColumn<T>;

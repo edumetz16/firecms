@@ -15,7 +15,7 @@ import {
     TextareaAutosize,
     Tooltip,
     useAutoComplete
-} from "@firecms/ui";
+} from "@edumetz16/firecms_ui";
 import {
     EntityStatus,
     isPropertyBuilder,
@@ -25,7 +25,7 @@ import {
     PropertyOrBuilder,
     singular,
     stripCollectionPath,
-} from "@firecms/core";
+} from "@edumetz16/firecms_core";
 import { useDataEnhancementController } from "./DataEnhancementControllerProvider";
 import { SamplePrompt } from "../types/data_enhancement_controller";
 import { countStringCharacters } from "../utils/countStringCharacters";

@@ -8,7 +8,7 @@ import {
     FormatItalicIcon,
     FormatStrikethroughIcon,
     FormatUnderlinedIcon
-} from "@firecms/ui";
+} from "@edumetz16/firecms_ui";
 
 export const TextButtons = () => {
     const { editor } = useEditor();

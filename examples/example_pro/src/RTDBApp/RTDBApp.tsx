@@ -15,7 +15,7 @@ import {
     useBuildModeController,
     useBuildNavigationController,
     useValidateAuthenticator
-} from "@firecms/core";
+} from "@edumetz16/firecms_core";
 
 import {
     FirebaseAuthController,
@@ -26,10 +26,10 @@ import {
     useFirebaseStorageSource,
     useInitialiseFirebase,
     useAppCheck,
-} from "@firecms/firebase";
+} from "@edumetz16/firecms_firebase";
 
 import { productsCollection } from "./collections/products_collection";
-import { CenteredView } from "@firecms/ui";
+import { CenteredView } from "@edumetz16/firecms_ui";
 
 const firebaseConfig = {
     apiKey: "AIzaSyCIZxRC_0uy9zU2sQrEo88MigD4Z9ktYzo",

@@ -102,7 +102,7 @@ export function parseChatGPTOutput(output: string, callback: OnFileParsed) {
 // [chip_basic.tsx]
 // \`\`\`
 // import React from "react";
-// import { Chip } from "@firecms/ui";
+// import { Chip } from "@edumetz16/firecms_ui";
 //
 // export default function ChipBasicDemo() {
 //     return (
@@ -116,7 +116,7 @@ export function parseChatGPTOutput(output: string, callback: OnFileParsed) {
 // [chip_sizes.tsx]
 // \`\`\`
 // import React from "react";
-// import { Chip } from "@firecms/ui";
+// import { Chip } from "@edumetz16/firecms_ui";
 //
 // export default function ChipSizeDemo() {
 //     return (
@@ -132,7 +132,7 @@ export function parseChatGPTOutput(output: string, callback: OnFileParsed) {
 // [chip_colors.tsx]
 // \`\`\`
 // import React from "react";
-// import { Chip } from "@firecms/ui";
+// import { Chip } from "@edumetz16/firecms_ui";
 //
 // export default function ChipColorDemo() {
 //     return (
@@ -148,7 +148,7 @@ export function parseChatGPTOutput(output: string, callback: OnFileParsed) {
 // [chip_with_icon.tsx]
 // \`\`\`
 // import React from "react";
-// import { Chip } from "@firecms/ui";
+// import { Chip } from "@edumetz16/firecms_ui";
 // import Icon from "@material-ui/core/Icon";
 //
 // export default function ChipIconDemo() {
@@ -163,7 +163,7 @@ export function parseChatGPTOutput(output: string, callback: OnFileParsed) {
 // [chip_clickable.tsx]
 // \`\`\`
 // import React from "react";
-// import { Chip } from "@firecms/ui";
+// import { Chip } from "@edumetz16/firecms_ui";
 //
 // export default function ChipClickableDemo() {
 //     return (

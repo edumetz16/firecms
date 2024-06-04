@@ -22,8 +22,8 @@ import {
     useBuildModeController,
     useBuildNavigationController,
     User
-} from "@firecms/core";
-import { buildCollectionInference, useFirestoreCollectionsConfigController } from "@firecms/collection_editor_firebase";
+} from "@edumetz16/firecms_core";
+import { buildCollectionInference, useFirestoreCollectionsConfigController } from "@edumetz16/firecms_collection_editor_firebase";
 import {
     CollectionEditorPermissionsBuilder,
     CollectionsConfigController,
@@ -31,8 +31,8 @@ import {
     MissingReferenceWidget,
     PersistedCollection,
     useCollectionEditorPlugin
-} from "@firecms/collection_editor";
-import { useDataEnhancementPlugin } from "@firecms/data_enhancement";
+} from "@edumetz16/firecms_collection_editor";
+import { useDataEnhancementPlugin } from "@edumetz16/firecms_data_enhancement";
 
 import {
     FireCMSBackEndProvider,
@@ -64,9 +64,9 @@ import {
     useFirebaseStorageSource,
     useFirestoreDelegate,
     useInitialiseFirebase
-} from "@firecms/firebase";
-import { ExportAllowedParams, useImportExportPlugin } from "@firecms/data_import_export";
-import { Button, CenteredView, ErrorIcon, Typography } from "@firecms/ui";
+} from "@edumetz16/firecms_firebase";
+import { ExportAllowedParams, useImportExportPlugin } from "@edumetz16/firecms_data_import_export";
+import { Button, CenteredView, ErrorIcon, Typography } from "@edumetz16/firecms_ui";
 import { useSaasPlugin } from "./hooks/useSaasPlugin";
 import {
     resolveUserRolePermissions,
@@ -74,8 +74,8 @@ import {
     UserManagement,
     UserManagementProvider,
     UsersView
-} from "@firecms/user_management";
-import { DataTalkProvider, DataTalkRoutes, useBuildDataTalkConfig } from "@firecms/datatalk";
+} from "@edumetz16/firecms_user_management";
+import { DataTalkProvider, DataTalkRoutes, useBuildDataTalkConfig } from "@edumetz16/firecms_datatalk";
 import { useDataTalkMode } from "./hooks/useDataTalkMode";
 import { FireCMSCloudDataTalkDrawer } from "./components/FireCMSCloudDataTalkDrawer";
 

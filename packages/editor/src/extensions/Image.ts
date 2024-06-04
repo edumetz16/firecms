@@ -1,6 +1,6 @@
 import { Plugin, } from "prosemirror-state";
 import { TiptapImage } from "./index";
-import { cn, defaultBorderMixin } from "@firecms/ui";
+import { cn, defaultBorderMixin } from "@edumetz16/firecms_ui";
 import { Decoration, DecorationSet, EditorView } from "@tiptap/pm/view";
 
 export type UploadFn = (image: File) => Promise<string>;

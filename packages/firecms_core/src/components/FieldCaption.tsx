@@ -1,5 +1,5 @@
 import React from "react";
-import { Typography } from "@firecms/ui";
+import { Typography } from "@edumetz16/firecms_ui";
 
 export function FieldCaption({
                                     error,

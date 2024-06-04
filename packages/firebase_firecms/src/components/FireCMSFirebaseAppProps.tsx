@@ -10,7 +10,7 @@ import {
     FireCMSPlugin,
     Locale,
     PropertyConfig
-} from "@firecms/core";
+} from "@edumetz16/firecms_core";
 import { FirebaseApp } from "@firebase/app";
 import { FirebaseLoginViewProps } from "./FirebaseLoginView";
 import {

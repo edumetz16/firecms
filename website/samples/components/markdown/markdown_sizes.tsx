@@ -1,5 +1,5 @@
 import React from "react";
-import { Markdown } from "@firecms/ui";
+import { Markdown } from "@edumetz16/firecms_ui";
 
 const markdownSource = `
 # Different Sizes

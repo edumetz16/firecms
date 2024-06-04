@@ -1,6 +1,6 @@
 import React from "react";
 import { AdminDrawerMenu } from "./AdminDrawerMenu";
-import { DataTalkDrawer } from "@firecms/datatalk";
+import { DataTalkDrawer } from "@edumetz16/firecms_datatalk";
 
 /**
  * Default drawer used in FireCMS Cloud

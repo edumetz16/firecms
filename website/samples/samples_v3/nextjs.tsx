@@ -1,11 +1,11 @@
 "use client";
 
 import React from "react";
-import { buildCollection, buildProperty, EntityReference } from "@firecms/core";
+import { buildCollection, buildProperty, EntityReference } from "@edumetz16/firecms_core";
 
 import "typeface-rubik";
 import "@fontsource/jetbrains-mono";
-import { FireCMSCloudApp } from "@firecms/cloud";
+import { FireCMSCloudApp } from "@edumetz16/firecms_cloud";
 
 const projectId = "YOUR_PROJECT_ID";
 

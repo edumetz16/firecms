@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Button, Dialog, DialogActions } from "@firecms/ui";
+import { Button, Dialog, DialogActions } from "@edumetz16/firecms_ui";
 
 export default function DialogScrollableDemo() {
     const [open, setOpen] = useState(false);

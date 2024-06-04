@@ -11,7 +11,7 @@ import {
     useNavigationController,
     User,
     WhereFilterOp
-} from "@firecms/core";
+} from "@edumetz16/firecms_core";
 import {
     collection as collectionClause,
     DocumentSnapshot,

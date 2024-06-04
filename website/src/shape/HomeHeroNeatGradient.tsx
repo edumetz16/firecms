@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import { NeatGradient } from "@firecms/neat";
+import { NeatGradient } from "@edumetz16/firecms_neat";
 import { easeInOut } from "../partials/styles";
 
 function getBrightnessFrom(scroll: number) {

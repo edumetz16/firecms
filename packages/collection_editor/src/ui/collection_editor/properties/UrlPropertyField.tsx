@@ -1,9 +1,9 @@
 import React from "react";
 import { StringPropertyValidation } from "./validation/StringPropertyValidation";
 import { ValidationPanel } from "./validation/ValidationPanel";
-import { getIn, useFormex } from "@firecms/formex";
+import { getIn, useFormex } from "@edumetz16/firecms_formex";
 
-import { Select, SelectItem, TextField } from "@firecms/ui";
+import { Select, SelectItem, TextField } from "@edumetz16/firecms_ui";
 
 export function UrlPropertyField({
                                      disabled,

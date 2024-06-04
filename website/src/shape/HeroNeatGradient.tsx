@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import { NeatGradient } from "@firecms/neat";
+import { NeatGradient } from "@edumetz16/firecms_neat";
 
 function getBrightnessFrom(scroll: number, isDark: boolean) {
     if (!isDark) return 1;

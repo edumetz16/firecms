@@ -12,7 +12,7 @@ import { DataSourceContext } from "../contexts/DataSourceContext";
 import { SideEntityControllerContext } from "../contexts/SideEntityControllerContext";
 import { NavigationContext } from "../contexts/NavigationContext";
 import { SideDialogsControllerContext } from "../contexts/SideDialogsControllerContext";
-import { CenteredView, Typography, useLocaleConfig } from "@firecms/ui";
+import { CenteredView, Typography, useLocaleConfig } from "@edumetz16/firecms_ui";
 import { DialogsProvider } from "../contexts/DialogsProvider";
 import { useBuildDataSource } from "../internal/useBuildDataSource";
 import { CustomizationControllerContext } from "../contexts/CustomizationControllerContext";

@@ -1,4 +1,4 @@
-import { ContentCopyIcon, IconButton, Typography } from "@firecms/ui";
+import { ContentCopyIcon, IconButton, Typography } from "@edumetz16/firecms_ui";
 import { useCallback, useState } from "react";
 
 export function PropertyIdCopyTooltipContent({ propertyId }: { propertyId: string }) {

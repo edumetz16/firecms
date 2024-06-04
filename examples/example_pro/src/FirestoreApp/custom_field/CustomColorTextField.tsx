@@ -1,6 +1,6 @@
 import React from "react";
-import { FieldHelperText, FieldProps, useModeController } from "@firecms/core";
-import { TextField } from "@firecms/ui";
+import { FieldHelperText, FieldProps, useModeController } from "@edumetz16/firecms_core";
+import { TextField } from "@edumetz16/firecms_ui";
 
 interface CustomColorTextFieldProps {
     color: string

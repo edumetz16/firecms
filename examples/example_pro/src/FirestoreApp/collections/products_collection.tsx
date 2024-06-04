@@ -1,4 +1,4 @@
-import { AdditionalFieldDelegate, AsyncPreviewComponent, buildCollection, EntityCallbacks } from "@firecms/core";
+import { AdditionalFieldDelegate, AsyncPreviewComponent, buildCollection, EntityCallbacks } from "@edumetz16/firecms_core";
 
 import PriceTextPreview from "../custom_field_preview/PriceTextPreview";
 import { SampleCollectionActions } from "../collection_actions/SampleCollectionActions";

@@ -1,2 +1,2 @@
-import { SearchIconsView } from "@firecms/core";
+import { SearchIconsView } from "@edumetz16/firecms_core";
 export default SearchIconsView;

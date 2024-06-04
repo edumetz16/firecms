@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { FieldCaption, MapProperty, Property, PropertyConfig, } from "@firecms/core";
-import { AddIcon, BooleanSwitchWithLabel, Button, Paper, Typography } from "@firecms/ui";
+import { FieldCaption, MapProperty, Property, PropertyConfig, } from "@edumetz16/firecms_core";
+import { AddIcon, BooleanSwitchWithLabel, Button, Paper, Typography } from "@edumetz16/firecms_ui";
 import { PropertyFormDialog } from "../PropertyEditView";
-import { getIn, useFormex } from "@firecms/formex";
+import { getIn, useFormex } from "@edumetz16/firecms_formex";
 import { PropertyTree } from "../PropertyTree";
 import { getFullId, idToPropertiesPath, namespaceToPropertiesOrderPath, namespaceToPropertiesPath } from "../util";
 

@@ -7,14 +7,14 @@ import {
     ErrorView,
     useDataSource,
     useStorageSource
-} from "@firecms/core";
+} from "@edumetz16/firecms_core";
 import {
     Card,
     CircularProgress,
     Container,
     Markdown,
     Typography,
-} from "@firecms/ui";
+} from "@edumetz16/firecms_ui";
 import { productsCollection } from "./products_collection";
 import { BlogEntry, Product } from "./types";
 

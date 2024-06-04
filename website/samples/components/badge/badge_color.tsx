@@ -1,5 +1,5 @@
 import React from "react";
-import { Badge, Chip } from "@firecms/ui";
+import { Badge, Chip } from "@edumetz16/firecms_ui";
 
 export default function BadgeColorDemo() {
     return (

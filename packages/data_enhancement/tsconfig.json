@@ -33,10 +33,10 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "@firecms/core": [
+      "@edumetz16/firecms_core": [
         "../firecms_core/src"
       ],
-      "@firecms/ui": [
+      "@edumetz16/firecms_ui": [
         "../ui/src"
       ]
     }

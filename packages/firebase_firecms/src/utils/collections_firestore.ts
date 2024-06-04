@@ -12,8 +12,8 @@ import {
     removePropsIfExisting,
     sortProperties,
     stripCollectionPath
-} from "@firecms/core";
-import { PersistedCollection } from "@firecms/collection_editor";
+} from "@edumetz16/firecms_core";
+import { PersistedCollection } from "@edumetz16/firecms_collection_editor";
 
 export function buildCollectionId(idOrPath: string, parentCollectionIds?: string[]): string {
     if (!parentCollectionIds)

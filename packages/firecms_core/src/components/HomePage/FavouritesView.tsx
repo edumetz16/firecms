@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 import { useNavigationController } from "../../hooks";
 import { useUserConfigurationPersistence } from "../../hooks/useUserConfigurationPersistence";
 import { TopNavigationEntry } from "../../types";
-import { Chip, Collapse, StarBorderIcon, StarIcon } from "@firecms/ui";
+import { Chip, Collapse, StarBorderIcon, StarIcon } from "@edumetz16/firecms_ui";
 
 function NavigationChip({ entry }: { entry: TopNavigationEntry }) {
 

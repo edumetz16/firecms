@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from "react";
-import { EntityCollection, unslugify, } from "@firecms/core";
-import { Button, Card, Chip, CircularProgress, cn, Container, Icon, Tooltip, Typography, } from "@firecms/ui";
+import { EntityCollection, unslugify, } from "@edumetz16/firecms_core";
+import { Button, Card, Chip, CircularProgress, cn, Container, Icon, Tooltip, Typography, } from "@edumetz16/firecms_ui";
 
 import { productsCollectionTemplate } from "./templates/products_template";
 import { blogCollectionTemplate } from "./templates/blog_template";
 import { usersCollectionTemplate } from "./templates/users_template";
-import { ImportFileUpload } from "@firecms/data_import_export";
+import { ImportFileUpload } from "@edumetz16/firecms_data_import_export";
 import { pagesCollectionTemplate } from "./templates/pages_template";
-import { useFormex } from "@firecms/formex";
+import { useFormex } from "@edumetz16/firecms_formex";
 
 export function CollectionEditorWelcomeView({
                                                 path,

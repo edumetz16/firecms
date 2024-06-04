@@ -6,9 +6,9 @@ import {
     useAuthController,
     useDrawer,
     useNavigationController
-} from "@firecms/core";
-import { AddIcon, Button, Tooltip, Typography, } from "@firecms/ui";
-import { useCollectionEditorController } from "@firecms/collection_editor";
+} from "@edumetz16/firecms_core";
+import { AddIcon, Button, Tooltip, Typography, } from "@edumetz16/firecms_ui";
+import { useCollectionEditorController } from "@edumetz16/firecms_collection_editor";
 import { RESERVED_GROUPS } from "../utils";
 import { AdminDrawerMenu } from "./AdminDrawerMenu";
 

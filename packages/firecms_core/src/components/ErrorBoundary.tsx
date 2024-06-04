@@ -1,6 +1,6 @@
 import React, { ErrorInfo, PropsWithChildren } from "react";
 
-import { ErrorIcon, Typography } from "@firecms/ui";
+import { ErrorIcon, Typography } from "@edumetz16/firecms_ui";
 
 export class ErrorBoundary extends React.Component<PropsWithChildren<Record<string, unknown>>, {
     error: Error | null

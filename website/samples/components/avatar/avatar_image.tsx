@@ -1,5 +1,5 @@
 import React from "react";
-import { Avatar } from "@firecms/ui";
+import { Avatar } from "@edumetz16/firecms_ui";
 
 export default function AvatarImageDemo() {
     return (

@@ -6,7 +6,7 @@ import { PreviewType } from "../../types";
 import { UrlComponentPreview } from "../components/UrlComponentPreview";
 import { PropertyPreviewProps } from "../PropertyPreviewProps";
 import { ErrorBoundary } from "../../components";
-import { Chip, cn, getColorSchemeForSeed } from "@firecms/ui";
+import { Chip, cn, getColorSchemeForSeed } from "@edumetz16/firecms_ui";
 
 /**
  * @group Preview components

@@ -1,4 +1,4 @@
-import { CMSType, Property } from "@firecms/core";
+import { CMSType, Property } from "@edumetz16/firecms_core";
 import { PersistedCollection } from "./persisted_collection";
 
 /**

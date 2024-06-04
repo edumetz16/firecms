@@ -1,6 +1,6 @@
 import React, { useDeferredValue, useEffect, useState } from "react";
 
-import { FireCMSLogo, useBrowserTitleAndIcon, useSnackbarController } from "@firecms/core";
+import { FireCMSLogo, useBrowserTitleAndIcon, useSnackbarController } from "@edumetz16/firecms_core";
 import {
     BooleanSwitch,
     BooleanSwitchWithLabel,
@@ -12,7 +12,7 @@ import {
     Paper,
     TextField,
     Typography,
-} from "@firecms/ui";
+} from "@edumetz16/firecms_ui";
 import { useFireCMSBackend, useProjectConfig } from "../../hooks";
 import { ProjectSubscriptionPlans, SubscriptionPlanWidget } from "../subscriptions";
 import { SecurityRulesInstructions } from "../SecurityRulesInstructions";

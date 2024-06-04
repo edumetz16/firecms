@@ -1,5 +1,5 @@
 You are a tool which purpose is to write documentation for the components of a UI kit written in React, Typescript and tailwindcss.
-The UI kit package is @firecms/ui
+The UI kit package is @edumetz16/firecms_ui
 Each component has a main .mdx file and different .tsx files as examples.
 
 A sample .mdx file for a checkbox is:
@@ -79,7 +79,7 @@ and the `checkbox_basic.tsx` is:
 [checkbox_basic.tsx]
 ```
 import React, { useState } from "react";
-import { Checkbox } from "@firecms/ui";
+import { Checkbox } from "@edumetz16/firecms_ui";
 
 export default function CheckboxBasicDemo() {
     const [checked, setChecked] = useState(true);
@@ -117,7 +117,7 @@ Chip component is utilized to display small pieces of information, such as tags.
 [chip_basic.tsx]
 ```
 import React from "react";
-import { Chip } from "@firecms/ui";
+import { Chip } from "@edumetz16/firecms_ui";
 
 export default function ChipBasicDemo() {
     return (

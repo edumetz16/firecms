@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Typography } from "@firecms/ui";
+import { Button, Typography } from "@edumetz16/firecms_ui";
 import { SubscriptionMessageProps } from "../types/subscriptions_message_props";
 
 export function DefaultSubscriptionMessage({ projectId }: SubscriptionMessageProps) {

@@ -4,9 +4,9 @@
   "private": true,
   "type": "module",
   "dependencies": {
-    "@firecms/core": "^3.0.0-beta",
-    "@firecms/firebase": "^3.0.0-beta",
-    "@firecms/ui": "^3.0.0-beta",
+    "@edumetz16/firecms_core": "^3.0.0-beta",
+    "@edumetz16/firecms_firebase": "^3.0.0-beta",
+    "@edumetz16/firecms_ui": "^3.0.0-beta",
     "firebase": "^10.9.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",

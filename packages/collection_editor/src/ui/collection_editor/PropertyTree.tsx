@@ -8,8 +8,8 @@ import {
     isPropertyBuilder,
     PropertiesOrBuilders,
     PropertyOrBuilder
-} from "@firecms/core";
-import { AutoAwesomeIcon, defaultBorderMixin, DragHandleIcon, IconButton, RemoveIcon, Tooltip } from "@firecms/ui";
+} from "@edumetz16/firecms_core";
+import { AutoAwesomeIcon, defaultBorderMixin, DragHandleIcon, IconButton, RemoveIcon, Tooltip } from "@edumetz16/firecms_ui";
 import { NonEditablePropertyPreview, PropertyFieldPreview } from "./PropertyFieldPreview";
 import { DragDropContext, Draggable, DraggableProvided, Droppable } from "@hello-pangea/dnd";
 import { getFullId, getFullIdPath } from "./util";

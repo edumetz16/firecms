@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
-import { EntityCollection, randomString } from "@firecms/core";
-import { Button, Checkbox, Label, SendIcon, TextareaAutosize, Tooltip } from "@firecms/ui";
+import { EntityCollection, randomString } from "@edumetz16/firecms_core";
+import { Button, Checkbox, Label, SendIcon, TextareaAutosize, Tooltip } from "@edumetz16/firecms_ui";
 import { MessageLayout } from "./components/MessageLayout";
 import { streamDataTalkCommand } from "./api";
 import { ChatMessage, FeedbackSlug, Session } from "./types";

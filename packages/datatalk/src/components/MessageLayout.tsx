@@ -1,8 +1,8 @@
-import { AutoAwesomeIcon, Avatar, Menu, MenuItem, PersonIcon } from "@firecms/ui";
+import { AutoAwesomeIcon, Avatar, Menu, MenuItem, PersonIcon } from "@edumetz16/firecms_ui";
 import React, { useEffect, useRef, useState } from "react";
 import { ChatMessage, FeedbackSlug } from "../types";
 import { SystemMessage } from "./SystemMessage";
-import { EntityCollection } from "@firecms/core";
+import { EntityCollection } from "@edumetz16/firecms_core";
 
 export function MessageLayout({
                                   message,

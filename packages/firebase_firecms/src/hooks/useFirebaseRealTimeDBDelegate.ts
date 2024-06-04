@@ -24,7 +24,7 @@ import {
     ListenCollectionDelegateProps,
     ListenEntityProps,
     SaveEntityProps
-} from "@firecms/core";
+} from "@edumetz16/firecms_core";
 
 export function useFirebaseRTDBDelegate({ firebaseApp }: { firebaseApp?: FirebaseApp }): DataSourceDelegate {
 

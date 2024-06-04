@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import equal from "react-fast-compare"
 
-import { ArrayContainer, EnumValueConfig, EnumValues, FieldCaption, } from "@firecms/core";
+import { ArrayContainer, EnumValueConfig, EnumValues, FieldCaption, } from "@edumetz16/firecms_core";
 import {
     AutoAwesomeIcon,
     Badge,
@@ -16,9 +16,9 @@ import {
     Paper,
     SettingsIcon,
     Typography
-} from "@firecms/ui";
-import { extractEnumFromValues } from "@firecms/schema_inference";
-import { Field, Formex, getIn, useCreateFormex, useFormex } from "@firecms/formex";
+} from "@edumetz16/firecms_ui";
+import { extractEnumFromValues } from "@edumetz16/firecms_schema_inference";
+import { Field, Formex, getIn, useCreateFormex, useFormex } from "@edumetz16/firecms_formex";
 
 type EnumFormProps = {
     enumValues: EnumValueConfig[];

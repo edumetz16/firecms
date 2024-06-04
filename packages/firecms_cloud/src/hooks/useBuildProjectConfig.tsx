@@ -2,7 +2,7 @@ import React, { useCallback, useEffect, useRef, useState } from "react";
 import { doc, getFirestore, onSnapshot, setDoc } from "@firebase/firestore";
 import { FirebaseApp } from "@firebase/app";
 import { ProjectSubscriptionPlan } from "../types";
-import { UploadFileProps } from "@firecms/core";
+import { UploadFileProps } from "@edumetz16/firecms_core";
 import { FirebaseStorage, getDownloadURL, getStorage, ref, StorageReference, uploadBytes } from "@firebase/storage";
 import { darkenColor, hexToRgbaWithOpacity } from "../utils";
 

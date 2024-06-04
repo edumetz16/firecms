@@ -6,7 +6,7 @@ import {
     resolveEntityView,
     useCustomizationController,
     User
-} from "@firecms/core";
+} from "@edumetz16/firecms_core";
 import {
     AddIcon,
     Alert,
@@ -21,13 +21,13 @@ import {
     TableRow,
     Tooltip,
     Typography,
-} from "@firecms/ui";
+} from "@edumetz16/firecms_ui";
 import { CollectionEditorDialog } from "./CollectionEditorDialog";
 import { CollectionsConfigController } from "../../types/config_controller";
 import { PersistedCollection } from "../../types/persisted_collection";
 import { CollectionInference } from "../../types/collection_inference";
 import { EntityCustomViewsSelectDialog } from "./EntityCustomViewsSelectDialog";
-import { useFormex } from "@firecms/formex";
+import { useFormex } from "@edumetz16/firecms_formex";
 
 export function SubcollectionsEditTab({
                                           collection,

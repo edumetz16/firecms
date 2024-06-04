@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Checkbox } from "@firecms/ui";
+import { Checkbox } from "@edumetz16/firecms_ui";
 
 export default function CheckboxIndeterminateDemo() {
     const [indeterminate, setIndeterminate] = useState(true);

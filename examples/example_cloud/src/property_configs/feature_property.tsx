@@ -1,4 +1,4 @@
-import { PropertyConfig, buildProperty } from '@firecms/cloud';
+import { PropertyConfig, buildProperty } from '@edumetz16/firecms_cloud';
 
 export const featureConfig: PropertyConfig = {
   name: 'Feature',

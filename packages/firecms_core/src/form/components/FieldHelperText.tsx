@@ -1,5 +1,5 @@
 import { ResolvedProperty } from "../../types";
-import { IconButton, InfoIcon, Tooltip, Typography } from "@firecms/ui";
+import { IconButton, InfoIcon, Tooltip, Typography } from "@edumetz16/firecms_ui";
 
 /**
  * Component in charge of rendering the description of a field

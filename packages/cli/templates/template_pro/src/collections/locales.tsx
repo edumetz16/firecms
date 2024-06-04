@@ -1,4 +1,4 @@
-import { buildCollection, buildEnumValues } from "@firecms/core";
+import { buildCollection, buildEnumValues } from "@edumetz16/firecms_core";
 
 const locales = buildEnumValues({
     "en-US": "English (United States)",

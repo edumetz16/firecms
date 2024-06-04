@@ -13,7 +13,7 @@ import {
     useFireCMSContext,
     useNavigationController,
     User
-} from "@firecms/core";
+} from "@edumetz16/firecms_core";
 import {
     Alert,
     BooleanSwitchWithLabel,
@@ -28,7 +28,7 @@ import {
     IconButton,
     Tooltip,
     Typography
-} from "@firecms/ui";
+} from "@edumetz16/firecms_ui";
 import { downloadEntitiesExport } from "./export";
 
 const DOCS_LIMIT = 500;

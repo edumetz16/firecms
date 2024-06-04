@@ -16,7 +16,7 @@ import { ReferenceFilterField } from "./filters/ReferenceFilterField";
 import { StringNumberFilterField } from "./filters/StringNumberFilterField";
 import { BooleanFilterField } from "./filters/BooleanFilterField";
 import { DateTimeFilterField } from "./filters/DateTimeFilterField";
-import { useOutsideAlerter } from "@firecms/ui";
+import { useOutsideAlerter } from "@edumetz16/firecms_ui";
 import { SelectableTableContext } from "./SelectableTableContext";
 
 export type SelectableTableProps<M extends Record<string, any>> = {

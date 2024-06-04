@@ -2,7 +2,7 @@ import React, { CSSProperties, useMemo, useState } from "react";
 
 import { getThumbnailMeasure } from "../util";
 import { PreviewSize } from "../PropertyPreviewProps";
-import { ContentCopyIcon, IconButton, OpenInNewIcon, Tooltip } from "@firecms/ui";
+import { ContentCopyIcon, IconButton, OpenInNewIcon, Tooltip } from "@edumetz16/firecms_ui";
 
 /**
  * @group Preview components

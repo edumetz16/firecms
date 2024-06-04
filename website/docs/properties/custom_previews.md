@@ -25,7 +25,7 @@ Example of a custom preview for a `boolean` property:
 
 ```tsx
 import React, { ReactElement } from "react";
-import { PropertyPreviewProps } from "@firecms/cloud";
+import { PropertyPreviewProps } from "@edumetz16/firecms_cloud";
 
 import CheckBoxOutlineBlank from "@mui/icons-material/CheckBoxOutlineBlank";
 import CheckBoxOutlined from "@mui/icons-material/CheckBoxOutlined";

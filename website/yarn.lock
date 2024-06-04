@@ -2943,66 +2943,66 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@firecms/cloud@link:../packages/firecms_cloud::locator=website%40workspace%3A.":
+"@edumetz16/firecms_cloud@link:../packages/firecms_cloud::locator=website%40workspace%3A.":
   version: 0.0.0-use.local
-  resolution: "@firecms/cloud@link:../packages/firecms_cloud::locator=website%40workspace%3A."
+  resolution: "@edumetz16/firecms_cloud@link:../packages/firecms_cloud::locator=website%40workspace%3A."
   languageName: node
   linkType: soft
 
-"@firecms/collection_editor@link:../packages/collection_editor::locator=website%40workspace%3A.":
+"@edumetz16/firecms_collection_editor@link:../packages/collection_editor::locator=website%40workspace%3A.":
   version: 0.0.0-use.local
-  resolution: "@firecms/collection_editor@link:../packages/collection_editor::locator=website%40workspace%3A."
+  resolution: "@edumetz16/firecms_collection_editor@link:../packages/collection_editor::locator=website%40workspace%3A."
   languageName: node
   linkType: soft
 
-"@firecms/core@link:../packages/firecms_core::locator=website%40workspace%3A.":
+"@edumetz16/firecms_core@link:../packages/firecms_core::locator=website%40workspace%3A.":
   version: 0.0.0-use.local
-  resolution: "@firecms/core@link:../packages/firecms_core::locator=website%40workspace%3A."
+  resolution: "@edumetz16/firecms_core@link:../packages/firecms_core::locator=website%40workspace%3A."
   languageName: node
   linkType: soft
 
-"@firecms/data_enhancement@link:../packages/data_enhancement::locator=website%40workspace%3A.":
+"@edumetz16/firecms_data_enhancement@link:../packages/data_enhancement::locator=website%40workspace%3A.":
   version: 0.0.0-use.local
-  resolution: "@firecms/data_enhancement@link:../packages/data_enhancement::locator=website%40workspace%3A."
+  resolution: "@edumetz16/firecms_data_enhancement@link:../packages/data_enhancement::locator=website%40workspace%3A."
   languageName: node
   linkType: soft
 
-"@firecms/data_import_export@link:../packages/data_import_export::locator=website%40workspace%3A.":
+"@edumetz16/firecms_data_import_export@link:../packages/data_import_export::locator=website%40workspace%3A.":
   version: 0.0.0-use.local
-  resolution: "@firecms/data_import_export@link:../packages/data_import_export::locator=website%40workspace%3A."
+  resolution: "@edumetz16/firecms_data_import_export@link:../packages/data_import_export::locator=website%40workspace%3A."
   languageName: node
   linkType: soft
 
-"@firecms/firebase@link:../packages/firebase_firecms::locator=website%40workspace%3A.":
+"@edumetz16/firecms_firebase@link:../packages/firebase_firecms::locator=website%40workspace%3A.":
   version: 0.0.0-use.local
-  resolution: "@firecms/firebase@link:../packages/firebase_firecms::locator=website%40workspace%3A."
+  resolution: "@edumetz16/firecms_firebase@link:../packages/firebase_firecms::locator=website%40workspace%3A."
   languageName: node
   linkType: soft
 
-"@firecms/formex@link:../packages/formex::locator=website%40workspace%3A.":
+"@edumetz16/firecms_formex@link:../packages/formex::locator=website%40workspace%3A.":
   version: 0.0.0-use.local
-  resolution: "@firecms/formex@link:../packages/formex::locator=website%40workspace%3A."
+  resolution: "@edumetz16/firecms_formex@link:../packages/formex::locator=website%40workspace%3A."
   languageName: node
   linkType: soft
 
-"@firecms/neat@npm:0.2.1":
+"@edumetz16/firecms_neat@npm:0.2.1":
   version: 0.2.1
-  resolution: "@firecms/neat@npm:0.2.1"
+  resolution: "@edumetz16/firecms_neat@npm:0.2.1"
   peerDependencies:
     three: ^0.144.0
   checksum: 85801b75d27c60ee2497d495644f33fec701f829b66a68792f0a88e9b7124c806a285453379826dec4839cfdef9d9d220748d793558abfbb4e883b1ab4a91f90
   languageName: node
   linkType: hard
 
-"@firecms/schema_inference@link:../packages/schema_inference::locator=website%40workspace%3A.":
+"@edumetz16/firecms_schema_inference@link:../packages/schema_inference::locator=website%40workspace%3A.":
   version: 0.0.0-use.local
-  resolution: "@firecms/schema_inference@link:../packages/schema_inference::locator=website%40workspace%3A."
+  resolution: "@edumetz16/firecms_schema_inference@link:../packages/schema_inference::locator=website%40workspace%3A."
   languageName: node
   linkType: soft
 
-"@firecms/ui@link:../packages/ui::locator=website%40workspace%3A.":
+"@edumetz16/firecms_ui@link:../packages/ui::locator=website%40workspace%3A.":
   version: 0.0.0-use.local
-  resolution: "@firecms/ui@link:../packages/ui::locator=website%40workspace%3A."
+  resolution: "@edumetz16/firecms_ui@link:../packages/ui::locator=website%40workspace%3A."
   languageName: node
   linkType: soft
 
@@ -14013,16 +14013,16 @@ __metadata:
     "@docusaurus/preset-classic": ^3.1.1
     "@docusaurus/theme-search-algolia": ^3.1.1
     "@docusaurus/types": ^3.1.1
-    "@firecms/cloud": "link:../packages/firecms_cloud"
-    "@firecms/collection_editor": "link:../packages/collection_editor"
-    "@firecms/core": "link:../packages/firecms_core"
-    "@firecms/data_enhancement": "link:../packages/data_enhancement"
-    "@firecms/data_import_export": "link:../packages/data_import_export"
-    "@firecms/firebase": "link:../packages/firebase_firecms"
-    "@firecms/formex": "link:../packages/formex"
-    "@firecms/neat": 0.2.1
-    "@firecms/schema_inference": "link:../packages/schema_inference"
-    "@firecms/ui": "link:../packages/ui"
+    "@edumetz16/firecms_cloud": "link:../packages/firecms_cloud"
+    "@edumetz16/firecms_collection_editor": "link:../packages/collection_editor"
+    "@edumetz16/firecms_core": "link:../packages/firecms_core"
+    "@edumetz16/firecms_data_enhancement": "link:../packages/data_enhancement"
+    "@edumetz16/firecms_data_import_export": "link:../packages/data_import_export"
+    "@edumetz16/firecms_firebase": "link:../packages/firebase_firecms"
+    "@edumetz16/firecms_formex": "link:../packages/formex"
+    "@edumetz16/firecms_neat": 0.2.1
+    "@edumetz16/firecms_schema_inference": "link:../packages/schema_inference"
+    "@edumetz16/firecms_ui": "link:../packages/ui"
     "@mdx-js/react": ^3.0.1
     "@tsconfig/docusaurus": ^2.0.2
     "@types/react": ^18.2.63

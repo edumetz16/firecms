@@ -1,5 +1,5 @@
-import { DataSource, Entity, EntityCollection, useDataSource } from "@firecms/core";
-import { Button, CenteredView, CircularProgress, Typography, } from "@firecms/ui";
+import { DataSource, Entity, EntityCollection, useDataSource } from "@edumetz16/firecms_core";
+import { Button, CenteredView, CircularProgress, Typography, } from "@edumetz16/firecms_ui";
 import { useEffect, useRef, useState } from "react";
 import { ImportConfig } from "../types";
 

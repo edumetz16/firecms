@@ -1,7 +1,7 @@
 import React, { ReactNode, useCallback, useEffect, useRef, useState } from "react";
 
 import { FirebaseApp, FirebaseError } from "@firebase/app";
-import { ErrorView, FireCMSLogo, useModeController, } from "@firecms/core";
+import { ErrorView, FireCMSLogo, useModeController, } from "@edumetz16/firecms_core";
 import {
     ArrowBackIcon,
     Button,
@@ -12,7 +12,7 @@ import {
     PhoneIcon,
     TextField,
     Typography,
-} from "@firecms/ui";
+} from "@edumetz16/firecms_ui";
 import { appleIcon, facebookIcon, githubIcon, googleIcon, microsoftIcon, twitterIcon } from "./social_icons";
 import {
     getAuth,

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Tabs, Tab } from "@firecms/ui";
+import { Tabs, Tab } from "@edumetz16/firecms_ui";
 
 export default function TabsBasicDemo() {
     const [value, setValue] = useState("tab1");

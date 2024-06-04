@@ -14,14 +14,14 @@ import {
     ResolvedProperties,
     ResolvedProperty
 } from "../../../../types";
-import { Formex, useCreateFormex } from "@firecms/formex";
+import { Formex, useCreateFormex } from "@edumetz16/firecms_formex";
 import { useDraggable } from "./useDraggable";
 import { CustomFieldValidator, getYupEntitySchema } from "../../../../form/validation";
 import { useWindowSize } from "./useWindowSize";
 import { ElementResizeListener } from "./ElementResizeListener";
 import { ErrorView } from "../../../ErrorView";
 import { getPropertyInPath, isReadOnly, resolveCollection } from "../../../../util";
-import { Button, ClearIcon, DialogActions, IconButton, Typography } from "@firecms/ui";
+import { Button, ClearIcon, DialogActions, IconButton, Typography } from "@edumetz16/firecms_ui";
 import { PropertyFieldBinding } from "../../../../form";
 import { useCustomizationController, useFireCMSContext } from "../../../../hooks";
 import { OnCellValueChangeParams } from "../../../common";

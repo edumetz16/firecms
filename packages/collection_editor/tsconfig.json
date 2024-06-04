@@ -31,19 +31,19 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "@firecms/core": [
+      "@edumetz16/firecms_core": [
         "../firecms_core/src"
       ],
-      "@firecms/schema_inference": [
+      "@edumetz16/firecms_schema_inference": [
         "../schema_inference/src"
       ],
-      "@firecms/data_import_export": [
+      "@edumetz16/firecms_data_import_export": [
         "../data_import_export/src"
       ],
-      "@firecms/ui": [
+      "@edumetz16/firecms_ui": [
         "../ui/src"
       ],
-      "@firecms/formex": [
+      "@edumetz16/firecms_formex": [
         "../formex/src"
       ]
     }

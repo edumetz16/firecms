@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Card, CircularProgress, Container, Markdown, Typography } from "@firecms/ui";
+import { Card, CircularProgress, Container, Markdown, Typography } from "@edumetz16/firecms_ui";
 import {
     Entity,
     EntityCustomViewParams,
@@ -8,7 +8,7 @@ import {
     ErrorView,
     useDataSource,
     useStorageSource
-} from "@firecms/core";
+} from "@edumetz16/firecms_core";
 import { productsCollection } from "./products_collection";
 import { BlogEntry, Product } from "./types";
 

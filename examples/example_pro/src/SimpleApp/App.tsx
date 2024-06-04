@@ -16,7 +16,7 @@ import {
     useBuildModeController,
     useBuildNavigationController,
     useValidateAuthenticator
-} from "@firecms/core";
+} from "@edumetz16/firecms_core";
 import {
     FirebaseAuthController,
     FirebaseLoginView,
@@ -26,17 +26,17 @@ import {
     useFirebaseStorageSource,
     useFirestoreDelegate,
     useInitialiseFirebase,
-} from "@firecms/firebase";
-import { useDataEnhancementPlugin } from "@firecms/data_enhancement";
-import { useImportExportPlugin } from "@firecms/data_import_export";
+} from "@edumetz16/firecms_firebase";
+import { useDataEnhancementPlugin } from "@edumetz16/firecms_data_enhancement";
+import { useImportExportPlugin } from "@edumetz16/firecms_data_import_export";
 import {
     useFirestoreUserManagement,
     userManagementAdminViews,
     useUserManagementPlugin
-} from "@firecms/user_management";
+} from "@edumetz16/firecms_user_management";
 import { booksCollection } from "./books_collection";
-import { useFirestoreCollectionsConfigController } from "@firecms/collection_editor_firebase";
-import { mergeCollections, useCollectionEditorPlugin } from "@firecms/collection_editor";
+import { useFirestoreCollectionsConfigController } from "@edumetz16/firecms_collection_editor_firebase";
+import { mergeCollections, useCollectionEditorPlugin } from "@edumetz16/firecms_collection_editor";
 
 // export const firebaseConfig = {
 //     apiKey: "AIzaSyC5uF_VGluR1uTs4w0E0XLfDZSl0utGtME",

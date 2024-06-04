@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { ArrayProperty, getFieldConfig, Property, PropertyConfig } from "@firecms/core";
-import { Button, Paper, Typography } from "@firecms/ui";
-import { Field, getIn, useFormex } from "@firecms/formex";
+import { ArrayProperty, getFieldConfig, Property, PropertyConfig } from "@edumetz16/firecms_core";
+import { Button, Paper, Typography } from "@edumetz16/firecms_ui";
+import { Field, getIn, useFormex } from "@edumetz16/firecms_formex";
 import { PropertyFormDialog } from "../PropertyEditView";
 import { PropertyFieldPreview } from "../PropertyFieldPreview";
 import { ArrayPropertyValidation } from "./validation/ArrayPropertyValidation";

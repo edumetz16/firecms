@@ -6,7 +6,7 @@ import {
     Property,
     PropertyOrBuilder,
     useCustomizationController,
-} from "@firecms/core";
+} from "@edumetz16/firecms_core";
 import {
     cardClickableMixin,
     cardMixin,
@@ -16,7 +16,7 @@ import {
     Paper,
     RemoveCircleIcon,
     Typography,
-} from "@firecms/ui";
+} from "@edumetz16/firecms_ui";
 
 import { editableProperty } from "../../utils/entities";
 

@@ -1,5 +1,5 @@
 import React from "react";
-import { AddIcon, IconButton } from "@firecms/ui";
+import { AddIcon, IconButton } from "@edumetz16/firecms_ui";
 
 export default function IconButtonShapeDemo() {
     return (

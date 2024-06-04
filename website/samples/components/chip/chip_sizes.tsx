@@ -1,5 +1,5 @@
 import React from "react";
-import { Chip } from "@firecms/ui";
+import { Chip } from "@edumetz16/firecms_ui";
 
 export default function ChipSizesDemo() {
     return (

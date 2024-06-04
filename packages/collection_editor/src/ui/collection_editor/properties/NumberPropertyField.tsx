@@ -1,8 +1,8 @@
 import React from "react";
 import { NumberPropertyValidation } from "./validation/NumberPropertyValidation";
 import { ValidationPanel } from "./validation/ValidationPanel";
-import { TextField } from "@firecms/ui";
-import { getIn, useFormex } from "@firecms/formex";
+import { TextField } from "@edumetz16/firecms_ui";
+import { getIn, useFormex } from "@edumetz16/firecms_formex";
 
 export function NumberPropertyField({ disabled }: {
     disabled: boolean;

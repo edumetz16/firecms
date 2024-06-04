@@ -1,5 +1,5 @@
 import React from "react";
-import { Paper } from "@firecms/ui";
+import { Paper } from "@edumetz16/firecms_ui";
 
 export default function PaperCustomizedDemo() {
     const customStyle = {

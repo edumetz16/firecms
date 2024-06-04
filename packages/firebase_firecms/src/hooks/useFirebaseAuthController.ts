@@ -23,7 +23,7 @@ import {
 } from "@firebase/auth";
 import { FirebaseApp } from "@firebase/app";
 import { FirebaseAuthController, FirebaseSignInOption, FirebaseSignInProvider } from "../types";
-import { Role, User } from "@firecms/core";
+import { Role, User } from "@edumetz16/firecms_core";
 
 export interface FirebaseAuthControllerProps {
     loading?: boolean;

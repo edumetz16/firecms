@@ -1,6 +1,6 @@
 import React from "react";
 import { Link as ReactLink } from "react-router-dom";
-import { Button, Typography } from "@firecms/ui";
+import { Button, Typography } from "@edumetz16/firecms_ui";
 
 export function NotFoundPage() {
 

@@ -1,5 +1,5 @@
 {
-    "name": "@firecms/ui",
+    "name": "@edumetz16/firecms_ui",
     "type": "module",
     "version": "3.0.0-canary.53",
     "description": "Awesome Firebase/Firestore-based headless open-source CMS",

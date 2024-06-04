@@ -1,6 +1,6 @@
-import { ErrorView, unslugify, useNavigationController } from "@firecms/core";
+import { ErrorView, unslugify, useNavigationController } from "@edumetz16/firecms_core";
 import { useCollectionEditorController } from "../useCollectionEditorController";
-import { Button } from "@firecms/ui";
+import { Button } from "@edumetz16/firecms_ui";
 
 export function MissingReferenceWidget({ path: pathProp }: {
     path: string

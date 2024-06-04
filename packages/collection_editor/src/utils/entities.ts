@@ -1,4 +1,4 @@
-import { isPropertyBuilder, Properties, PropertiesOrBuilders, Property, PropertyOrBuilder } from "@firecms/core";
+import { isPropertyBuilder, Properties, PropertiesOrBuilders, Property, PropertyOrBuilder } from "@edumetz16/firecms_core";
 
 export function editableProperty(property: PropertyOrBuilder | PropertyOrBuilder): boolean {
     if (isPropertyBuilder(property))

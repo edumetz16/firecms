@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 
 import { useDebouncedCallback } from "../../../util";
-import { TextareaAutosize } from "@firecms/ui";
+import { TextareaAutosize } from "@edumetz16/firecms_ui";
 
 export function VirtualTableInput(props: {
     error: Error | undefined;

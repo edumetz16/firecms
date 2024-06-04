@@ -9,7 +9,7 @@ import {
     useAuthController,
     useCustomizationController, User,
     useSnackbarController
-} from "@firecms/core";
+} from "@edumetz16/firecms_core";
 import {
     Button,
     CenteredView,
@@ -22,7 +22,7 @@ import {
     TableRow,
     Tooltip,
     Typography,
-} from "@firecms/ui";
+} from "@edumetz16/firecms_ui";
 import { useUserManagement } from "../../hooks";
 import { RoleChip } from "../roles";
 import { PersistedUser } from "../../types";

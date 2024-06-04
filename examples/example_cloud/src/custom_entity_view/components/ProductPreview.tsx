@@ -1,7 +1,7 @@
-import { Entity, EntityReference, EntityValues, useDataSource } from "@firecms/core";
+import { Entity, EntityReference, EntityValues, useDataSource } from "@edumetz16/firecms_core";
 import { useEffect, useState } from "react";
 import { Product } from "../../types";
-import { Card, CircularProgress, Typography } from "@firecms/ui";
+import { Card, CircularProgress, Typography } from "@edumetz16/firecms_ui";
 import { StorageImage } from "./StorageImage";
 
 export function ProductGroupPreview({ references }: {

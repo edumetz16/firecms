@@ -6,7 +6,7 @@ import {
     SmallNavigationCard,
     useCustomizationController,
     useNavigationController
-} from "@firecms/core";
+} from "@edumetz16/firecms_core";
 import { SubscriptionPlanWidget } from "./subscriptions";
 import { ADMIN_VIEWS_CONFIG } from "../utils";
 

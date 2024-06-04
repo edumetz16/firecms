@@ -1,5 +1,5 @@
-import { ResolvedProperty } from "@firecms/core";
-import { IconButton, SettingsIcon, Tooltip } from "@firecms/ui";
+import { ResolvedProperty } from "@edumetz16/firecms_core";
+import { IconButton, SettingsIcon, Tooltip } from "@edumetz16/firecms_ui";
 import React from "react";
 import { useCollectionEditorController } from "../useCollectionEditorController";
 import { PersistedCollection } from "../types/persisted_collection";

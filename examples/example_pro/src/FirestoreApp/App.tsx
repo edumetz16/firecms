@@ -5,7 +5,7 @@ import "@fontsource/jetbrains-mono";
 
 import { getAnalytics, logEvent } from "@firebase/analytics";
 
-import { CenteredView, GitHubIcon, IconButton, Tooltip, } from "@firecms/ui";
+import { CenteredView, GitHubIcon, IconButton, Tooltip, } from "@edumetz16/firecms_ui";
 import {
     Authenticator,
     CircularProgressCenter,
@@ -21,7 +21,7 @@ import {
     useBuildModeController,
     useBuildNavigationController,
     useValidateAuthenticator,
-} from "@firecms/core";
+} from "@edumetz16/firecms_core";
 import {
     FirebaseAuthController,
     FirebaseSignInProvider,
@@ -31,14 +31,14 @@ import {
     useFirebaseStorageSource,
     useFirestoreDelegate,
     useInitialiseFirebase
-} from "@firecms/firebase";
-import { useDataEnhancementPlugin } from "@firecms/data_enhancement";
-import { useImportExportPlugin } from "@firecms/data_import_export";
+} from "@edumetz16/firecms_firebase";
+import { useDataEnhancementPlugin } from "@edumetz16/firecms_data_enhancement";
+import { useImportExportPlugin } from "@edumetz16/firecms_data_import_export";
 import {
     useFirestoreUserManagement,
     userManagementAdminViews,
     useUserManagementPlugin
-} from "@firecms/user_management";
+} from "@edumetz16/firecms_user_management";
 
 import { firebaseConfig } from "../firebase_config";
 // import { publicRecaptchaKey } from "../appcheck_config";
@@ -55,8 +55,8 @@ import CustomColorTextField from "./custom_field/CustomColorTextField";
 import { booksCollection } from "./collections/books_collection";
 import { FirebaseApp } from "@firebase/app";
 import { TestEditorView } from "./TestEditorView";
-import { mergeCollections, useCollectionEditorPlugin } from "@firecms/collection_editor";
-import { useFirestoreCollectionsConfigController } from "@firecms/collection_editor_firebase";
+import { mergeCollections, useCollectionEditorPlugin } from "@edumetz16/firecms_collection_editor";
+import { useFirestoreCollectionsConfigController } from "@edumetz16/firecms_collection_editor_firebase";
 import { ReCaptchaEnterpriseProvider } from "@firebase/app-check";
 
 const signInOptions: FirebaseSignInProvider[] = ["google.com"];

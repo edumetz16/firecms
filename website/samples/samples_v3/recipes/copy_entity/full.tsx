@@ -7,9 +7,9 @@ import {
     useDataSource,
     useReferenceDialog,
     useSnackbarController
-} from "@firecms/core";
+} from "@edumetz16/firecms_core";
 import { useCallback } from "react";
-import { Button } from "@firecms/ui";
+import { Button } from "@edumetz16/firecms_ui";
 
 type Product = {
     name: string;

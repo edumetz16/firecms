@@ -1,7 +1,7 @@
 import React from "react";
 
-import { getIn, useFormex } from "@firecms/formex";
-import { DebouncedTextField } from "@firecms/ui";
+import { getIn, useFormex } from "@edumetz16/firecms_formex";
+import { DebouncedTextField } from "@edumetz16/firecms_ui";
 import { GeneralPropertyValidation } from "./GeneralPropertyValidation";
 
 export function ArrayPropertyValidation({

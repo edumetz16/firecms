@@ -14,11 +14,11 @@ Formex is a lightweight, flexible library designed to simplify form handling wit
 To install Formex, you can use either npm or yarn:
 
 ```sh
-npm install @firecms/formex
+npm install @edumetz16/firecms_formex
 
 # or if you're using yarn
 
-yarn add @firecms/formex
+yarn add @edumetz16/firecms_formex
 ```
 
 ## Quick Start

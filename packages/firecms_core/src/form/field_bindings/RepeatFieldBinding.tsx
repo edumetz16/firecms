@@ -4,7 +4,7 @@ import { FieldHelperText, FormikArrayContainer, LabelWithIcon } from "../compone
 import { ErrorBoundary } from "../../components";
 import { getIconForProperty } from "../../util";
 import { PropertyFieldBinding } from "../PropertyFieldBinding";
-import { ExpandablePanel } from "@firecms/ui";
+import { ExpandablePanel } from "@edumetz16/firecms_ui";
 import { useClearRestoreValue } from "../useClearRestoreValue";
 
 /**

@@ -4,7 +4,7 @@ export default {
     content: [
         "./index.html",
         "./src/**/*.{js,ts,jsx,tsx}",
-        "./node_modules/@firecms/**/*.{js,ts,jsx,tsx}"
+        "./node_modules/@edumetz16/firecms_**/*.{js,ts,jsx,tsx}"
     ],
     plugins: [
         require("@tailwindcss/typography")

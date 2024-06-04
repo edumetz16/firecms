@@ -18,7 +18,7 @@ import {
     useBuildModeController,
     useBuildNavigationController,
     useValidateAuthenticator
-} from "@firecms/core";
+} from "@edumetz16/firecms_core";
 import {
     FirebaseAuthController,
     FirebaseLoginView,
@@ -26,7 +26,7 @@ import {
     useFirebaseStorageSource,
     useFirestoreDelegate,
     useInitialiseFirebase,
-} from "@firecms/firebase";
+} from "@edumetz16/firecms_firebase";
 
 import { firebaseConfig } from "../firebase_config";
 

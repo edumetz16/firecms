@@ -26,13 +26,13 @@ follow the [quickstart](/docs/quickstart).
 :::
 
 ```bash
-npm install @firecms/data_enhancement
+npm install @edumetz16/firecms_data_enhancement
 ```
 
 or
 
 ```bash
-yarn add @firecms/data_enhancement
+yarn add @edumetz16/firecms_data_enhancement
 ```
 
 The plugin is then initialised as a React hook, which is added to the `plugins`
@@ -41,11 +41,11 @@ component.
 
 ```tsx
 import React from "react";
-import { FirebaseCMSApp } from "@firecms/core";
+import { FirebaseCMSApp } from "@edumetz16/firecms_core";
 import "typeface-rubik";
 import "@fontsource/ibm-plex-mono";
 
-import { useDataEnhancementPlugin } from "@firecms/data_enhancement";
+import { useDataEnhancementPlugin } from "@edumetz16/firecms_data_enhancement";
 
 // TODO: Replace with your Firebase config
 const firebaseConfig = {

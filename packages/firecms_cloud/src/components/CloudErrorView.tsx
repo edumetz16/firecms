@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { useSnackbarController } from "@firecms/core";
-import { BuildIcon, Button, LoadingButton, Typography } from "@firecms/ui";
+import { useSnackbarController } from "@edumetz16/firecms_core";
+import { BuildIcon, Button, LoadingButton, Typography } from "@edumetz16/firecms_ui";
 import { FireCMSBackend } from "../types";
 import { useFireCMSBackend } from "../hooks";
 

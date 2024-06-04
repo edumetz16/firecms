@@ -16,7 +16,7 @@ import {
     ListenEntityProps,
     SaveEntityProps,
     WhereFilterOp
-} from "@firecms/core";
+} from "@edumetz16/firecms_core";
 import {
     addValueAtIndex,
     getEntityIndex,

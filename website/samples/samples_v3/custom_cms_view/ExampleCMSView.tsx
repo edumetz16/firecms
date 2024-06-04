@@ -15,7 +15,7 @@ import {
     useSelectionController,
     useSideEntityController,
     useSnackbarController
-} from "@firecms/core";
+} from "@edumetz16/firecms_core";
 
 const usersCollection = buildCollection({
     path: "users",

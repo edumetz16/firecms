@@ -1,5 +1,5 @@
 import React, { Suspense } from "react";
-import { cn, Paper } from "@firecms/ui";
+import { cn, Paper } from "@edumetz16/firecms_ui";
 import BrowserOnly from "@docusaurus/BrowserOnly";
 
 export type CodeSampleProps = {

@@ -1,5 +1,5 @@
 {
-  "name": "@firecms/data_import_export",
+  "name": "@edumetz16/firecms_data_import_export",
   "type": "module",
   "version": "3.0.0-canary.53",
   "access": "public",
@@ -8,10 +8,10 @@
   "types": "./dist/index.d.ts",
   "source": "src/index.ts",
   "dependencies": {
-    "@firecms/core": "^3.0.0-canary.53",
-    "@firecms/formex": "^3.0.0-canary.53",
-    "@firecms/schema_inference": "^3.0.0-canary.53",
-    "@firecms/ui": "^3.0.0-canary.53",
+    "@edumetz16/firecms_core": "^3.0.0-canary.53",
+    "@edumetz16/firecms_formex": "^3.0.0-canary.53",
+    "@edumetz16/firecms_schema_inference": "^3.0.0-canary.53",
+    "@edumetz16/firecms_ui": "^3.0.0-canary.53",
     "xlsx": "^0.18.5"
   },
   "peerDependencies": {

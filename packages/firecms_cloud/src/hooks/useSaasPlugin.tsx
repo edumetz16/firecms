@@ -1,7 +1,7 @@
-import { FireCMSPlugin, useNavigationController } from "@firecms/core";
-import { FirestoreDelegate } from "@firecms/firebase";
-import { CollectionsConfigController } from "@firecms/collection_editor";
-import { Typography } from "@firecms/ui";
+import { FireCMSPlugin, useNavigationController } from "@edumetz16/firecms_core";
+import { FirestoreDelegate } from "@edumetz16/firecms_firebase";
+import { CollectionsConfigController } from "@edumetz16/firecms_collection_editor";
+import { Typography } from "@edumetz16/firecms_ui";
 import { ProjectConfig } from "./useBuildProjectConfig";
 import { TextSearchInfoDialog } from "../components/subscriptions/TextSearchInfoDialog";
 import { FireCMSAppConfig } from "../types";

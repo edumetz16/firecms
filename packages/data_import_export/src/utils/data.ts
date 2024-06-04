@@ -9,10 +9,10 @@ import {
     PropertyOrBuilder,
     ResolvedProperty,
     resolveProperty
-} from "@firecms/core";
+} from "@edumetz16/firecms_core";
 import { unflattenObject } from "./file_to_json";
-import { getIn } from "@firecms/formex";
-import { inferTypeFromValue } from "@firecms/schema_inference";
+import { getIn } from "@edumetz16/firecms_formex";
+import { inferTypeFromValue } from "@edumetz16/firecms_schema_inference";
 
 export function convertDataToEntity(data: Record<any, any>,
                                     idColumn: string | undefined,

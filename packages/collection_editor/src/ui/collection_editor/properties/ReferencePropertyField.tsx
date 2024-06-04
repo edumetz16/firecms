@@ -1,7 +1,7 @@
 import React from "react";
-import { Field, getIn, useFormex } from "@firecms/formex";
-import { FieldCaption, IconForView, NumberProperty, StringProperty, useNavigationController } from "@firecms/core";
-import { CircularProgress, Select, SelectGroup, SelectItem, Typography, } from "@firecms/ui";
+import { Field, getIn, useFormex } from "@edumetz16/firecms_formex";
+import { FieldCaption, IconForView, NumberProperty, StringProperty, useNavigationController } from "@edumetz16/firecms_core";
+import { CircularProgress, Select, SelectGroup, SelectItem, Typography, } from "@edumetz16/firecms_ui";
 
 export function ReferencePropertyField({
                                            existing,

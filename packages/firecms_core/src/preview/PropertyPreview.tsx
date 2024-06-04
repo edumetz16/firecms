@@ -17,7 +17,7 @@ import { useCustomizationController } from "../hooks";
 import { EmptyValue } from "./components/EmptyValue";
 import { UrlComponentPreview } from "./components/UrlComponentPreview";
 import { StorageThumbnail } from "./components/StorageThumbnail";
-import { Markdown } from "@firecms/ui";
+import { Markdown } from "@edumetz16/firecms_ui";
 import { StringPropertyPreview } from "./property_previews/StringPropertyPreview";
 import { ArrayPropertyPreview } from "./property_previews/ArrayPropertyPreview";
 import { ArrayOfReferencesPreview } from "./property_previews/ArrayOfReferencesPreview";

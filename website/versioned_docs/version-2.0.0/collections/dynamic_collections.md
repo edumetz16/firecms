@@ -16,7 +16,7 @@ import { useCallback } from "react";
 import {
 // ...
     EntityCollectionsBuilder,
-} from "@firecms/core";
+} from "@edumetz16/firecms_core";
 
 // ...
 

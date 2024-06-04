@@ -1,7 +1,7 @@
 import React, { useCallback } from "react";
 import { Blocker, Transition } from "history";
 import { UNSAFE_NavigationContext, useNavigate } from "react-router-dom";
-import { Button, Dialog, DialogActions, DialogContent, Typography } from "@firecms/ui";
+import { Button, Dialog, DialogActions, DialogContent, Typography } from "@edumetz16/firecms_ui";
 
 export function useNavigationUnsavedChangesDialog(when: boolean, onSuccess: () => void):
     {

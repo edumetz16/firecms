@@ -4,8 +4,8 @@ import {
     PersistedCollection,
     SaveCollectionParams,
     UpdateCollectionParams
-} from "@firecms/collection_editor";
-import { DeletePropertyParams, SavePropertyParams } from "@firecms/collection_editor/dist/types/config_controller";
+} from "@edumetz16/firecms_collection_editor";
+import { DeletePropertyParams, SavePropertyParams } from "@edumetz16/firecms_collection_editor/dist/types/config_controller";
 
 export function useBuildMockCollectionsConfigController(): CollectionsConfigController {
 

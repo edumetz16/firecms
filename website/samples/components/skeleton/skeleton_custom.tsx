@@ -1,5 +1,5 @@
 import React from "react";
-import { Skeleton } from "@firecms/ui";
+import { Skeleton } from "@edumetz16/firecms_ui";
 
 export default function SkeletonCustomDemo() {
     return (

@@ -6,7 +6,7 @@ import { ErrorView } from "../../components";
 import { getIconForProperty, getReferenceFrom } from "../../util";
 
 import { useNavigationController, useReferenceDialog } from "../../hooks";
-import { Button, cn, ExpandablePanel, fieldBackgroundMixin } from "@firecms/ui";
+import { Button, cn, ExpandablePanel, fieldBackgroundMixin } from "@edumetz16/firecms_ui";
 import { useClearRestoreValue } from "../useClearRestoreValue";
 
 type ArrayOfReferencesFieldProps = FieldProps<EntityReference[]>;

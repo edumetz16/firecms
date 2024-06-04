@@ -3,7 +3,7 @@ import { FirestoreTextSearchController, FirestoreTextSearchControllerBuilder } f
 // @ts-ignore
 import * as JsSearch from "js-search";
 import { FirebaseApp } from "@firebase/app";
-import { EntityCollection, ResolvedEntityCollection } from "@firecms/core";
+import { EntityCollection, ResolvedEntityCollection } from "@edumetz16/firecms_core";
 
 const MAX_SEARCH_RESULTS = 100;
 

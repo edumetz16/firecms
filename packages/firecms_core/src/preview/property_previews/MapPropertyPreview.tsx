@@ -3,7 +3,7 @@ import React from "react";
 import { ResolvedMapProperty } from "../../types";
 import { PropertyPreviewProps } from "../PropertyPreviewProps";
 import { PropertyPreview } from "../PropertyPreview";
-import { cn, defaultBorderMixin, Typography } from "@firecms/ui";
+import { cn, defaultBorderMixin, Typography } from "@edumetz16/firecms_ui";
 import { ErrorBoundary } from "../../components";
 import { EmptyValue } from "../components/EmptyValue";
 

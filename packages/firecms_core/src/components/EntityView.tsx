@@ -2,7 +2,7 @@ import React, { useMemo } from "react";
 import { PropertyPreview } from "../preview";
 import { Entity, EntityCollection, ResolvedEntityCollection, ResolvedProperties } from "../types";
 import { resolveCollection } from "../util";
-import { cn, defaultBorderMixin, IconButton, OpenInNewIcon } from "@firecms/ui";
+import { cn, defaultBorderMixin, IconButton, OpenInNewIcon } from "@edumetz16/firecms_ui";
 import { CustomizationController } from "../types/customization_controller";
 import { useCustomizationController } from "../hooks/useCustomizationController";
 

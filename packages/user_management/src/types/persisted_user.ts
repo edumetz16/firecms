@@ -1,4 +1,4 @@
-import { User } from "@firecms/core";
+import { User } from "@edumetz16/firecms_core";
 
 export type PersistedUser = User & {
     updated_on?: Date;

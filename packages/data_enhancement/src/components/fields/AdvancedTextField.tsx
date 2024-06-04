@@ -9,7 +9,7 @@ import {
     InputLabel,
     TextareaAutosize,
     TextField
-} from "@firecms/ui";
+} from "@edumetz16/firecms_ui";
 
 export type InputType<T> = T extends string ? "text" : "number";
 

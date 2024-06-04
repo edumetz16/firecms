@@ -11,7 +11,7 @@ import {
 } from "@firebase/firestore";
 import { FirebaseApp } from "@firebase/app";
 import { UserManagement } from "../types";
-import { Authenticator, PermissionsBuilder, Role, User } from "@firecms/core";
+import { Authenticator, PermissionsBuilder, Role, User } from "@edumetz16/firecms_core";
 import { resolveUserRolePermissions } from "../utils";
 
 type UserWithRoleIds = User & { roles: string[] };

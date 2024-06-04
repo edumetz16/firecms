@@ -1,5 +1,5 @@
 import { buildEntityPropertiesFromData } from "../collection_builder";
-import { DataType } from "@firecms/core";
+import { DataType } from "@edumetz16/firecms_core";
 
 // import usage from "./usage.json" assert {
 //         type: "json",

@@ -1,5 +1,5 @@
 import React from "react";
-import { Table, TableBody, TableHeader, TableRow, TableCell } from "@firecms/ui";
+import { Table, TableBody, TableHeader, TableRow, TableCell } from "@edumetz16/firecms_ui";
 
 export default function TableBasicDemo() {
     return (

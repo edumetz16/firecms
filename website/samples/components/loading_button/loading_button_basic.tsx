@@ -1,5 +1,5 @@
 import React from "react";
-import { LoadingButton } from "@firecms/ui";
+import { LoadingButton } from "@edumetz16/firecms_ui";
 
 export default function LoadingButtonBasicDemo() {
     const [loading, setLoading] = React.useState(false);

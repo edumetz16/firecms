@@ -5,7 +5,7 @@ import { FieldProps } from "../../types";
 import { FieldHelperText, LabelWithIcon } from "../components";
 import { useCustomizationController } from "../../hooks";
 import { getIconForProperty } from "../../util";
-import { DateTimeField } from "@firecms/ui";
+import { DateTimeField } from "@edumetz16/firecms_ui";
 import { useClearRestoreValue } from "../useClearRestoreValue";
 
 type DateTimeFieldProps = FieldProps<Date>;

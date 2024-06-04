@@ -1,6 +1,6 @@
 import { FirebaseApp } from "@firebase/app";
 import { getDownloadURL, getMetadata, getStorage, ref, uploadBytes } from "@firebase/storage";
-import { DownloadConfig, DownloadMetadata, StorageSource, UploadFileProps } from "@firecms/core";
+import { DownloadConfig, DownloadMetadata, StorageSource, UploadFileProps } from "@edumetz16/firecms_core";
 
 /**
  * @group Firebase

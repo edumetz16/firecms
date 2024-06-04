@@ -1,4 +1,4 @@
-import { FileType, Property, StringProperty } from "@firecms/core";
+import { FileType, Property, StringProperty } from "@edumetz16/firecms_core";
 import { InferencePropertyBuilderProps, ValuesCountEntry } from "../types";
 import { findCommonInitialStringInPath } from "../strings";
 import { extractEnumFromValues } from "../util";

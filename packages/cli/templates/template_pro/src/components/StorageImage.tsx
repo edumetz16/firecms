@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { useStorageSource } from "@firecms/core";
-import { cn } from "@firecms/ui";
+import { useStorageSource } from "@edumetz16/firecms_core";
+import { cn } from "@edumetz16/firecms_ui";
 
 /**
  * This is a simple component that renders an image from a Firebase Storage path.

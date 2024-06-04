@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import { useSideDialogsController } from "@firecms/core";
-import { AutoFixHighIcon, Button, Dialog, DialogActions, DialogContent, IconButton, Typography, } from "@firecms/ui";
+import { useSideDialogsController } from "@edumetz16/firecms_core";
+import { AutoFixHighIcon, Button, Dialog, DialogActions, DialogContent, IconButton, Typography, } from "@edumetz16/firecms_ui";
 
 /**
  * This whole component is a big hack used to point the user to the

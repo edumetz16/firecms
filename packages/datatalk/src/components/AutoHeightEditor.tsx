@@ -1,4 +1,4 @@
-import { useModeController } from "@firecms/core";
+import { useModeController } from "@edumetz16/firecms_core";
 
 import Editor from "@monaco-editor/react";
 import { useEffect, useRef } from "react";

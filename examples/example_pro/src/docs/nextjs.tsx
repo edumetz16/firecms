@@ -1,11 +1,11 @@
 "use client";
 
 import React, { useCallback } from "react";
-import { Authenticator, buildCollection, buildProperty, EntityReference } from "@firecms/core";
+import { Authenticator, buildCollection, buildProperty, EntityReference } from "@edumetz16/firecms_core";
 
 import "typeface-rubik";
 import "@fontsource/jetbrains-mono";
-import { FirebaseUserWrapper, FireCMSFirebaseApp } from "@firecms/firebase";
+import { FirebaseUserWrapper, FireCMSFirebaseApp } from "@edumetz16/firecms_firebase";
 
 // TODO: Replace with your config
 const firebaseConfig = {

@@ -8,7 +8,7 @@ import { getPreviewSizeFrom } from "../../../preview/util";
 import { getReferenceFrom } from "../../../util";
 import { useCustomizationController, useNavigationController, useReferenceDialog } from "../../../hooks";
 import { ErrorView } from "../../ErrorView";
-import { Button } from "@firecms/ui";
+import { Button } from "@edumetz16/firecms_ui";
 import { EntityPreviewContainer } from "../../EntityPreview";
 
 type TableReferenceFieldProps = {

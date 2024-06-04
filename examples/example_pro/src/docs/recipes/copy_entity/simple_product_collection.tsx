@@ -1,4 +1,4 @@
-import { buildCollection, buildProperties } from "@firecms/core";
+import { buildCollection, buildProperties } from "@edumetz16/firecms_core";
 
 export type Product = {
     name: string;

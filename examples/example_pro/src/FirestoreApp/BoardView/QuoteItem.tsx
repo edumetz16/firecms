@@ -2,7 +2,7 @@ import React, { CSSProperties, FC } from "react";
 import { DraggableProvided } from "@hello-pangea/dnd";
 import type { ItemViewProps } from "./components/types";
 import { Quote } from "./data";
-import { cn, defaultBorderMixin } from "@firecms/ui";
+import { cn, defaultBorderMixin } from "@edumetz16/firecms_ui";
 
 const getBackgroundColor = (
     isDragging: boolean,

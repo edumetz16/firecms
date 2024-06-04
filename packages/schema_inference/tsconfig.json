@@ -32,7 +32,7 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "@firecms/core": [
+      "@edumetz16/firecms_core": [
         "../firecms_core"
       ]
     }

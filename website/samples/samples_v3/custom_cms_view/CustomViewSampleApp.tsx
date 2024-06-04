@@ -1,6 +1,6 @@
-import { buildCollection, CMSView } from "@firecms/core";
+import { buildCollection, CMSView } from "@edumetz16/firecms_core";
 import { ExampleCMSView } from "./ExampleCMSView";
-import { FireCMSAppConfig, FireCMSCloudApp } from "@firecms/cloud";
+import { FireCMSAppConfig, FireCMSCloudApp } from "@edumetz16/firecms_cloud";
 
 const projectId = "YOUR_PROJECT_ID";
 

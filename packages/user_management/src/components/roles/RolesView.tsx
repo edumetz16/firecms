@@ -1,7 +1,7 @@
 import React, { useCallback, useState } from "react";
 
-import { Role, useNavigationController } from "@firecms/core";
-import { AddIcon, Button, Container, Tooltip, Typography } from "@firecms/ui";
+import { Role, useNavigationController } from "@edumetz16/firecms_core";
+import { AddIcon, Button, Container, Tooltip, Typography } from "@edumetz16/firecms_ui";
 import { RolesTable } from "./RolesTable";
 import { RolesDetailsForm } from "./RolesDetailsForm";
 import { useUserManagement } from "../../hooks";

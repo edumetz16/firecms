@@ -50,7 +50,7 @@ import {
     buildCollection,
     FireCMSCloudApp,
     EntityCollectionsBuilder
-} from "@firecms/cloud";
+} from "@edumetz16/firecms_cloud";
 
 const client: SearchClient | undefined = algoliasearch("YOUR_ALGOLIA_APP_ID", "YOUR_ALGOLIA_SEARCH_KEY");
 

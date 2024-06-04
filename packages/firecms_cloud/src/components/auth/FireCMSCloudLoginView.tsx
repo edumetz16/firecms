@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
-import { BooleanSwitchWithLabel, Typography } from "@firecms/ui";
-import { ErrorView, FireCMSLogo } from "@firecms/core";
+import { BooleanSwitchWithLabel, Typography } from "@edumetz16/firecms_ui";
+import { ErrorView, FireCMSLogo } from "@edumetz16/firecms_core";
 import { GoogleLoginButton } from "./GoogleLoginButton";
 import { FireCMSBackend } from "../../types";
 

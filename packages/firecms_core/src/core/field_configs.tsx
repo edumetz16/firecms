@@ -38,7 +38,7 @@ import {
     SubjectIcon,
     UploadFileIcon,
     ViewStreamIcon
-} from "@firecms/ui";
+} from "@edumetz16/firecms_ui";
 
 export function isDefaultFieldConfigId(id: string) {
     return Object.keys(DEFAULT_FIELD_CONFIGS).includes(id);

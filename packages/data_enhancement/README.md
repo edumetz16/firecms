@@ -24,11 +24,11 @@ No need to add any subscription key or anything like that.
 
 ```tsx
 import React from "react";
-import { FirebaseCMSApp } from "@firecms/core";
+import { FirebaseCMSApp } from "@edumetz16/firecms_core";
 import "typeface-rubik";
 import "@fontsource/jetbrains-mono";
 
-import { useDataEnhancementPlugin } from "@firecms/data_enhancement";
+import { useDataEnhancementPlugin } from "@edumetz16/firecms_data_enhancement";
 
 // TODO: Replace with your Firebase config
 const firebaseConfig = {

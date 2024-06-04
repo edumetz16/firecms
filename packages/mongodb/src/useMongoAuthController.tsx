@@ -1,7 +1,7 @@
 import React, { useCallback, useState } from "react";
 import * as Realm from "realm-web";
 
-import { AuthController } from "@firecms/core";
+import { AuthController } from "@edumetz16/firecms_core";
 
 interface MongoAuthControllerProps {
     app: Realm.App;

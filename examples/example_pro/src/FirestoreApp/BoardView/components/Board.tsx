@@ -4,7 +4,7 @@ import { DragDropContext, Droppable } from "@hello-pangea/dnd";
 import Column from "./Column";
 import reorder, { reorderItemMap } from "./reorder";
 import { Item, ItemMap, ItemViewProps } from "./types";
-import { cn } from "@firecms/ui";
+import { cn } from "@edumetz16/firecms_ui";
 
 export interface BoardProps<T extends object, COLUMN extends string> {
     data: Item<T>[];

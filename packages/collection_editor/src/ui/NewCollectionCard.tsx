@@ -1,5 +1,5 @@
-import { PluginHomePageAdditionalCardsProps, useAuthController } from "@firecms/core";
-import { AddIcon, Card, cn, Typography } from "@firecms/ui";
+import { PluginHomePageAdditionalCardsProps, useAuthController } from "@edumetz16/firecms_core";
+import { AddIcon, Card, cn, Typography } from "@edumetz16/firecms_ui";
 import { useCollectionEditorController } from "../useCollectionEditorController";
 
 export function NewCollectionCard({

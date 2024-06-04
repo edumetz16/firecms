@@ -1,6 +1,6 @@
 import React from "react";
-import { FieldHelperText, FieldProps, PropertyFieldBinding, PropertyFieldBindingProps, } from "@firecms/core";
-import { Paper, Typography } from "@firecms/ui";
+import { FieldHelperText, FieldProps, PropertyFieldBinding, PropertyFieldBindingProps, } from "@edumetz16/firecms_core";
+import { Paper, Typography } from "@edumetz16/firecms_ui";
 import { CustomShapedArrayProps } from "./CustomShapedArrayProps";
 
 export default function CustomShapedArrayField({

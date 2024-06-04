@@ -1,6 +1,6 @@
 import React, { useCallback } from "react";
 
-import { EntityCollection, FireCMSPlugin, PluginFieldBuilderParams, useAuthController, User } from "@firecms/core";
+import { EntityCollection, FireCMSPlugin, PluginFieldBuilderParams, useAuthController, User } from "@edumetz16/firecms_core";
 import { DataEnhancementControllerProvider } from "./components/DataEnhancementControllerProvider";
 import { fieldBuilder } from "./components/field_builder";
 import { FormEnhanceAction } from "./components/FormEnhanceAction";

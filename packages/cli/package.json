@@ -1,5 +1,5 @@
 {
-  "name": "@firecms/cli",
+  "name": "@edumetz16/firecms_cli",
   "version": "3.0.0-canary.53",
   "description": "A CLI to perform FireCMS operations",
   "main": "./dist/index.cjs",

@@ -8,9 +8,9 @@ import {
     MultiSelect,
     MultiSelectItem,
     Typography
-} from "@firecms/ui";
+} from "@edumetz16/firecms_ui";
 
-import { Field, FormexFieldProps, getIn, useFormex } from "@firecms/formex";
+import { Field, FormexFieldProps, getIn, useFormex } from "@edumetz16/firecms_formex";
 import { GeneralPropertyValidation } from "./validation/GeneralPropertyValidation";
 import { ArrayPropertyValidation } from "./validation/ArrayPropertyValidation";
 import { ValidationPanel } from "./validation/ValidationPanel";

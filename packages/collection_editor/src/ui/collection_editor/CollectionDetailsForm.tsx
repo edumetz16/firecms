@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { EntityCollection, FieldCaption, IconForView, SearchIconsView, singular, toSnakeCase, } from "@firecms/core";
+import { EntityCollection, FieldCaption, IconForView, SearchIconsView, singular, toSnakeCase, } from "@edumetz16/firecms_core";
 import {
     Autocomplete,
     AutocompleteItem,
@@ -19,9 +19,9 @@ import {
     Tooltip,
     Typography,
     useAutoComplete
-} from "@firecms/ui";
+} from "@edumetz16/firecms_ui";
 
-import { Field, getIn, useFormex } from "@firecms/formex";
+import { Field, getIn, useFormex } from "@edumetz16/firecms_formex";
 
 export function CollectionDetailsForm({
                                           isNewCollection,

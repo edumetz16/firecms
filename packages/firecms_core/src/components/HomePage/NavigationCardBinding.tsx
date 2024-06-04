@@ -4,7 +4,7 @@ import { useCustomizationController, useFireCMSContext } from "../../hooks";
 import { PluginHomePageActionsProps, TopNavigationEntry } from "../../types";
 import { IconForView } from "../../util";
 import { useUserConfigurationPersistence } from "../../hooks/useUserConfigurationPersistence";
-import { IconButton, StarBorderIcon, StarIcon } from "@firecms/ui";
+import { IconButton, StarBorderIcon, StarIcon } from "@edumetz16/firecms_ui";
 import { NavigationCard } from "./NavigationCard";
 import { SmallNavigationCard } from "./SmallNavigationCard";
 

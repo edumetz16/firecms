@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { useFormex } from "@firecms/formex";
+import { useFormex } from "@edumetz16/firecms_formex";
 
 export const ErrorFocus = ({ containerRef }:
                                {

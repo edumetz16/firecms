@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BooleanSwitch } from "@firecms/ui";
+import { BooleanSwitch } from "@edumetz16/firecms_ui";
 
 export default function BooleanSwitchDefaultDemo() {
     const [value, setValue] = useState(true);

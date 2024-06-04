@@ -1,6 +1,6 @@
-import { FileUpload, UploadIcon } from "@firecms/ui";
+import { FileUpload, UploadIcon } from "@edumetz16/firecms_ui";
 import { convertFileToJson } from "../utils/file_to_json";
-import { useSnackbarController } from "@firecms/core";
+import { useSnackbarController } from "@edumetz16/firecms_core";
 
 export function ImportFileUpload({ onDataAdded }: {
     onDataAdded: (data: object[], propertiesOrder?: string[]) => void

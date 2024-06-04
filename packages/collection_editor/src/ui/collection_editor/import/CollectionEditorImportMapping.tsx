@@ -3,11 +3,11 @@ import {
     getInferenceType,
     ImportConfig,
     ImportNewPropertyFieldPreview
-} from "@firecms/data_import_export";
-import { getIn, useFormex } from "@firecms/formex";
+} from "@edumetz16/firecms_data_import_export";
+import { getIn, useFormex } from "@edumetz16/firecms_formex";
 
-import { getFieldConfig, getFieldId, Properties, Property, PropertyConfig, PropertyConfigBadge, } from "@firecms/core";
-import { Container, Select, Tooltip, Typography } from "@firecms/ui";
+import { getFieldConfig, getFieldId, Properties, Property, PropertyConfig, PropertyConfigBadge, } from "@edumetz16/firecms_core";
+import { Container, Select, Tooltip, Typography } from "@edumetz16/firecms_ui";
 import React, { useState } from "react";
 import { OnPropertyChangedParams, PropertyFormDialog, PropertyWithId } from "../PropertyEditView";
 import { getFullId, idToPropertiesPath, namespaceToPropertiesOrderPath } from "../util";
@@ -15,7 +15,7 @@ import { PersistedCollection } from "../../../types/persisted_collection";
 import { updatePropertyFromWidget } from "../utils/update_property_for_widget";
 import { PropertySelectItem } from "../PropertySelectItem";
 import { supportedFields } from "../utils/supported_fields";
-import { buildPropertyFromData } from "@firecms/schema_inference";
+import { buildPropertyFromData } from "@edumetz16/firecms_schema_inference";
 
 export function CollectionEditorImportMapping({
                                                   importConfig,

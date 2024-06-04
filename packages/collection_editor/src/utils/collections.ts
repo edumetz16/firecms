@@ -4,7 +4,7 @@ import {
     makePropertiesEditable,
     ModifyCollectionProps,
     Properties
-} from "@firecms/core";
+} from "@edumetz16/firecms_core";
 import { PersistedCollection } from "../types/persisted_collection";
 
 /**

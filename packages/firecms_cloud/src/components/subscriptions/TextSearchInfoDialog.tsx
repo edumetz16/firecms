@@ -7,13 +7,13 @@ import {
     LoadingButton,
     SearchIcon,
     Typography
-} from "@firecms/ui";
+} from "@edumetz16/firecms_ui";
 import { useProjectConfig } from "../../hooks";
 import { SubscriptionPlanWidget } from "./SubscriptionPlanWidget";
 import { UpgradeToPlusButton } from "./UpgradeToPlusButton";
-import { EntityCollection, useSnackbarController } from "@firecms/core";
+import { EntityCollection, useSnackbarController } from "@edumetz16/firecms_core";
 import { useState } from "react";
-import { CollectionsConfigController } from "@firecms/collection_editor";
+import { CollectionsConfigController } from "@edumetz16/firecms_collection_editor";
 
 export function TextSearchInfoDialog({
                                          open,

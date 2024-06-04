@@ -15,7 +15,7 @@ import {
     ResolvedEntityCollection,
     SaveEntityProps,
     WhereFilterOp
-} from "@firecms/core";
+} from "@edumetz16/firecms_core";
 import {
     collection as collectionClause,
     collectionGroup as collectionGroupClause,

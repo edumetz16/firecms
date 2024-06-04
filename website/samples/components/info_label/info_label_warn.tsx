@@ -1,5 +1,5 @@
 import React from "react";
-import { InfoLabel } from "@firecms/ui";
+import { InfoLabel } from "@edumetz16/firecms_ui";
 
 export default function InfoLabelWarnDemo() {
     return (

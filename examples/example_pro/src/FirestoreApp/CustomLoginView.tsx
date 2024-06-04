@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
-import { Alert, BooleanSwitchWithLabel, Typography } from "@firecms/ui";
-import { FirebaseLoginView, FirebaseLoginViewProps } from "@firecms/firebase";
+import { Alert, BooleanSwitchWithLabel, Typography } from "@edumetz16/firecms_ui";
+import { FirebaseLoginView, FirebaseLoginViewProps } from "@edumetz16/firecms_firebase";
 
 export function CustomLoginView(props: FirebaseLoginViewProps) {
 

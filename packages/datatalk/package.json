@@ -1,5 +1,5 @@
 {
-  "name": "@firecms/datatalk",
+  "name": "@edumetz16/firecms_datatalk",
   "version": "3.0.0-canary.53",
   "description": "Talk to your Firestore data",
   "license": "Apache-2.0",
@@ -30,13 +30,13 @@
     "react-dom": "^18.0.0"
   },
   "dependencies": {
-    "@firecms/collection_editor_firebase": "^3.0.0-canary.53",
-    "@firecms/core": "^3.0.0-canary.53",
-    "@firecms/data_import_export": "^3.0.0-canary.53",
-    "@firecms/firebase": "^3.0.0-canary.53",
-    "@firecms/formex": "^3.0.0-canary.53",
-    "@firecms/schema_inference": "^3.0.0-canary.53",
-    "@firecms/ui": "^3.0.0-canary.53",
+    "@edumetz16/firecms_collection_editor_firebase": "^3.0.0-canary.53",
+    "@edumetz16/firecms_core": "^3.0.0-canary.53",
+    "@edumetz16/firecms_data_import_export": "^3.0.0-canary.53",
+    "@edumetz16/firecms_firebase": "^3.0.0-canary.53",
+    "@edumetz16/firecms_formex": "^3.0.0-canary.53",
+    "@edumetz16/firecms_schema_inference": "^3.0.0-canary.53",
+    "@edumetz16/firecms_ui": "^3.0.0-canary.53",
     "@monaco-editor/react": "^4.6.0"
   },
   "devDependencies": {

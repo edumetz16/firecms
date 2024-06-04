@@ -4,7 +4,7 @@ import { Entity, EntityCollection, EntityReference, FilterValues } from "../type
 import { getReferenceFrom } from "../util";
 import { PreviewSize, ReferencePreview } from "../preview";
 import { useNavigationController, useReferenceDialog } from "../hooks";
-import { Button, cn } from "@firecms/ui";
+import { Button, cn } from "@edumetz16/firecms_ui";
 
 export type ReferenceWidgetProps<M extends Record<string, any>> = {
     name?: string,

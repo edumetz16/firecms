@@ -3,7 +3,7 @@ import React, { useCallback } from "react";
 import { useSnackbarController, useStorageSource } from "../../hooks";
 import { StorageFieldItem } from "../../util/useStorageUploadController";
 import { ErrorView } from "../../components";
-import { cn, paperMixin, Skeleton } from "@firecms/ui";
+import { cn, paperMixin, Skeleton } from "@edumetz16/firecms_ui";
 import { EntityCollection, StorageSource } from "../../types";
 
 export interface StorageUploadItemProps {

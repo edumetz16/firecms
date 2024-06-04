@@ -4,7 +4,7 @@ import { Draggable } from "@hello-pangea/dnd";
 import SortableList from "./SortableList";
 import { ColumnTitle } from "./ColumnTitle";
 import type { Item } from "./types";
-import { cn, defaultBorderMixin } from "@firecms/ui";
+import { cn, defaultBorderMixin } from "@edumetz16/firecms_ui";
 
 interface ColumnProps {
     title: string;

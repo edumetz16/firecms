@@ -1,4 +1,4 @@
-import { Paper, Typography } from "@firecms/ui";
+import { Paper, Typography } from "@edumetz16/firecms_ui";
 
 export function SecurityRulesInstructions({}: {}) {
 

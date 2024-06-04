@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
-import { unslugify, useAuthController, useNavigationController } from "@firecms/core";
-import { AddIcon, Chip, CircularProgress, Collapse, Typography, } from "@firecms/ui";
-import { useCollectionEditorController } from "@firecms/collection_editor";
+import { unslugify, useAuthController, useNavigationController } from "@edumetz16/firecms_core";
+import { AddIcon, Chip, CircularProgress, Collapse, Typography, } from "@edumetz16/firecms_ui";
+import { useCollectionEditorController } from "@edumetz16/firecms_collection_editor";
 
 export function RootCollectionSuggestions({ introMode }: { introMode?: "new_project" | "existing_project" }) {
 

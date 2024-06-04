@@ -1,5 +1,5 @@
 import React from "react";
-import { Chip, FaceIcon } from "@firecms/ui";
+import { Chip, FaceIcon } from "@edumetz16/firecms_ui";
 
 export default function ChipIconDemo() {
     return (

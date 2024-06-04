@@ -1,6 +1,6 @@
 import React from "react";
 import { VirtualTableWhereFilterOp } from "../../VirtualTable";
-import { BooleanSwitchWithLabel } from "@firecms/ui";
+import { BooleanSwitchWithLabel } from "@edumetz16/firecms_ui";
 
 interface BooleanFieldProps {
     name: string,

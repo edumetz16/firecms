@@ -2,7 +2,7 @@ import React from "react";
 import { FieldProps } from "../../types";
 import { FieldHelperText, LabelWithIcon } from "../components";
 import { PropertyFieldBinding } from "../PropertyFieldBinding";
-import { ExpandablePanel } from "@firecms/ui";
+import { ExpandablePanel } from "@edumetz16/firecms_ui";
 import { getIconForProperty } from "../../util";
 import { useClearRestoreValue } from "../useClearRestoreValue";
 

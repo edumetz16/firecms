@@ -28,28 +28,28 @@
     "strictNullChecks": true,
     "baseUrl": ".",
     "paths": {
-      "@firecms/ui": [
+      "@edumetz16/firecms_ui": [
         "../packages/ui"
       ],
-      "@firecms/core": [
+      "@edumetz16/firecms_core": [
         "../packages/firecms_core"
       ],
-      "@firecms/firebase": [
+      "@edumetz16/firecms_firebase": [
         "../packages/firebase_firecms"
       ],
-      "@firecms/collection_editor": [
+      "@edumetz16/firecms_collection_editor": [
         "../packages/collection_editor"
       ],
-      "@firecms/data_import_export": [
+      "@edumetz16/firecms_data_import_export": [
         "../packages/data_import_export"
       ],
-      "@firecms/schema_inference": [
+      "@edumetz16/firecms_schema_inference": [
         "../packages/schema_inference"
       ],
-      "@firecms/data_enhancement": [
+      "@edumetz16/firecms_data_enhancement": [
         "../packages/data_enhancement"
       ],
-      "@firecms/formex": [
+      "@edumetz16/firecms_formex": [
         "../packages/formex"
       ]
     }

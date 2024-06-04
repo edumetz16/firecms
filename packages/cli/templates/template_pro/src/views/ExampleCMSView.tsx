@@ -11,8 +11,8 @@ import {
     useSelectionController,
     useSideEntityController,
     useSnackbarController
-} from "@firecms/core";
-import { Button, Chip, GitHubIcon, IconButton, Paper, Tooltip, Typography } from "@firecms/ui";
+} from "@edumetz16/firecms_core";
+import { Button, Chip, GitHubIcon, IconButton, Paper, Tooltip, Typography } from "@edumetz16/firecms_ui";
 import { Product } from "../types";
 import { productsCollection } from "../collections/products";
 

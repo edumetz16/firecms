@@ -6,7 +6,7 @@ import { PropertyPreview } from "../../preview";
 import { FieldHelperText, LabelWithIcon } from "../components";
 import { ErrorBoundary } from "../../components";
 import { getIconForProperty } from "../../util";
-import { cn, paperMixin } from "@firecms/ui";
+import { cn, paperMixin } from "@edumetz16/firecms_ui";
 
 /**
  *
