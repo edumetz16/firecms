@@ -1,0 +1,21 @@
+0 silly argv {
+0 silly argv   _: [ 'publish' ],
+0 silly argv   canary: true,
+0 silly argv   c: true,
+0 silly argv   composed: 'publish',
+0 silly argv   lernaVersion: '8.1.3',
+0 silly argv   '$0': '/Users/eduardo/Documents/firecms/node_modules/.bin/lerna'
+0 silly argv }
+1 notice cli v8.1.3
+2 verbose packageConfigs Explicit "packages" configuration found in lerna.json. Resolving packages using the configured glob(s): ["packages/firecms_core"]
+3 verbose rootPath /Users/eduardo/Documents/firecms
+4 error Error: Invalid package name "@edumetz16/firecms/core": name can only contain URL-friendly characters
+4 error     at invalidPackageName (/Users/eduardo/Documents/firecms/node_modules/lerna/node_modules/npm-package-arg/npa.js:89:15)
+4 error     at Result.setName (/Users/eduardo/Documents/firecms/node_modules/lerna/node_modules/npm-package-arg/npa.js:124:11)
+4 error     at new Result (/Users/eduardo/Documents/firecms/node_modules/lerna/node_modules/npm-package-arg/npa.js:114:23)
+4 error     at Function.resolve (/Users/eduardo/Documents/firecms/node_modules/lerna/node_modules/npm-package-arg/npa.js:61:15)
+4 error     at new _Package (/Users/eduardo/Documents/firecms/node_modules/lerna/dist/index.js:764:57)
+4 error     at /Users/eduardo/Documents/firecms/node_modules/lerna/dist/index.js:1468:14
+4 error     at Array.forEach (<anonymous>)
+4 error     at createProjectGraphWithPackages (/Users/eduardo/Documents/firecms/node_modules/lerna/dist/index.js:1465:16)
+4 error     at async detectProjects (/Users/eduardo/Documents/firecms/node_modules/lerna/dist/index.js:1565:24)
