@@ -5,27 +5,7 @@
   "author": "FireCMS",
   "homepage": "https://firecms.co",
   "workspaces": [
-    "packages/firecms",
-    "packages/firecms_cloud",
-    "packages/firecms_core",
-    "packages/cli",
-    "packages/ui",
-    "packages/datatalk",
-    "packages/create_firecms_app",
-    "packages/mongodb",
-    "packages/firebase_firecms",
-    "packages/collection_editor",
-    "packages/collection_editor_firebase",
-    "packages/user_management",
-    "packages/data_import_export",
-    "packages/schema_inference",
-    "packages/data_enhancement",
-    "packages/user_management",
-    "packages/formex",
-    "packages/editor",
-    "examples/example_cloud",
-    "examples/example",
-    "examples/example_pro"
+    "packages/firecms_core"
   ],
   "scripts": {
     "dev": "cd examples/example && run-s dev",
