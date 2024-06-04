@@ -2,27 +2,7 @@
   "$schema": "node_modules/lerna/schemas/lerna-schema.json",
   "version": "3.0.0-canary.53",
   "packages": [
-    "packages/firecms",
-    "packages/firecms_cloud",
-    "packages/firecms_core",
-    "packages/ui",
-    "packages/datatalk",
-    "packages/collection_editor",
-    "packages/data_enhancement",
-    "packages/data_import_export",
-    "packages/firebase_firecms",
-    "packages/mongodb",
-    "packages/cli",
-    "packages/editor",
-    "packages/create_firecms_app",
-    "packages/collection_editor",
-    "packages/collection_editor_firebase",
-    "packages/schema_inference",
-    "packages/user_management",
-    "packages/formex",
-    "examples/example_cloud",
-    "examples/example",
-    "examples/example_pro"
+    "packages/firecms_core"
   ],
   "npmClient": "yarn"
 }
